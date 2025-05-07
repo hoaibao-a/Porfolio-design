@@ -133,8 +133,8 @@ section:nth-child(even) {
 }
 
 .hero-section #profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid #ffc107;
     margin-bottom: 20px;
@@ -149,7 +149,7 @@ section:nth-child(even) {
 }
 
 .hero-section #hero-tagline {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 300;
     margin-bottom: 20px;
     color: #f0f0f0;
@@ -187,8 +187,8 @@ section:nth-child(even) {
 #bio-long {
     font-size: 1.1em;
     margin-bottom: 40px;
-    text-align: left;
-    color: #555;
+    text-align: justify;
+    color: #555;    
 }
 
 .skills-container, .experience-container {
@@ -403,11 +403,11 @@ footer p {
 .close-button {
     color: #aaa;
     float: right;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     position: absolute;
-    top: 15px;
-    right: 25px;
+    top: 20px;
+    right: 20px;
 }
 
 .close-button:hover,
@@ -416,6 +416,7 @@ footer p {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 #modal-project-content h2 {
     text-align: left;
@@ -482,6 +483,7 @@ footer p {
     }
     .hero-section h1 {
         font-size: 2.5em;
+        margin-bottom: 10px;
     }
     .hero-section #hero-tagline {
         font-size: 1.2em;
