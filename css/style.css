@@ -341,6 +341,7 @@ section:nth-child(even) {
     display: flex;
     justify-content: center;
     gap: 20px;
+
 }
 
 .social-links-contact li a {
@@ -514,5 +515,9 @@ footer p {
     0%, 100% { transform: translateY(0) scale(1); }
     50% { transform: translateY(-5px) scale(1.05); }
 }
-
+.social-icon-img {
+    width: 30px;
+    height: 30px;
+  }
+  
 

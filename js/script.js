@@ -67,9 +67,21 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p>Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, đừng ngần ngại liên hệ với tôi:</p>
                         <p><strong>Email:</strong> <a href="mailto:${data.contact_email}">${data.contact_email}</a></p>
                         ${data.phone_number ? `<p><strong>Điện thoại:</strong> ${data.phone_number}</p>` : ''}
+                        <!--
                         <ul class="social-links-contact">
-                            ${data.social_links.map(link => `<li><a href="${link.url}" target="_blank" title="${link.platform}"><i class="${link.icon_class}"></i></a></li>`).join("")}
+                          ${data.social_links.map(link => `<li><a href="${link.url}" target="_blank" title="${link.platform}"><i class="${link.icon_class}"></i></a></li>`).join("")}
                         </ul>
+                        -->
+                        <ul class="social-links-contact">
+                        ${data.social_links.map(link => `
+                         <li>
+                         <a href="${link.url}" target="_blank" title="${link.platform}">
+                         ${/\.(png|jpe?g|svg|gif)$/i.test(link.icon_class)
+                        ? `<img src="${link.icon_class}" alt="${link.platform} icon" class="social-icon-img" />`
+                        : `<i class="${link.icon_class}"></i>`
+                    }
+                     </a></li>`).join("")}
+                    </ul>
                     </div>
                 </div>`;
                 contactSection.innerHTML = contactContent;
@@ -162,14 +174,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (closeButton) {
-        closeButton.onclick = function() {
-            if(modal) modal.style.display = "none";
+        closeButton.onclick = function () {
+            if (modal) modal.style.display = "none";
         }
     }
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         if (event.target == modal) {
-            if(modal) modal.style.display = "none";
+            if (modal) modal.style.display = "none";
         }
     }
 

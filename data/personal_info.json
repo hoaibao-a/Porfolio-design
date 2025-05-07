@@ -10,17 +10,17 @@
     {
       "platform": "Behance",
       "url": "https://www.behance.net/yourprofile",
-      "icon_class": "fab fa-behance"
+      "icon_class": "./images/icon_socical/behance.png"
     },
     {
       "platform": "Facebook",
-      "url": "https://dribbble.com/yourprofile",
-      "icon_class": "fab fa-facebook"
+      "url": "http://zaloapp.com/qr/p/1c7e8mz4xqp38",
+      "icon_class": "./images/icon_socical/facebook.png"
     },
     {
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/in/yourprofile",
-      "icon_class": "fab fa-linkedin-in"
+      "platform": "Zalo",
+      "url": "https://www.behance.net/yourprofile",
+      "icon_class": "./images/icon_socical/zalo.png"
     }
   ],
   "skills_technical": [
