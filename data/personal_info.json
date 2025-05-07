@@ -1,0 +1,65 @@
+{
+  "name": "Nguyễn Văn An",
+  "tagline": "Graphic Designer | Illustrator",
+  "profile_picture_url": "images/f40c73fa-c4b9-48e4-9f0b-9a92eb4541b0.jpg",
+  "bio_short": "Một nhà thiết kế đồ họa và họa sĩ minh họa đầy nhiệt huyết với niềm đam mê tạo ra những trải nghiệm hình ảnh độc đáo và ấn tượng.",
+  "bio_long": "Với hơn 5 năm kinh nghiệm trong ngành, tôi đã làm việc trên nhiều dự án đa dạng từ xây dựng thương hiệu, thiết kế web, đến minh họa sách và các sản phẩm quảng cáo. Tôi luôn tìm kiếm những thử thách mới để mở rộng kỹ năng và mang lại giá trị sáng tạo cho khách hàng. Phong cách của tôi là sự kết hợp giữa sự tinh tế, hiện đại và một chút vui tươi, ngộ nghĩnh.",
+  "contact_email": "an.nguyenvan@example.com",
+  "phone_number": "090xxxxxxx",
+  "social_links": [
+    {
+      "platform": "Behance",
+      "url": "https://www.behance.net/yourprofile",
+      "icon_class": "fab fa-behance"
+    },
+    {
+      "platform": "Dribbble",
+      "url": "https://dribbble.com/yourprofile",
+      "icon_class": "fab fa-dribbble"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yourprofile",
+      "icon_class": "fab fa-linkedin-in"
+    }
+  ],
+  "skills_technical": [
+    "Thiết kế UI/UX",
+    "Minh họa Vector",
+    "Branding & Identity",
+    "Thiết kế bao bì",
+    "Typography"
+  ],
+  "skills_software": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe InDesign",
+    "Figma",
+    "Procreate"
+  ],
+  "work_experience": [
+    {
+      "job_title": "Senior Graphic Designer",
+      "company_name": "Công Ty Sáng Tạo X",
+      "company_logo_url": "images/company_x_logo.png",
+      "duration": "03/2021 - Hiện tại",
+      "responsibilities": [
+        "Dẫn dắt đội ngũ thiết kế trong các dự án branding lớn.",
+        "Phát triển ý tưởng và thực thi các chiến dịch quảng cáo trực quan.",
+        "Thiết kế giao diện người dùng cho các ứng dụng web và di động."
+      ]
+    },
+    {
+      "job_title": "Graphic Designer",
+      "company_name": "Studio Thiết Kế Y",
+      "company_logo_url": "images/company_y_logo.png",
+      "duration": "07/2018 - 02/2021",
+      "responsibilities": [
+        "Thiết kế logo, bộ nhận diện thương hiệu cho các khách hàng vừa và nhỏ.",
+        "Minh họa cho các ấn phẩm truyền thông.",
+        "Hỗ trợ các dự án thiết kế web và marketing."
+      ]
+    }
+  ]
+}
+

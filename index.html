@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Thiết Kế</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Thêm link FontAwesome nếu cần cho icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>1
+    <header>
+        <nav>
+            <div class="logo">Logo Nhà Thiết Kế</div>
+            <ul>
+                <li><a href="#hero">Trang Chủ</a></li>
+                <li><a href="#about">Giới Thiệu</a></li>
+                <li><a href="#projects">Dự Án</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <!-- Nội dung hero sẽ được tải từ personal_info.json -->
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Về Tôi</h2>
+            <!-- Nội dung giới thiệu, kỹ năng, kinh nghiệm sẽ được tải từ personal_info.json -->
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Dự Án Của Tôi</h2>
+            <div class="project-grid">
+                <!-- Các dự án sẽ được tải từ projects.json -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Liên Hệ</h2>
+            <!-- Thông tin liên hệ sẽ được tải từ personal_info.json -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 <span id="footer-name">Tên Nhà Thiết Kế</span>. Thiết kế với ❤️.</p>
+    </footer>
+
+    <!-- Modal cho chi tiết dự án -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-project-content">
+                <!-- Chi tiết dự án sẽ được tải vào đây -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

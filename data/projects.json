@@ -1,0 +1,69 @@
+[
+  {
+    "id": "du-an-thiet-ke-app-vui-nhon",
+    "project_name": "Ứng Dụng Di Động Vui Nhộn",
+    "project_thumbnail_url": "images/project_fun_app_thumb.jpg",
+    "project_category": "Ứng dụng Di động",
+    "project_date": "Quý 1, 2024",
+    "client_name": "Công Ty Giải Trí Z",
+    "project_summary": "Thiết kế giao diện người dùng (UI) và trải nghiệm người dùng (UX) cho một ứng dụng di động giải trí với phong cách trẻ trung, màu sắc rực rỡ.",
+    "project_description_detailed": "Dự án này tập trung vào việc tạo ra một giao diện trực quan, dễ sử dụng và mang lại niềm vui cho người dùng. Chúng tôi đã phát triển một hệ thống icon tùy chỉnh, các nhân vật hoạt hình đáng yêu và các tương tác nhỏ thú vị để tăng tính tương tác. Thách thức chính là cân bằng giữa sự vui nhộn và tính năng cốt lõi của ứng dụng. Kết quả là một ứng dụng được người dùng yêu thích và đánh giá cao về mặt thẩm mỹ.",
+    "tools_used": ["Figma", "Adobe Illustrator", "LottieFiles"],
+    "project_live_url": "https://example.com/fun-app-showcase",
+    "project_case_study_url": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "images/fun_app_screen_1.png",
+        "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
+        "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
+      },
+      {
+        "type": "image",
+        "url": "images/fun_app_screen_2.png",
+        "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
+        "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/your_video_id_1",
+        "alt_text": "Video giới thiệu ứng dụng Vui Nhộn",
+        "caption": "Video demo các tính năng chính và tương tác."
+      }
+    ]
+  },
+  {
+    "id": "bo-nhan-dien-thuong-hieu-quan-ca-phe",
+    "project_name": "Bộ Nhận Diện Thương Hiệu Quán Cà Phê 'The Cozy Corner'",
+    "project_thumbnail_url": "images/project_cozy_corner_thumb.jpg",
+    "project_category": "Bộ nhận diện thương hiệu",
+    "project_date": "2023",
+    "client_name": "The Cozy Corner Cafe",
+    "project_summary": "Xây dựng bộ nhận diện thương hiệu hoàn chỉnh cho một quán cà phê mới, tập trung vào sự ấm cúng, thân thiện và một chút hoài cổ.",
+    "project_description_detailed": "Mục tiêu là tạo ra một thương hiệu dễ nhớ, thu hút đối tượng khách hàng trẻ và yêu thích không gian yên tĩnh để làm việc hoặc thư giãn. Chúng tôi đã thiết kế logo, bảng màu, typography, các ấn phẩm marketing (menu, name card, poster) và bao bì sản phẩm. Phong cách thiết kế sử dụng các đường nét mềm mại, màu sắc ấm áp và hình ảnh minh họa vẽ tay để truyền tải đúng tinh thần của 'The Cozy Corner'.",
+    "tools_used": ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
+    "project_live_url": "",
+    "project_case_study_url": "https://behance.net/yourprofile/cozy-corner-branding",
+    "media": [
+      {
+        "type": "image",
+        "url": "images/cozy_corner_logo.png",
+        "alt_text": "Logo của The Cozy Corner Cafe",
+        "caption": "Thiết kế logo chính thức."
+      },
+      {
+        "type": "image",
+        "url": "images/cozy_corner_menu.jpg",
+        "alt_text": "Thiết kế menu cho The Cozy Corner Cafe",
+        "caption": "Mẫu thiết kế menu đồ uống."
+      },
+      {
+        "type": "image",
+        "url": "images/cozy_corner_packaging.png",
+        "alt_text": "Thiết kế bao bì cho The Cozy Corner Cafe",
+        "caption": "Mẫu thiết kế bao bì mang đi."
+      }
+    ]
+  }
+]
+
