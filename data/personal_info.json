@@ -1,7 +1,7 @@
 {
-  "name": "Nguyễn Thị Ngọc Thúy",
+  "name": "Nguyễn Thị Ngọc Thúy - Thúy Nguyệt",
   "tagline": "Graphic Designer | UI/UX",
-  "profile_picture_url": "images/f40c73fa-c4b9-48e4-9f0b-9a92eb4541b0.jpg",
+  "profile_picture_url": "images/avatar/avatar.png",
   "bio_short": "Một nhà thiết kế đồ họa và minh họa đầy đam mê, luôn tìm kiếm cơ hội để tạo ra những trải nghiệm hình ảnh độc đáo và đầy sáng tạo.",
   "bio_long": "Với hơn 4 năm kinh nghiệm trong lĩnh vực thiết kế đồ họa, tôi đã tham gia vào nhiều dự án đa dạng, đặc biệt là trong ngành spa, mỹ phẩm và làm đẹp. Từ xây dựng nhận diện thương hiệu, thiết kế bao bì sản phẩm đến giao diện website và ấn phẩm quảng cáo, tôi luôn chú trọng thể hiện tinh thần thanh lịch, tinh tế và cảm xúc thị giác phù hợp với nhóm ngành này. Tôi không ngừng học hỏi, sẵn sàng đón nhận thử thách để phát triển kỹ năng và mang đến những giá trị sáng tạo, đột phá cho khách hàng. Phong cách thiết kế của tôi là sự kết hợp giữa tính thẩm mỹ hiện đại và sự tươi mới, nhẹ nhàng.",
   "contact_email": "ngocthuydesign1012@gmail.com",
@@ -9,57 +9,93 @@
   "social_links": [
     {
       "platform": "Behance",
-      "url": "https://www.behance.net/yourprofile",
+      "url": "https://www.behance.net/ngcthynguynth",
       "icon_class": "./images/Icon_socical/behance.png"
     },
     {
       "platform": "Facebook",
-      "url": "http://zaloapp.com/qr/p/1c7e8mz4xqp38",
+      "url": "https://www.facebook.com/thuynguyet1012",
       "icon_class": "./images/Icon_socical/facebook.png"
     },
     {
       "platform": "Zalo",
-      "url": "https://www.behance.net/yourprofile",
+      "url": "https://zalo.me/0908875706",
       "icon_class": "./images/Icon_socical/zalo.png"
     }
   ],
-  "skills_technical": [
-    "Thiết kế UI/UX",
-    "Minh họa Vector",
-    "Branding & Identity",
-    "Thiết kế bao bì",
-    "Typography"
-  ],
-  "skills_software": [
-    "Adobe Photoshop",
-    "Adobe Illustrator",
-    "Adobe InDesign",
-    "Figma",
-    "Procreate"
-  ],
-  "work_experience": [
-    {
-      "job_title": "Senior Graphic Designer",
-      "company_name": "Công Ty Sáng Tạo X",
-      "company_logo_url": "images/company_x_logo.png",
-      "duration": "03/2021 - Hiện tại",
-      "responsibilities": [
-        "Dẫn dắt đội ngũ thiết kế trong các dự án branding lớn.",
-        "Phát triển ý tưởng và thực thi các chiến dịch quảng cáo trực quan.",
-        "Thiết kế giao diện người dùng cho các ứng dụng web và di động."
-      ]
-    },
-    {
-      "job_title": "Graphic Designer",
-      "company_name": "Studio Thiết Kế Y",
-      "company_logo_url": "images/company_y_logo.png",
-      "duration": "07/2018 - 02/2021",
-      "responsibilities": [
-        "Thiết kế logo, bộ nhận diện thương hiệu cho các khách hàng vừa và nhỏ.",
-        "Minh họa cho các ấn phẩm truyền thông.",
-        "Hỗ trợ các dự án thiết kế web và marketing."
-      ]
-    }
-  ]
+"skills_technical": [
+  "Thiết kế UI/UX",
+  "Minh họa Vector",
+  "Branding & Identity",
+  "Thiết kế bao bì",
+  "Typography",
+  "Adobe Photoshop",
+  "Adobe Illustrator",
+  "Figma (cơ bản)",
+  "Phối màu",
+  "Xử lý bố cục"
+],
+ "skills_software": [
+   "Adobe Photoshop",
+  "Adobe Illustrator",
+  "Figma",
+  "Adobe InDesign"
+],
+ "work_experience": [
+  {
+    "job_title": "Freelance Graphic Designer",
+    "company_name": "Tự do / Khách hàng cá nhân & doanh nghiệp",
+    "company_logo_url": "images/icon_experience/icon_cay_co.png",
+    "duration": "07/2021 - Nay",
+    "responsibilities": [
+      "Thiết kế logo, poster, GDN cho các công ty như Leadup, Phát Đạt.",
+      "Thực hiện thiết kế UI cho dự án web về bóng đá và tài chính.",
+      "Xây dựng hệ thống nhận diện thương hiệu cho khách hàng trong lĩnh vực nha khoa, spa, mỹ phẩm."
+    ]
+  },
+  {
+    "job_title": "Graphic Designer",
+    "company_name": "Công ty TNHH Truyền Thông & Giải Pháp BING AGENCY",
+    "company_logo_url": "images/icon_experience/icon_cay_co.png",
+    "duration": "10/2023 - 11/2024",
+    "responsibilities": [
+      "Phân công và kiểm duyệt thiết kế của đội ngũ designer.",
+      "Trực tiếp làm việc với khách hàng và content để phát triển concept hình ảnh.",
+      "Thiết kế hình ảnh cho các spa, sản phẩm làm đẹp và thương mại điện tử (Shopee, Lazada, TikTok Live...)."
+    ]
+  },
+  {
+    "job_title": "Graphic Designer",
+    "company_name": "Công ty Tổ Hợp Xúc Tiến Thương Mại E-EXPO",
+    "company_logo_url": "images/icon_experience/icon_cay_co.png",
+    "duration": "07/2023 - 09/2023",
+    "responsibilities": [
+      "Hỗ trợ và chỉnh sửa thiết kế cho các thành viên trong nhóm.",
+      "Thiết kế hình ảnh fanpage và website.",
+      "Thiết kế hình ảnh SEO và cho các phòng khám, nha khoa."
+    ]
+  },
+  {
+    "job_title": "Graphic Designer",
+    "company_name": "Công ty TNHH Truyền Thông & Quảng cáo Your Media",
+    "company_logo_url": "images/icon_experience/icon_cay_co.png",
+    "duration": "06/2022 - 05/2023",
+    "responsibilities": [
+      "Thiết kế hình ảnh fanpage cho nhiều thương hiệu làm đẹp và sức khoẻ.",
+      "Phối hợp với team content để sản xuất hình ảnh truyền thông.",
+      "Thiết kế theo từng chiến dịch và định hướng của thương hiệu."
+    ]
+  },
+  {
+    "job_title": "Thực tập sinh Thiết kế",
+    "company_name": "Thẩm Mỹ Viện Mailisa Group",
+    "company_logo_url": "images/icon_experience/icon_cay_co.png",
+    "duration": "04/2022 - 05/2022",
+    "responsibilities": [
+      "Retouch hình ảnh thẩm mỹ.",
+      "Thiết kế hình ảnh fanpage và web chuẩn SEO."
+    ]
+  }
+]
 }
 
