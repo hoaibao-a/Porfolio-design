@@ -68,7 +68,29 @@
           "caption": "Bộ nhận diện thương hiệu cho sản phẩm bánh Biscotti."
         }
       ]
+    },
+    {
+  "id": "thiet-ke-logo-xay-dung-nho-mo",
+  "project_name": "Thiết kế logo xây dựng - Nhỡ Mơ",
+  "project_thumbnail_url": "images/project/thit-k-logo-xay-dng-Nh-Mo.png",
+  "project_category": "Logo Design",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Nhỡ Mơ Construction",
+  "project_summary": "Thiết kế logo nhận diện thương hiệu cho công ty xây dựng Nhỡ Mơ. Logo mang phong cách hiện đại, chắc chắn và tối giản, thể hiện sự vững vàng, sáng tạo và định hướng phát triển bền vững của doanh nghiệp trong ngành xây dựng.",
+  "project_description_detailed": "",
+  "tools_used": ["Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thiet-ke-logo-xay-dung-Nho-Mo.png",
+      "alt_text": "Logo công ty xây dựng Nhỡ Mơ",
+      "caption": "Thiết kế logo cho công ty xây dựng Nhỡ Mơ."
     }
+  ]
+}
+
 ]
 
 
