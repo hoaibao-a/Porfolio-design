@@ -341,7 +341,247 @@
   
 ]
 
+},
+{
+  "id": "thiet-ke-bai-dang-thien-thuy-spa",
+  "project_name": "Thiết kế post - Thiên Thuỷ Spa",
+  "project_thumbnail_url": "images/project/Thit-k-post-Thien-Thu-spa-1.png",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Thiên Thuỷ Spa",
+  "project_summary": "Thiết kế bộ bài đăng truyền thông cho Thiên Thuỷ Spa quảng bá dược mỹ phẩm cao cấp iDr.Skin, phong cách chuyên nghiệp và tinh tế.",
+  "project_description_detailed": "Dự án tập trung thiết kế bài đăng truyền thông giới thiệu và quảng bá sản phẩm dược mỹ phẩm cao cấp thương hiệu iDr.Skin tại Thiên Thuỷ Spa. Thiết kế mang phong cách tối giản, hiện đại với tông màu trắng xanh – biểu trưng cho sự tinh khiết, an toàn và đáng tin cậy. Các sản phẩm được trình bày rõ nét, kết hợp typography sắc sảo và bố cục cân đối nhằm tạo ấn tượng mạnh với khách hàng mục tiêu là nữ giới quan tâm chăm sóc da chuyên sâu.",
+  "tools_used": ["Adobe Photoshop", "Canva"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Thien-Thu-spa-1.png",
+      "alt_text": "Thiết kế bài đăng quảng bá dòng dược mỹ phẩm iDr.Skin với hình ảnh các sản phẩm đa dạng như serum, kem, sữa rửa mặt trên nền tông xanh trắng chuyên nghiệp",
+      "caption": "Thiết kế quảng bá thương hiệu iDr.Skin – Tôn vinh vẻ đẹp chuẩn y khoa với bộ sản phẩm dược mỹ phẩm cao cấp, tạo dựng hình ảnh uy tín và chất lượng."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Thien-Thu-spa-2.jpg",
+      "alt_text": "Thiết kế bài đăng sự kiện sinh nhật 10 năm Thiên Thủy Beauty với hình ảnh nữ doanh nhân, các dịch vụ làm đẹp, quà tặng và ưu đãi nổi bật",
+      "caption": "Thiết kế sự kiện tri ân khách hàng mừng sinh nhật 10 năm Thiên Thủy Beauty – Sang trọng, chuyên nghiệp và truyền tải trọn vẹn thông tin ưu đãi đặc biệt."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Thien-Thu-spa-3.jpg",
+      "alt_text": "Thiết kế bài đăng dịch vụ siết eo vùng bụng tại Thiên Thủy Beauty với hình ảnh người mẫu trẻ trung, dụng cụ công nghệ và kết quả vòng eo thon gọn",
+      "caption": "Thiết kế bài đăng dịch vụ giảm mỡ bụng tại Thiên Thủy Beauty – Hình ảnh sinh động, tông xanh mát và thông điệp hiệu quả lâu dài, thu hút khách hàng quan tâm vóc dáng."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Thien-Thu-spa-4.jpg",
+      "alt_text": "Thiết kế bài đăng spa Thiên Thủy quảng bá dịch vụ giảm mỡ, với hình ảnh người mẫu mặc bikini tự tin, kèm hình so sánh trước và sau khi giảm mỡ",
+      "caption": "Thiết kế bài đăng Thiên Thủy Spa – Hình ảnh trẻ trung, nổi bật tinh thần tự tin sau khi làm đẹp cùng hiệu quả rõ rệt trong dịch vụ giảm mỡ."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Thien-Thu-spa-5.jpg",
+      "alt_text": "Thiết kế bài đăng spa Thiên Thủy giới thiệu công nghệ trẻ hóa da P-DNA từ cá hồi, với hình ảnh hộp sản phẩm Dskin Salmon Ampoule và các lợi ích nổi bật như không đau rát, hiệu quả lâu dài",
+      "caption": "Thiết kế bài đăng trẻ hóa da từ Thiên Thủy Spa – Tập trung truyền tải công nghệ P-DNA cá hồi hiện đại, mang đến trải nghiệm trẻ hóa tức thì và an toàn cho khách hàng."
+    }
+    ]
+},
+{
+  "id": "thiet-ke-poster-garden-spa",
+  "project_name": "Thiết kế poster - Garden Spa",
+  "project_thumbnail_url": "images/project/Thit-k-poster-Garden-spa-1.jpg",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Garden Spa",
+  "project_summary": "Thiết kế poster truyền thông cho Garden Spa với chủ đề gội đầu dưỡng sinh, mang phong cách thư giãn, tự nhiên và gần gũi.",
+  "project_description_detailed": "Dự án tập trung thiết kế poster truyền thông giới thiệu dịch vụ gội đầu dưỡng sinh tại Garden Spa. Thiết kế sử dụng tông màu xanh lá và vàng kem dịu nhẹ nhằm khơi gợi cảm giác thư giãn và thiên nhiên. Bố cục poster hài hòa, kết hợp hình ảnh thực tế và typography mềm mại để truyền tải thông điệp về một không gian trị liệu tinh thần – nơi khách hàng có thể giải tỏa stress, tái tạo năng lượng và thư giãn giữa lòng thành phố.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-poster-Garden-spa-1.jpg",
+      "alt_text": "Thiết kế bài đăng Garden Spa về dịch vụ gội đầu dưỡng sinh, với hình ảnh kỹ thuật viên đang massage da đầu cho khách, kèm các lợi ích như thư giãn, giảm stress, và hồi phục năng lượng",
+      "caption": "Thiết kế bài đăng gội đầu dưỡng sinh từ Garden Spa – Nhấn mạnh trải nghiệm thư giãn toàn diện, giúp khách hàng xua tan mệt mỏi và nạp lại năng lượng ngay giữa lòng thành phố."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-poster-Garden-spa-2.jpg",
+      "alt_text": "Hình ảnh khách hàng được massage đầu nhẹ nhàng trong không gian thư giãn tại Garden Spa, kèm thông tin lợi ích như làm sạch sâu, nuôi dưỡng tóc và giảm stress",
+      "caption": "Bài đăng quảng bá dịch vụ gội đầu dưỡng sinh tại Garden Spa – Tập trung vào sự kết hợp giữa chăm sóc tóc chuyên sâu và thư giãn tinh thần trong không gian thiên nhiên yên tĩnh."
+    }
+    ,
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-poster-Garden-spa-3.jpg",
+      "alt_text": "Khách hàng đang nằm thư giãn trong không gian xanh mát tại Garden Spa, với đá nóng đặt trên lưng và hoa trang trí trên tóc",
+      "caption": "Trải nghiệm massage body tại Garden Spa – Không gian thiên nhiên êm dịu kết hợp kỹ thuật massage chuyên nghiệp, mang lại sự thư giãn sâu cho cả cơ thể và tinh thần."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-poster-Garden-spa-4.jpg",
+      "alt_text": "Hình ảnh người phụ nữ mệt mỏi kèm theo các nguyên nhân như căng thẳng, thiếu ngủ, ít vận động và sai tư thế, bên dưới là các liệu pháp massage tại Garden Spa",
+      "caption": "Cơ thể luôn đau nhức, mệt mỏi vì căng thẳng, thiếu ngủ hay sai tư thế? Hãy để Garden Spa giúp bạn thư giãn và phục hồi với các liệu pháp massage chuyên sâu."
+    }
+    
+    
+
+  ]
+},
+{
+  "id": "thiet-ke-post-son-ha-anh",
+  "project_name": "Thiết kế post - Son Hà Anh",
+  "project_thumbnail_url": "images/project/Thit-k-post-Son-Ha-Anh-1.jpg",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Son Hà Anh",
+  "project_summary": "Thiết kế ấn phẩm truyền thông quảng bá sản phẩm son môi thương hiệu Hà Anh với phong cách nữ tính, trẻ trung và thu hút.",
+  "project_description_detailed": "Dự án tập trung thiết kế bài đăng truyền thông nhằm giới thiệu sản phẩm son môi của thương hiệu Hà Anh. Thiết kế hướng đến đối tượng nữ trẻ tuổi với phong cách hiện đại, quyến rũ và cá tính. Sử dụng bảng màu nổi bật như đỏ ruby, hồng đào, cùng các yếu tố thiết kế mềm mại, bố cục cân đối để làm nổi bật tính năng sản phẩm và tạo hiệu ứng thị giác mạnh mẽ trên nền tảng mạng xã hội.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-1.jpg",
+      "alt_text": "Hình ảnh người phụ nữ tươi tắn với nền màu hồng cùng các lời khuyên tránh 4 điều để giữ môi xinh mịn như: tránh sản phẩm không phù hợp, không kiêng theo chỉ dẫn, chà xát môi, tiếp xúc nắng và nước",
+      "caption": "Môi xinh, mịn, xịn – đừng quên tránh 4 điều sau: dùng sản phẩm không phù hợp, không kiêng theo chỉ dẫn, tác động mạnh vào môi, và để môi tiếp xúc với nắng hoặc nước quá nhiều!"
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-2.jpg",
+      "alt_text": "Hình ảnh cận cảnh đôi môi hồng tự nhiên và sản phẩm Glossy Lip Glaze màu đỏ cam dành cho môi sau phun xăm",
+      "caption": "‘Bảo bối’ cho đôi môi sau phun xăm – Glossy Lip Glaze Red-Orange giúp dưỡng môi mềm mịn, lên màu chuẩn, rạng rỡ tự nhiên."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-3.jpg",
+      "alt_text": "Một người phụ nữ đang sử dụng HA Glossy Lip Glaze, sản phẩm son dưỡng màu đỏ cam, nổi bật với thông tin về độ căng bóng, giữ màu và làm đẹp môi",
+      "caption": "HA Glossy Lip Glaze – Đỉnh cao son dưỡng giúp giữ trọn sắc son, căng bóng quyến rũ và cho đôi môi xinh rạng ngời mỗi ngày."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-4.jpg",
+      "alt_text": "Hình ảnh minh họa trước và sau khi sử dụng HA Glossy Lip Glaze với đôi môi nhạt màu trở nên hồng hào, rạng rỡ hơn. Bao bì sản phẩm màu đỏ cam nằm giữa.",
+      "caption": "HA Glossy Lip Glaze – Giải pháp dưỡng môi sau phun xăm, giúp phục hồi sắc môi tươi tắn, mềm mại rõ rệt chỉ sau thời gian ngắn."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-5.png",
+      "alt_text": "Hình ảnh minh họa hiệu quả của son dưỡng HA Glossy Lips Glaze với ảnh so sánh môi trước và sau khi dùng. Sản phẩm ở giữa với bao bì đỏ cam.",
+      "caption": "Son dưỡng môi HA Glossy Lips Glaze – ‘Bảo bối’ giúp đôi môi luôn rạng rỡ, cải thiện rõ rệt sắc môi sau phun xăm hay khô nứt."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-6.jpg",
+      "alt_text": "Banner quảng cáo son dưỡng HA Glossy Lips Glaze, hiển thị sản phẩm và 5 lý do nên sử dụng như dưỡng ẩm, làm hồng môi và tiện lợi.",
+      "caption": "5 lý do nên 'ring' ngay HA Glossy Lips Glaze: Cấp ẩm cứu cánh môi khô, hồng môi tự nhiên, làm mềm mịn môi, căng bóng quyến rũ, tiện lợi dễ dàng sử dụng."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-7.jpg",
+      "alt_text": "Hướng dẫn sử dụng son dưỡng HA Glossy Lips Glaze cho môi sau phun xăm, gồm 4 bước từ vệ sinh môi đến sử dụng 2–3 lần/ngày.",
+      "caption": "Hướng dẫn sử dụng HA Glossy Lips Glaze cho môi sau phun xăm: 1. Vệ sinh môi sạch sẽ, 2. Thoa lượng nhỏ son đều lên môi, 3. Massage nhẹ để thấm sâu, 4. Dùng 2–3 lần/ngày hoặc khi cảm thấy môi khô."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Son-Ha-Anh-8.jpg",
+      "alt_text": "HA Glossy Lips Glaze - bí kíp dưỡng môi chuẩn trend Đông Xuân với công dụng căng bóng, mịn màng, quyến rũ và chuẩn Hàn Quốc.",
+      "caption": "HA Glossy Lips Glaze – bí kíp dưỡng môi đón Đông - Xuân với đôi môi căng bóng, mịn màng, quyến rũ và chuẩn style Hàn Quốc."
+    }
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+  ]
+},
+{
+  "id": "thiet-ke-post-bing-agency",
+  "project_name": "Thiết kế post - Bing Agency",
+  "project_thumbnail_url": "images/project/Thit-k-post-Bing-Agency-1.jpg",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Bing Agency",
+  "project_summary": "Thiết kế bài đăng truyền thông cho Bing Agency nhân dịp chào tháng 12, với phong cách hiện đại, năng động và đậm không khí lễ hội.",
+  "project_description_detailed": "Dự án thiết kế bài đăng truyền thông cho Bing Agency với mục tiêu lan toả thông điệp chào tháng 12 và tri ân khách hàng trong mùa lễ hội. Thiết kế sử dụng tông màu xanh dương – trắng kết hợp hình ảnh cây thông, quà tặng, tạo nên không khí ấm áp, vui tươi. Bố cục hiện đại, hình ảnh nhân vật trung tâm mang tính chuyên nghiệp nhưng vẫn gần gũi. Typography bắt mắt nhấn mạnh thông điệp và CTA nhằm thu hút sự chú ý từ các Spa/Clinic/TMV – nhóm khách hàng mục tiêu của thương hiệu.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Bing-Agency-1.jpg",
+      "alt_text": "Bing Agency gửi lời chào tháng 12 với hình ảnh cô gái trẻ cầm laptop giữa khung cảnh trang trí Giáng Sinh, nhấn mạnh giải pháp tối ưu cho Spa, Clinic và TMV.",
+      "caption": "Xin chào tháng 12 – Bing Agency gửi ngàn lời yêu thương và giải pháp tối ưu cho Spa/Clinic/TMV trong mùa lễ hội rực rỡ."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Bing-Agency-2.jpg",
+      "alt_text": "Banner quảng cáo Bing Agency với hình ảnh spa, nhân viên chăm sóc khách hàng và một fanpage Facebook được tối ưu, thể hiện dịch vụ marketing cho spa.",
+      "caption": "Tương tác 'rần rần' – khách hàng 'mê tít' cùng Bing Agency: Spa bạn 'tút tát' nhan sắc, chúng tôi 'tút tát' fanpage!"
+    }
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-post-Bing-Agency-3.jpg",
+  "alt_text": "Banner Bing Agency với hình ảnh một cô gái tươi cười, các mẫu bài viết spa trên Facebook và dòng chữ Marketing Spa thành công - 5 dấu hiệu để nhận biết.",
+  "caption": "5 dấu hiệu nhận biết fanpage spa đang 'ăn nên làm ra' – Bing Agency bật mí bí quyết marketing thành công!"
 }
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-post-Bing-Agency-4.jpg",
+  "alt_text": "Banner xu hướng marketing spa 2025 với hình ảnh một cô gái tự tin và các điểm nổi bật như đa kênh, cá nhân hóa, nội dung chất lượng và công nghệ AI, ChatBot.",
+  "caption": "Bắt trọn cơ hội – Bùng nổ doanh thu cùng xu hướng marketing spa 2025 với Bing Agency!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-post-Bing-Agency-5.jpg",
+  "alt_text": "Banner quảng bá giải pháp marketing toàn diện cho spa và thẩm mỹ viện với hình ảnh một nữ chuyên gia trong khung cảnh mùa đông và các dịch vụ nổi bật như thiết kế website, chăm sóc fanpage, tổ chức sự kiện, xây kênh TikTok và quảng bá thương hiệu.",
+  "caption": "Giải pháp Marketing toàn diện dành cho Spa/Thẩm mỹ viện – Bùng nổ thương hiệu cùng Bing Agency!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-post-Bing-Agency-6.jpg",
+  "alt_text": "Banner nêu bật 5 sai lầm khi tự quản lý fanpage của các cơ sở thẩm mỹ, với hình ảnh một người phụ nữ đang ngạc nhiên khi nhìn vào laptop và danh sách lỗi phổ biến như nội dung nhàm chán, không có kế hoạch rõ ràng, chậm trễ tương tác, quảng cáo quá nhiều, và không phân tích hiệu quả.",
+  "caption": "5 sai lầm thường gặp khi tự quản lý fanpage – Cảnh báo dành cho các spa và thẩm mỹ viện!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-post-Bing-Agency-7.jpg",
+  "alt_text": "Banner quảng cáo chương trình khuyến mãi 'Ngày hội F.A', diễn ra từ 2/11 đến 15/11/2024, với ưu đãi sale 22%, quay chụp tại cơ sở và hỗ trợ chạy quảng cáo.",
+  "caption": "Ngày hội F.A – Ưu đãi bùng nổ, sale 22%, hỗ trợ toàn diện marketing cho spa!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-post-Bing-Agency-8.jpg",
+  "alt_text": "Banner tư vấn về chi phí marketing cho spa với hình ảnh một cô gái đang chỉ tay, minh họa dịch vụ của Bing Agency qua các ấn phẩm và fanpage.",
+  "caption": "Chi phí marketing bao nhiêu là đủ? Bing Agency giúp bạn tối ưu ngân sách hiệu quả!"
+}
+
+
+    
+
+
+  ]
+}
+
+
+
+
 
 ]
 

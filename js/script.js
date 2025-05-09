@@ -112,7 +112,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     projectCard.classList.add("project-card");
                     projectCard.dataset.projectId = project.id;
                     projectCard.innerHTML = `
-                        <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail">
+              <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail"
+     style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;">
+
                         <div class="project-info">
                             <h3>${project.project_name}</h3>
                             <span class="project-category">${project.project_category}</span>
