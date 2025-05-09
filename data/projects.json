@@ -1,56 +1,47 @@
 [
   {
-    "id": "du-an-thiet-ke-app-vui-nhon",
-    "project_name": "Ứng Dụng Di Động Vui Nhộn",
-    "project_thumbnail_url": "images/project_fun_app_thumb.jpg",
-    "project_category": "Ứng dụng Di động",
-    "project_date": "Quý 1, 2024",
-    "client_name": "Công Ty Giải Trí Z",
-    "project_summary": "Thiết kế giao diện người dùng (UI) và trải nghiệm người dùng (UX) cho một ứng dụng di động giải trí với phong cách trẻ trung, màu sắc rực rỡ.",
-    "project_description_detailed": "Dự án này tập trung vào việc tạo ra một giao diện trực quan, dễ sử dụng và mang lại niềm vui cho người dùng. Chúng tôi đã phát triển một hệ thống icon tùy chỉnh, các nhân vật hoạt hình đáng yêu và các tương tác nhỏ thú vị để tăng tính tương tác. Thách thức chính là cân bằng giữa sự vui nhộn và tính năng cốt lõi của ứng dụng. Kết quả là một ứng dụng được người dùng yêu thích và đánh giá cao về mặt thẩm mỹ.",
-    "tools_used": ["Figma", "Adobe Illustrator", "LottieFiles"],
-    "project_live_url": "https://example.com/fun-app-showcase",
+    "id": "Thit-k-post-FORD",
+    "project_name": "Thiết kế post - FORD",
+    "project_thumbnail_url": "/images/project/design_FORD.png",
+    "project_category": "Poster",
+    "project_date": "Ngày 29 tháng 12 năm 2024",
+    "client_name": "",
+    "project_summary": "",
+    "project_description_detailed": "",
+    "tools_used": ["Adobe Illustrator"],
+    "project_live_url": "",
     "project_case_study_url": "",
     "media": [
       {
         "type": "image",
-        "url": "images/fun_app_screen_1.png",
-        "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
-        "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
-      },
-      {
-        "type": "image",
-        "url": "images/fun_app_screen_2.png",
-        "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
-        "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
-      },
-      {
-        "type": "image",
-        "url": "images/fun_app_screen_2.png",
-        "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
-        "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
-      },
-      {
-        "type": "image",
-        "url": "images/fun_app_screen_2.png",
-        "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
-        "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
-      },
-      {
-        "type": "image",
-        "url": "images/fun_app_screen_2.png",
-        "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
-        "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
-      },
-      {
-        "type": "image",
-        "url": "images/fun_app_screen_2.png",
-        "alt_text": "Màn hình chính của ứng dụng Vui Nhộn",
-        "caption": "Thiết kế các thẻ tính năng với màu sắc tươi sáng."
+        "url": "images/project/design_FORD.png",
+        "alt_text": "Poster của của hàng Ford Long Biên",
+        "caption": "Thiết kế poster chính thức."
       }
-
     ]
   },
+  
+    {
+      "id": "Thit-k-catalogue-Life-Academy",
+      "project_name": "Thiết kế catalogue Life Academy",
+      "project_thumbnail_url": "images/project/thit-k-catalogue-Life-Academy.png",
+      "project_category": "Catalogue",
+      "project_date": "Ngày 29 tháng 12 năm 2024",
+      "client_name": "",
+      "project_summary": "",
+      "project_description_detailed": "",
+      "tools_used": ["Adobe Illustrator"],
+      "project_live_url": "",
+      "project_case_study_url": "",
+      "media": [
+        {
+          "type": "image",
+          "url": "images/project/thit-k-catalogue-Life-Academy.png",
+          "alt_text": "catalogue Life Academy",
+          "caption": "Thiết kế catalogue chính thức."
+        }
+      ]
+    },
   {
     "id": "bo-nhan-dien-thuong-hieu-quan-ca-phe",
     "project_name": "Bộ Nhận Diện Thương Hiệu Quán Cà Phê 'The Cozy Corner'",
@@ -85,4 +76,6 @@
     ]
   }
 ]
+
+
 
