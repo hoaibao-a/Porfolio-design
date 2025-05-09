@@ -578,10 +578,82 @@
 
   ]
 }
+,
+{
+  "id": "thiet-ke-post-nhi-beauty",
+  "project_name": "Thiết kế post - Nhi Beauty",
+  "project_thumbnail_url": "images/project/Thit-k-post-Nhi-Beauty-1.jpg",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Nhi Beauty - Spa & Skincare",
+  "project_summary": "Thiết kế bài đăng truyền thông giới thiệu phản hồi khách hàng về liệu trình trị nám tại Nhi Beauty, nhấn mạnh hiệu quả thực tế và uy tín của spa.",
+  "project_description_detailed": "Dự án thiết kế post truyền thông cho Nhi Beauty nhằm chia sẻ feedback thực tế từ khách hàng sau liệu trình trị nám. Thiết kế sử dụng bố cục chia đôi hình ảnh trước – sau để làm nổi bật kết quả điều trị. Tông màu vàng kem dịu nhẹ và bố cục hiện đại giúp truyền tải sự chuyên nghiệp và tinh tế. Các yếu tố icon tương tác mạng xã hội được thêm vào để tăng tính gần gũi và thu hút sự chú ý từ khách hàng tiềm năng.",
+  "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Nhi-Beauty-1.jpg",
+      "alt_text": "Feedback từ khách hàng về liệu trình trị nám tại Nhi Beauty, với hình ảnh so sánh trước và sau khi điều trị.",
+      "caption": "Hiệu quả trị nám rõ rệt cùng Nhi Beauty – Làn da thay đổi chỉ sau một liệu trình!"
+    }
+    
+    ,
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Nhi-Beauty-2.jpg",
+      "alt_text": "Hình ảnh sản phẩm Crystal Vitamin Ampoule của iDr.Skin được giới thiệu cùng thông điệp tái sinh làn da tại Nhi Beauty.",
+      "caption": "Tái sinh làn da – Thay đổi nhan sắc cùng Nhi Beauty và tinh chất vitamin từ iDr.Skin!"
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-Nhi-Beauty-3.jpg",
+      "alt_text": "Hình ảnh sản phẩm Retinol Recovery Treatment của iDr.Skin được thiết kế trên nền xanh, truyền tải thông điệp tái sinh làn da cùng Nhi Beauty.",
+      "caption": "Tái sinh làn da – Định hình nét đẹp hoàn hảo cùng Retinol từ Nhi Beauty!"
+    }
+    
+    
+
+  ]
+},
+{
+"id": "thiet-ke-poster-y-khoa-quang-chau",
+    "project_name": "Thiết kế poster Dụng cụ Y khoa - Quang Châu",
+    "project_thumbnail_url": "images/project/Thit-k-poster-Dng-c-Y-khoa-Quang-Chau-1.jpg",
+    "project_category": "Thiết kế ấn phẩm truyền thông",
+    "project_date": "29 tháng 12 năm 2024",
+    "client_name": "Quang Châu Medical - Physiotherapy",
+    "project_summary": "Thiết kế poster quảng bá máy đo huyết áp tự động HEM-7143T1, nhấn mạnh độ chính xác, sự tiện lợi và dễ sử dụng.",
+    "project_description_detailed": "Poster được thực hiện nhằm truyền thông cho sản phẩm máy đo huyết áp Omron HEM-7143T1, hướng đến nhóm khách hàng gia đình, người lớn tuổi. Thiết kế mang tông đỏ - trắng nổi bật, kết hợp hình ảnh truyền cảm hứng giữa người mẹ và con gái để thể hiện sự tin tưởng và gắn bó. Bố cục rõ ràng, làm nổi bật các lợi ích như: chính xác, đơn giản, tiện lợi và dễ dàng sử dụng, giúp người xem nhanh chóng nắm bắt thông tin và cảm thấy an tâm khi sử dụng sản phẩm.",
+    "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+    "project_live_url": "",
+    "project_case_study_url": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "images/project/Thit-k-poster-Dng-c-Y-khoa-Quang-Chau-1.jpg",
+        "alt_text": "Hình ảnh máy đo huyết áp tự động Omron HEM-7143T1 bên cạnh người mẹ và con gái, minh họa sự tiện lợi và đáng tin cậy trong chăm sóc sức khỏe.",
+        "caption": "Máy đo huyết áp Omron HEM-7143T1 – Người bạn đồng hành đáng tin cậy cho mọi gia đình!"
+      }
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-poster-Dng-c-Y-khoa-Quang-Chau-2.jpg",
+  "alt_text": "Banner quảng bá xe lăn tay Lucass X75 với hình ảnh một cặp đôi lớn tuổi hạnh phúc trong công viên, làm nổi bật sự tin cậy và tiện ích của sản phẩm.",
+  "caption": "Xe lăn tay Lucass X75 – Bạn đồng hành đáng tin cậy cho người thân yêu của bạn!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-poster-Dng-c-Y-khoa-Quang-Chau-3.jpg",
+  "alt_text": "Banner quảng bá máy massage Energy King LC-2007AA với hình ảnh sản phẩm kèm phụ kiện, làm nổi bật công dụng giảm đau nhức và thư giãn.",
+  "caption": "Energy King LC-2007AA – 'Bảo bối' xóa sổ đau nhức, giúp thư giãn và ngủ ngon hơn!"
+}
 
 
-
-
+    ]
+}
 
 ]
 
