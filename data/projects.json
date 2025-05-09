@@ -6,7 +6,7 @@
     "project_category": "Poster",
     "project_date": "29 tháng 12 năm 2024",
     "client_name": "",
-    "project_summary": "Thiết kế poster sự kiện vàng Ford Việt Nam tại Ford Long Biên. Poster sử dụng tông màu mạnh mẽ với điểm nhấn là chiếc Ford Raptor nổi bật, kết hợp cùng hình ảnh cầu dây văng về đêm tạo cảm giác hiện đại và uy tín. Nội dung truyền thông tập trung vào các ưu đãi hấp dẫn như giảm giá tiền mặt, tặng phụ kiện và hỗ trợ trả góp lên đến 80%.",
+    "project_summary": "Thiết kế poster sự kiện vàng Ford Việt Nam tại Ford Long Biên với tông màu mạnh mẽ, nổi bật hình ảnh Ford Raptor và cầu dây văng về đêm. Thông điệp nhấn mạnh ưu đãi hấp dẫn: giảm giá tiền mặt, tặng phụ kiện và hỗ trợ trả góp đến 80%.",
     "project_description_detailed": "",
     "tools_used": ["Adobe Illustrator"],
     "project_live_url": "",
@@ -28,7 +28,7 @@
       "project_category": "Catalogue",
       "project_date": "29 tháng 12 năm 2024",
       "client_name": "",
-      "project_summary": "Thiết kế tài liệu giới thiệu tài trợ cho Giải Vũ đạo thể thao giải trí toàn quốc tranh cúp CLB 2024. Ấn phẩm bao gồm bìa ấn tượng với cúp vàng nổi bật, hệ thống layout chuyên nghiệp và màu sắc hiện đại. Nội dung trình bày rõ ràng các hạng mục tài trợ, quyền lợi nhà tài trợ, kế hoạch tổ chức và quy mô giải đấu. Thiết kế nhấn mạnh sự chuyên nghiệp, thu hút nhà tài trợ đồng hành cùng sự kiện quy mô toàn quốc.",
+      "project_summary": "Thiết kế tài liệu giới thiệu tài trợ cho Giải Vũ đạo thể thao giải trí toàn quốc 2024. Ấn phẩm gồm bìa nổi bật với hình ảnh cúp vàng, layout hiện đại, trình bày rõ ràng các gói tài trợ, quyền lợi, kế hoạch tổ chức và nhấn mạnh quy mô chuyên nghiệp của giải.",
       "project_description_detailed": "",
       "tools_used": ["Adobe Illustrator"],
       "project_live_url": "",
@@ -49,7 +49,7 @@
       "project_category": "Brand Identity",
       "project_date": "15 tháng 11 năm 2023",
       "client_name": "",
-      "project_summary": "Thiết kế bộ nhận diện thương hiệu cho sản phẩm bánh Biscotti với hai hương vị Matcha và Chocolate. Dự án bao gồm thiết kế bao bì sản phẩm, nhãn mác, voucher, đồng phục, ly, túi giấy, standee và biển hiệu cửa hàng. Phong cách thiết kế hiện đại, tươi sáng, thể hiện rõ yếu tố sức khỏe và tự nhiên, đồng thời tạo cảm giác thân thiện và dễ nhận diện với người tiêu dùng.",
+      "project_summary": "Thiết kế bộ nhận diện thương hiệu cho bánh Biscotti vị Matcha và Chocolate. Hạng mục gồm bao bì, nhãn, voucher, đồng phục, ly, túi giấy, standee và biển hiệu. Phong cách hiện đại, tươi sáng, nhấn mạnh yếu tố tự nhiên, sức khỏe và thân thiện với người tiêu dùng.",
       "project_description_detailed": "",
       "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
       "project_live_url": "",
@@ -89,7 +89,123 @@
       "caption": "Thiết kế logo cho công ty xây dựng Nhỡ Mơ."
     }
   ]
+},
+{
+  "id": "thiet-ke-bo-nhan-dien-petstar",
+  "project_name": "Thiết kế bộ nhận diện thương hiệu Petstar",
+  "project_thumbnail_url": "images/project/Thit-k-b-nhn-din-thuong-hiu-Petstar.png",
+  "project_category": "Brand Identity",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "",
+  "project_summary": "Thiết kế bộ nhận diện thương hiệu cho Petstar – chuỗi cửa hàng chăm sóc thú cưng. Hạng mục gồm logo, bảng hiệu, danh thiếp, sổ tay, đồng phục, poster và website. Phong cách hiện đại, đáng yêu, tạo cảm giác tin cậy và thân thiện với khách hàng.",
+  "project_description_detailed": "",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-b-nhn-din-thuong-hiu-Petstar.png",
+      "alt_text": "Bộ nhận diện thương hiệu Petstar",
+      "caption": "Thiết kế thương hiệu cho chuỗi cửa hàng Petstar – chăm sóc thú cưng."
+    }
+  ]
+},
+{
+  "id": "thiet-ke-post-anna-thai-massage",
+  "project_name": "Thiết kế post - Anna Thai Massage",
+  "project_thumbnail_url": "images/project/Thit-k-post-Anna-Thai-Massage-1.jpg",
+  "project_category": "Social Media Design",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Anna Thai Massage",
+  "project_summary": "Thiết kế bài đăng truyền thông xã hội cho Anna Thai Massage nhằm quảng bá dịch vụ Body Detox Massage. Bài post mang phong cách sang trọng, thư giãn với tông màu vàng và đen, kết hợp hình ảnh massage thực tế để tạo sự tin tưởng và thu hút khách hàng.",
+  "project_description_detailed": "",
+  "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+ {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-1.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Body Detox Massage: Post mạng xã hội tông vàng sang trọng, truyền tải liệu trình trị liệu tại Anna Thai Massage."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-2.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Trị liệu mụn: Thiết kế post spa chăm sóc da, nhấn mạnh thư giãn và hiệu quả tại Anna Thai Massage."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-3-1.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post giới thiệu dịch vụ massage đầu tại Anna Thai Massage, mang lại cảm giác thư giãn và bình yên."
+  },
+    {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-3.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post mạng xã hội dịch vụ massage thư giãn tại Anna Thai Massage, nổi bật với tông vàng và hình ảnh liệu trình giảm căng thẳng."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-4.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post Giáng sinh tại Anna Thai Massage với không khí thư giãn và hình ảnh spa ấm cúng, truyền tải sự bình yên mùa lễ."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-5.gif",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post spa Anna Thai với thông điệp cân bằng thân–tâm qua liệu trình theo mùa, mang lại sự thư thái và hồi phục."
+  },
+    {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-5.png",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post tư vấn loại da tại Anna Thai Massage, giúp khách hàng hiểu rõ làn da để chọn liệu trình phù hợp."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-6.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post hướng dẫn chăm sóc da nắng tại Anna Thai Massage, nhấn mạnh bảo vệ và phục hồi làn da mùa hè."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-7.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post massage đầu tại Anna Thai Spa với liệu trình gội thư giãn, giúp giảm căng thẳng và phục hồi năng lượng."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-8.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post trị liệu mụn tại Anna Thai Massage với liệu trình cá nhân hóa và không gian thư giãn nhẹ nhàng."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-9.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post giới thiệu gói massage giảm căng thẳng tại Anna Thai Massage, kết hợp hình ảnh trị liệu và tông vàng thư giãn."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-10.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post giới thiệu gói massage 60 phút tại Anna Thai Massage, giúp giảm căng thẳng và phục hồi toàn diện."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Anna-Thai-Massage-11.jpg",
+    "alt_text": "Bài đăng quảng cáo dịch vụ massage Anna Thai",
+    "caption": "Post massage Thái cổ truyền tại Anna Thai Massage, nhấn mạnh lợi ích phục hồi linh hoạt và thư giãn sâu."
+  }
+  ]
 }
+
+  
 
 ]
 
