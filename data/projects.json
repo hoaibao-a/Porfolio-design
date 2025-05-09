@@ -4,9 +4,9 @@
     "project_name": "Thiết kế post - FORD",
     "project_thumbnail_url": "/images/project/design_FORD.png",
     "project_category": "Poster",
-    "project_date": "Ngày 29 tháng 12 năm 2024",
+    "project_date": "29 tháng 12 năm 2024",
     "client_name": "",
-    "project_summary": "",
+    "project_summary": "Thiết kế poster sự kiện vàng Ford Việt Nam tại Ford Long Biên. Poster sử dụng tông màu mạnh mẽ với điểm nhấn là chiếc Ford Raptor nổi bật, kết hợp cùng hình ảnh cầu dây văng về đêm tạo cảm giác hiện đại và uy tín. Nội dung truyền thông tập trung vào các ưu đãi hấp dẫn như giảm giá tiền mặt, tặng phụ kiện và hỗ trợ trả góp lên đến 80%.",
     "project_description_detailed": "",
     "tools_used": ["Adobe Illustrator"],
     "project_live_url": "",
@@ -26,9 +26,9 @@
       "project_name": "Thiết kế catalogue Life Academy",
       "project_thumbnail_url": "images/project/thit-k-catalogue-Life-Academy.png",
       "project_category": "Catalogue",
-      "project_date": "Ngày 29 tháng 12 năm 2024",
+      "project_date": "29 tháng 12 năm 2024",
       "client_name": "",
-      "project_summary": "",
+      "project_summary": "Thiết kế tài liệu giới thiệu tài trợ cho Giải Vũ đạo thể thao giải trí toàn quốc tranh cúp CLB 2024. Ấn phẩm bao gồm bìa ấn tượng với cúp vàng nổi bật, hệ thống layout chuyên nghiệp và màu sắc hiện đại. Nội dung trình bày rõ ràng các hạng mục tài trợ, quyền lợi nhà tài trợ, kế hoạch tổ chức và quy mô giải đấu. Thiết kế nhấn mạnh sự chuyên nghiệp, thu hút nhà tài trợ đồng hành cùng sự kiện quy mô toàn quốc.",
       "project_description_detailed": "",
       "tools_used": ["Adobe Illustrator"],
       "project_live_url": "",
@@ -42,39 +42,33 @@
         }
       ]
     },
-  {
-    "id": "bo-nhan-dien-thuong-hieu-quan-ca-phe",
-    "project_name": "Bộ Nhận Diện Thương Hiệu Quán Cà Phê 'The Cozy Corner'",
-    "project_thumbnail_url": "images/project_cozy_corner_thumb.jpg",
-    "project_category": "Bộ nhận diện thương hiệu",
-    "project_date": "2023",
-    "client_name": "The Cozy Corner Cafe",
-    "project_summary": "Xây dựng bộ nhận diện thương hiệu hoàn chỉnh cho một quán cà phê mới, tập trung vào sự ấm cúng, thân thiện và một chút hoài cổ.",
-    "project_description_detailed": "Mục tiêu là tạo ra một thương hiệu dễ nhớ, thu hút đối tượng khách hàng trẻ và yêu thích không gian yên tĩnh để làm việc hoặc thư giãn. Chúng tôi đã thiết kế logo, bảng màu, typography, các ấn phẩm marketing (menu, name card, poster) và bao bì sản phẩm. Phong cách thiết kế sử dụng các đường nét mềm mại, màu sắc ấm áp và hình ảnh minh họa vẽ tay để truyền tải đúng tinh thần của 'The Cozy Corner'.",
-    "tools_used": ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
-    "project_live_url": "",
-    "project_case_study_url": "https://behance.net/yourprofile/cozy-corner-branding",
-    "media": [
-      {
-        "type": "image",
-        "url": "images/cozy_corner_logo.png",
-        "alt_text": "Logo của The Cozy Corner Cafe",
-        "caption": "Thiết kế logo chính thức."
-      },
-      {
-        "type": "image",
-        "url": "images/cozy_corner_menu.jpg",
-        "alt_text": "Thiết kế menu cho The Cozy Corner Cafe",
-        "caption": "Mẫu thiết kế menu đồ uống."
-      },
-      {
-        "type": "image",
-        "url": "images/cozy_corner_packaging.png",
-        "alt_text": "Thiết kế bao bì cho The Cozy Corner Cafe",
-        "caption": "Mẫu thiết kế bao bì mang đi."
-      }
-    ]
-  }
+    {
+      "id": "thiet-ke-bo-nhan-dien-banh-biscotti",
+      "project_name": "Thiết kế bộ nhận diện bánh - Biscotti",
+      "project_thumbnail_url": "images/project/Thit-k-b-nhn-din-banh-Biscotti-2.png",
+      "project_category": "Brand Identity",
+      "project_date": "15 tháng 11 năm 2023",
+      "client_name": "",
+      "project_summary": "Thiết kế bộ nhận diện thương hiệu cho sản phẩm bánh Biscotti với hai hương vị Matcha và Chocolate. Dự án bao gồm thiết kế bao bì sản phẩm, nhãn mác, voucher, đồng phục, ly, túi giấy, standee và biển hiệu cửa hàng. Phong cách thiết kế hiện đại, tươi sáng, thể hiện rõ yếu tố sức khỏe và tự nhiên, đồng thời tạo cảm giác thân thiện và dễ nhận diện với người tiêu dùng.",
+      "project_description_detailed": "",
+      "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+      "project_live_url": "",
+      "project_case_study_url": "",
+      "media": [
+        {
+          "type": "image",
+          "url": "images/project/Thit-k-b-nhn-din-banh-Biscotti-2.png",
+          "alt_text": "Bộ nhận diện bánh Biscotti",
+          "caption": "Bộ nhận diện thương hiệu cho sản phẩm bánh Biscotti."
+        },
+        {
+          "type": "image",
+          "url": "images/project/Thit-k-b-nhn-din-banh-Biscotti-1.png",
+          "alt_text": "Bộ nhận diện bánh Biscotti",
+          "caption": "Bộ nhận diện thương hiệu cho sản phẩm bánh Biscotti."
+        }
+      ]
+    }
 ]
 
 

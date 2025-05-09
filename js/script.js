@@ -140,9 +140,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let mediaHTML = '<div class="media-gallery">';
         project.media.forEach(item => {
+            // if (item.type === "image") {
+            //     mediaHTML += `<div class="media-item"><img src="${item.url}" alt="${item.alt_text}"><p>${item.caption || ''}</p></div>`;
+            // }
             if (item.type === "image") {
-                mediaHTML += `<div class="media-item"><img src="${item.url}" alt="${item.alt_text}"><p>${item.caption || ''}</p></div>`;
-            } else if (item.type === "video") {
+                mediaHTML += `
+                    <div class="media-item">
+                        <img class="zoomable-image" src="${item.url}" alt="${item.alt_text}">
+                        <p>${item.caption || ''}</p>
+                    </div>`;
+            }
+             else if (item.type === "video") {
                 // Basic YouTube/Vimeo embed from URL
                 let videoEmbedUrl = item.url;
                 if (item.url.includes("youtube.com/watch?v=")) {
@@ -159,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
         modalContent.innerHTML = `
             <h2>${project.project_name}</h2>
             <div class="project-meta">
-                <span><strong>Thể loại:</strong> ${project.project_category}</span>
+                <span><strong>Thể loại:</strong> ${project.project_category}</span><br>
                 <span><strong>Ngày:</strong> ${project.project_date}</span>
                 ${project.client_name ? `<span><strong>Khách hàng:</strong> ${project.client_name}</span>` : ''}
             </div>
@@ -203,4 +211,18 @@ document.addEventListener("DOMContentLoaded", () => {
     loadPersonalInfo();
     loadProjects();
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const overlay = document.getElementById("imageOverlay");
+    const overlayImage = document.getElementById("overlayImage");
+
+    document.body.addEventListener("click", function (e) {
+        if (e.target.classList.contains("zoomable-image")) {
+            overlayImage.src = e.target.src;
+            overlay.style.display = "flex";
+        } else if (e.target === overlay || e.target === overlayImage) {
+            overlay.style.display = "none";
+        }
+    });
+});
+
 
