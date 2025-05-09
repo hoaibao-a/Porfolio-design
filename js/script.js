@@ -135,24 +135,75 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalContent = document.getElementById("modal-project-content");
     const closeButton = document.querySelector(".close-button");
 
+    // function openProjectModal(projectId, allProjects) {
+    //     const project = allProjects.find(p => p.id === projectId);
+    //     if (!project || !modal || !modalContent) return;
+
+    //     let mediaHTML = '<div class="media-gallery">';
+    //     project.media.forEach(item => {
+    //         // if (item.type === "image") {
+    //         //     mediaHTML += `<div class="media-item"><img src="${item.url}" alt="${item.alt_text}"><p>${item.caption || ''}</p></div>`;
+    //         // }
+    //         if (item.type === "image") {
+    //             mediaHTML += `
+    //                 <div class="media-item">
+    //                     <img class="zoomable-image" src="${item.url}" alt="${item.alt_text}"
+    //                          style="border: 2px solid black !important; height: 250px; width: 100%; object-fit: cover;">
+    //                     <p style="text-align: justify;">${item.caption || ''}</p>
+    //                 </div>`;
+    //         }
+    //          else if (item.type === "video") {
+    //             // Basic YouTube/Vimeo embed from URL
+    //             let videoEmbedUrl = item.url;
+    //             if (item.url.includes("youtube.com/watch?v=")) {
+    //                 videoEmbedUrl = item.url.replace("watch?v=", "embed/");
+    //             } else if (item.url.includes("vimeo.com/")) {
+    //                 const videoId = item.url.substring(item.url.lastIndexOf('/') + 1);
+    //                 videoEmbedUrl = `https://player.vimeo.com/video/${videoId}`;
+    //             }
+    //             mediaHTML += `<div class="media-item"><iframe src="${videoEmbedUrl}" frameborder="0" allowfullscreen></iframe><p>${item.caption || ''}</p></div>`;
+    //         }
+    //     });
+    //     mediaHTML += '</div>';
+
+    //     modalContent.innerHTML = `
+    //         <h2>${project.project_name}</h2>
+    //         <div class="project-meta">
+    //             <span><strong>Thể loại:</strong> ${project.project_category}</span><br>
+    //             <span><strong>Ngày:</strong> ${project.project_date}</span>
+    //             ${project.client_name ? `<span><strong>Khách hàng:</strong> ${project.client_name}</span>` : ''}
+    //         </div>
+    //         <div class="description-detailed">${project.project_description_detailed}</div>
+    //         ${project.tools_used && project.tools_used.length > 0 ? `<p><strong>Công cụ sử dụng:</strong> ${project.tools_used.join(", ")}</p>` : ''}
+    //         ${project.project_live_url ? `<p><a href="${project.project_live_url}" target="_blank" class="cta-button">Xem trực tiếp</a></p>` : ''}
+    //         ${project.project_case_study_url ? `<p><a href="${project.project_case_study_url}" target="_blank" class="cta-button">Xem Case Study</a></p>` : ''}
+    //         <h3>Hình Ảnh/Video Dự Án</h3>
+    //         ${mediaHTML}
+    //     `;
+    //     modal.style.display = "block";
+    // }
     function openProjectModal(projectId, allProjects) {
         const project = allProjects.find(p => p.id === projectId);
         if (!project || !modal || !modalContent) return;
-
+    
+        // Đếm số ảnh
+        const imageCount = project.media.filter(item => item.type === "image").length;
+    
         let mediaHTML = '<div class="media-gallery">';
         project.media.forEach(item => {
-            // if (item.type === "image") {
-            //     mediaHTML += `<div class="media-item"><img src="${item.url}" alt="${item.alt_text}"><p>${item.caption || ''}</p></div>`;
-            // }
             if (item.type === "image") {
+                const isMultiple = imageCount > 1;
+                const imageStyle = isMultiple
+                    ? 'height: 250px; width: 100%; object-fit: cover;'
+                    : 'width: 100%; height: auto;';
+    
                 mediaHTML += `
                     <div class="media-item">
-                        <img class="zoomable-image" src="${item.url}" alt="${item.alt_text}">
-                        <p>${item.caption || ''}</p>
+                        <img class="zoomable-image" src="${item.url}" alt="${item.alt_text}"
+                             style="border: 2px solid black !important; ${imageStyle}">
+                        <p style="text-align: justify;">${item.caption || ''}</p>
                     </div>`;
-            }
-             else if (item.type === "video") {
-                // Basic YouTube/Vimeo embed from URL
+            } else if (item.type === "video") {
                 let videoEmbedUrl = item.url;
                 if (item.url.includes("youtube.com/watch?v=")) {
                     videoEmbedUrl = item.url.replace("watch?v=", "embed/");
@@ -160,11 +211,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     const videoId = item.url.substring(item.url.lastIndexOf('/') + 1);
                     videoEmbedUrl = `https://player.vimeo.com/video/${videoId}`;
                 }
-                mediaHTML += `<div class="media-item"><iframe src="${videoEmbedUrl}" frameborder="0" allowfullscreen></iframe><p>${item.caption || ''}</p></div>`;
+                mediaHTML += `
+                    <div class="media-item">
+                        <iframe src="${videoEmbedUrl}" frameborder="0" allowfullscreen></iframe>
+                        <p>${item.caption || ''}</p>
+                    </div>`;
             }
         });
         mediaHTML += '</div>';
-
+    
         modalContent.innerHTML = `
             <h2>${project.project_name}</h2>
             <div class="project-meta">
@@ -181,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         modal.style.display = "block";
     }
-
+    
     if (closeButton) {
         closeButton.onclick = function () {
             if (modal) modal.style.display = "none";

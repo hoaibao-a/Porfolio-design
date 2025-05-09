@@ -8,7 +8,7 @@
     "client_name": "",
     "project_summary": "Thiết kế poster sự kiện vàng Ford Việt Nam tại Ford Long Biên với tông màu mạnh mẽ, nổi bật hình ảnh Ford Raptor và cầu dây văng về đêm. Thông điệp nhấn mạnh ưu đãi hấp dẫn: giảm giá tiền mặt, tặng phụ kiện và hỗ trợ trả góp đến 80%.",
     "project_description_detailed": "",
-    "tools_used": ["Adobe Illustrator"],
+    "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
     "project_live_url": "",
     "project_case_study_url": "",
     "media": [
@@ -30,7 +30,7 @@
       "client_name": "",
       "project_summary": "Thiết kế tài liệu giới thiệu tài trợ cho Giải Vũ đạo thể thao giải trí toàn quốc 2024. Ấn phẩm gồm bìa nổi bật với hình ảnh cúp vàng, layout hiện đại, trình bày rõ ràng các gói tài trợ, quyền lợi, kế hoạch tổ chức và nhấn mạnh quy mô chuyên nghiệp của giải.",
       "project_description_detailed": "",
-      "tools_used": ["Adobe Illustrator"],
+      "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
       "project_live_url": "",
       "project_case_study_url": "",
       "media": [
@@ -118,7 +118,7 @@
   "project_category": "Social Media Design",
   "project_date": "29 tháng 12 năm 2024",
   "client_name": "Anna Thai Massage",
-  "project_summary": "Thiết kế bài đăng truyền thông xã hội cho Anna Thai Massage nhằm quảng bá dịch vụ Body Detox Massage. Bài post mang phong cách sang trọng, thư giãn với tông màu vàng và đen, kết hợp hình ảnh massage thực tế để tạo sự tin tưởng và thu hút khách hàng.",
+  "project_summary": "Thiết kế bài đăng mạng xã hội cho Anna Thai Massage, quảng bá dịch vụ Body Detox Massage với phong cách sang trọng, thư giãn, tông vàng - đen và hình ảnh massage thực tế.",
   "project_description_detailed": "",
   "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
   "project_live_url": "",
@@ -203,9 +203,145 @@
     "caption": "Post massage Thái cổ truyền tại Anna Thai Massage, nhấn mạnh lợi ích phục hồi linh hoạt và thư giãn sâu."
   }
   ]
-}
-
   
+}
+,
+{
+  "id": "thiet-ke-uiux-gmkb-live",
+  "project_name": "Thiết kế UI/UX GMKB Live",
+  "project_thumbnail_url": "images/project/Thit-k-UIUX-1.png",
+  "project_category": "Thiết kế UI/UX",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "GMKB Live",
+  "project_summary": "Thiết kế UI/UX cho nền tảng xem trực tiếp tỷ số bóng đá GMKB Live, tập trung vào trải nghiệm người dùng trên đa thiết bị. Giao diện được xây dựng trực quan, hiện đại, tối ưu thao tác và hỗ trợ hiển thị sơ đồ chiến thuật theo thời gian thực.",
+  "project_description_detailed": "GMKB Live là nền tảng cung cấp thông tin bóng đá trực tuyến bao gồm tỷ số trực tiếp, lịch thi đấu, đội hình chiến thuật và bảng xếp hạng. Dự án này tập trung vào việc thiết kế UI/UX cho giao diện hiển thị trên cả desktop, laptop và điện thoại di động. Với mục tiêu mang lại trải nghiệm mượt mà và dễ sử dụng, nhóm thiết kế đã xây dựng hệ thống màu sắc rõ ràng, cấu trúc bố cục linh hoạt, sử dụng các biểu tượng dễ nhận diện và tối ưu khả năng phản hồi trên các thiết bị khác nhau. Thiết kế còn tích hợp phần trình bày đội hình chiến thuật một cách trực quan giúp người dùng dễ theo dõi diễn biến trận đấu.",
+  "tools_used": ["Figma", "Adobe Photoshop", "Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-UIUX-1.png",
+      "alt_text": "Thiết kế giao diện GMKB Live hiển thị trên desktop, laptop và điện thoại di động",
+      "caption": "Giao diện trang xem tỷ số bóng đá GMKB Live với bố cục responsive đồng nhất trên mọi thiết bị."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-UIUX-2.png",
+      "alt_text": "Thiết kế giao diện GMKB Live hiển thị trên desktop, laptop và điện thoại di động",
+      "caption": "Giao diện ứng dụng tài chính hiện đại, trực quan trên thiết bị di động."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-UIUX-3.png",
+      "alt_text": "Thiết kế giao diện GMKB Live hiển thị trên desktop, laptop và điện thoại di động",
+      "caption": "Thiết kế giao diện website dịch vụ kỹ thuật Nhật Bản, hiển thị nhất quán và thân thiện trên laptop."
+    }
+    
+  ]
+},
+{
+  "id": "thiet-ke-bai-dang-facedaily",
+  "project_name": "Thiết kế post - FaceDaily",
+  "project_thumbnail_url": "images/project/Thit-k-post-FaceDaily-1.jpg",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "FaceDaily",
+  "project_summary": "Thiết kế bộ ấn phẩm truyền thông dịp Giáng Sinh cho FaceDaily với chủ đề tươi sáng, nữ tính và hấp dẫn, phục vụ mục tiêu quảng bá chương trình ưu đãi trên mạng xã hội.",
+  "project_description_detailed": "Dự án tập trung vào thiết kế các bài đăng quảng bá chương trình khuyến mãi Giáng Sinh cho thương hiệu làm đẹp FaceDaily. Bộ thiết kế bao gồm 3 hình ảnh chính: ưu đãi mua 1 tặng 2, tặng quà khi tương tác fanpage, và khuyến mãi khi giới thiệu bạn bè. Tone màu xanh băng cùng các yếu tố như tuyết, quà tặng, và ánh sáng lung linh được sử dụng để tạo cảm giác lễ hội và thu hút người xem. Bố cục được chia rõ ràng, dễ đọc, nổi bật thông tin ưu đãi với typography sinh động.",
+  "tools_used": ["Adobe Photoshop", "Canva"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-FaceDaily-1.jpg",
+      "alt_text": "Tổng hợp 3 thiết kế bài đăng Giáng Sinh của FaceDaily với chương trình khuyến mãi, voucher và quà tặng chăm sóc da",
+      "caption": "Bộ ba thiết kế bài đăng FaceDaily dịp Giáng Sinh – Thông điệp rõ ràng, hình ảnh thu hút và đồng bộ nhận diện."
+    },
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-FaceDaily-2.jpg",
+      "alt_text": "Thiết kế bài đăng FaceDaily so sánh giữa làm đẹp tại nhà DIY và giải pháp chăm sóc da chuyên nghiệp, nhấn mạnh công nghệ hiện đại, sản phẩm thiên nhiên và liệu trình cá nhân hoá.",
+      "caption": "FaceDaily truyền tải thông điệp lựa chọn đúng đắn cho làn da với dịch vụ toàn diện, hiện đại và hiệu quả lâu dài."
+    },
+    
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-FaceDaily-3.jpg",
+      "alt_text": "Thiết kế bài đăng FaceDaily quảng bá dịch vụ chăm sóc da chuẩn Hy Lạp với công nghệ cao và giá chỉ từ 198K.",
+      "caption": "Trải nghiệm làm đẹp hiệu quả, tiết kiệm cùng dịch vụ hiện đại tại FaceDaily – chuẩn chăm sóc da Hy Lạp."
+    },
+    
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-FaceDaily-4.png",
+      "alt_text": "Thiết kế bài đăng FaceDaily giới thiệu bộ đôi sản phẩm Mastic Origins giúp làm dịu và giữ ẩm cho da nhạy cảm.",
+      "caption": "Bộ sản phẩm Mastic Origins từ FaceDaily – Dưỡng ẩm, làm dịu và bảo vệ làn da nhạy cảm với thành phần thiên nhiên."
+    }
+    ,
+    {
+      "type": "image",
+      "url": "images/project/Thit-k-post-FaceDaily-5.png",
+      "alt_text": "Thiết kế bài đăng FaceDaily hướng dẫn phân loại da khô, da dầu và da nhạy cảm với hình ảnh minh họa thực tế.",
+      "caption": "FaceDaily giúp bạn hiểu rõ loại da của mình để lựa chọn liệu trình và sản phẩm chăm sóc phù hợp."
+    }
+    
+  ]
+},
+{
+  "id": "thiet-ke-bai-dang-melis-academy",
+  "project_name": "Thiết kế post - Mélis Academy",
+  "project_thumbnail_url": "images/project/Thit-k-post-Mlis-Academy-1.jpg",
+  "project_category": "Thiết kế ấn phẩm truyền thông",
+  "project_date": "29 tháng 12 năm 2024",
+  "client_name": "Mélis Academy",
+  "project_summary": "Thiết kế bộ bài đăng truyền thông ưu đãi cho Mélis Spa với phong cách sang trọng, tinh tế, phù hợp tệp khách hàng nữ trưởng thành, giáo viên và học sinh.",
+  "project_description_detailed": "Dự án tập trung thiết kế các ấn phẩm truyền thông quảng bá chương trình ưu đãi cuối năm tại Mélis Spa. Bộ thiết kế bao gồm các khung ưu đãi: tri ân người lái đò (giảm 40%), combo làm đẹp giá ưu đãi, voucher tặng trị liệu chuyên sâu và ưu đãi nhóm 3 người trở lên. Tone màu vàng ánh kim và trắng kem được sử dụng để truyền tải hình ảnh cao cấp, tin cậy. Bố cục hiện đại, kết hợp typography mềm mại tạo nên cảm giác chuyên nghiệp và dễ tiếp cận cho khách hàng mục tiêu.",
+  "tools_used": ["Adobe Photoshop", "Canva"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+"media": [
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Mlis-Academy-1.jpg",
+    "alt_text": "Bộ ấn phẩm thiết kế truyền thông ưu đãi cuối năm của Mélis Spa với tone màu vàng kim sang trọng và hình ảnh nữ tính, thanh lịch",
+    "caption": "Bộ thiết kế bài đăng quảng bá ưu đãi cuối năm tại Mélis Spa – Sang trọng, hiện đại và đồng bộ nhận diện thương hiệu."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Mlis-Academy-2.jpg",
+    "alt_text": "Thiết kế bài đăng giới thiệu liệu pháp Exonano tại Mélis Spa giúp phục hồi làn da hư tổn, cấp ẩm sâu và làm da căng bóng",
+    "caption": "Bài đăng giới thiệu liệu pháp Exonano – Giải pháp phục hồi da hư tổn an toàn và hiệu quả tại Mélis Spa."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Mlis-Academy-3.jpg",
+    "alt_text": "Thiết kế bài đăng Giáng Sinh của Mélis Spa với hình ảnh người mẫu nữ, khung cảnh tuyết trắng và quà tặng vàng đồng sang trọng",
+    "caption": "Thiết kế Giáng Sinh rộn ràng từ Mélis Spa – Tông màu ấm áp, hình ảnh lộng lẫy tạo nên không khí lễ hội thư giãn và cuốn hút."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Mlis-Academy-4.jpg",
+    "alt_text": "Thiết kế bài đăng triệt lông Tết của Mélis Spa với hình ảnh người mẫu nữ tươi tắn, hiệu ứng đồng hồ và thông điệp ưu đãi",
+    "caption": "Thiết kế Tết từ Mélis Spa – Hình ảnh trẻ trung, bố cục bắt mắt cùng thông điệp triệt lông an toàn, hiện đại và giá ưu đãi từ 250K."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Mlis-Academy-5.jpg",
+    "alt_text": "Thiết kế bài đăng spa Mélis giới thiệu hành trình cải thiện làn da, với hình ảnh một người mẫu ở ba giai đoạn khác nhau thể hiện sự thay đổi tích cực của làn da",
+    "caption": "Thiết kế 'Hành trình khám phá' từ Mélis Spa – Trình bày sự thay đổi rõ nét của làn da với phong cách sang trọng, truyền cảm hứng cho hành trình chăm sóc sắc đẹp."
+  },
+  {
+    "type": "image",
+    "url": "images/project/Thit-k-post-Mlis-Academy-6.jpg",
+    "alt_text": "Thiết kế bài đăng spa Mélis về dịch vụ triệt lông, với hình ảnh chuyên viên sử dụng thiết bị công nghệ cao trên đôi chân khách hàng, cùng các thông điệp nổi bật về sự an toàn, hiệu quả lâu dài và làn da mịn màng",
+    "caption": "Thiết kế bài đăng triệt lông từ Mélis Spa – Truyền tải thông điệp 'Tạm biệt vi-ô-lông' với hình ảnh chuyên nghiệp, tông màu tinh tế, nhấn mạnh hiệu quả và sự an toàn."
+  }
+  
+]
+
+}
 
 ]
 
