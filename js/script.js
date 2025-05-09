@@ -115,6 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail">
                         <div class="project-info">
                             <h3>${project.project_name}</h3>
+                            
                             <span class="project-category">${project.project_category}</span>
                             <p class="project-summary">${project.project_summary}</p>
                         </div>
