@@ -653,7 +653,279 @@
 
 
     ]
+},
+{
+  "id": "background-livestream-flashsale-7-7",
+  "project_name": "Background Livestream - Flash Sale 7.7",
+  "project_thumbnail_url": "images/project/backgroud-livestream-1.png",
+  "project_category": "Thiết kế Livestream",
+  "project_date": "13 tháng 9 năm 2024",
+  "client_name": "eShop",
+  "project_summary": "Thiết kế nền livestream bắt mắt cho sự kiện Flash Sale 7.7, nổi bật không khí tươi vui, thiên nhiên và sản phẩm nông sản Việt.",
+  "project_description_detailed": "Background được thiết kế dành riêng cho chương trình Livestream Flash Sale 7.7 của eShop, nổi bật với tông màu xanh thiên nhiên, tạo cảm giác tươi mới và thu hút. Hình ảnh các sản phẩm nông sản Việt như trà hoa sen, khoai lang sấy, mít sấy... được trình bày trong giỏ mây tạo nên sự thân thiện, gần gũi. Thiết kế phù hợp với không khí lễ hội, kích thích người xem mua hàng ngay trong buổi livestream.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-1.png",
+  "alt_text": "Khuyến mãi Flash Sale 7.7 của eShop với giỏ quà gồm trà hoa sen và các loại snack như khoai lang vàng, mít sấy.",
+  "caption": "Flash Sale 7.7 – Giỏ quà từ thiên nhiên cho sức khỏe và hương vị tuyệt vời!"
 }
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-2.png",
+  "alt_text": "Chương trình Super Sale 7.7 của eShop với bộ sản phẩm chăm sóc da Anodin gồm sữa rửa mặt, toner, serum và kem dưỡng.",
+  "caption": "Super Sale 7.7 – Săn deal 1K cho bộ sản phẩm chăm sóc da Anodin!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-3.jpg",
+  "alt_text": "Khuyến mãi Super Sale 7.7 từ eShop với bộ sản phẩm chăm sóc da Anodin, đặt trong bối cảnh biển mùa hè với trái cây và cát trắng.",
+  "caption": "Siêu ưu đãi hè - Super Sale 7.7 với mỹ phẩm Anodin tại eShop!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-4.jpg",
+  "alt_text": "Khuyến mãi Flash Sale từ eShop với các sản phẩm đồ ăn vặt như mít sấy, khoai môn, trà xanh, hoa sấy và thanh sao.",
+  "caption": "Bùng nổ Flash Sale cùng eShop - săn ngay đồ ăn vặt chất lượng với giá siêu ưu đãi!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-5.jpg",
+  "alt_text": "Chương trình Flash Sale 7.7 từ eShop với các sản phẩm mỹ phẩm như serum, kem dưỡng Dermina và dầu gội khô COLAB.",
+  "caption": "Đẹp rạng ngời với Flash Sale 7.7 - săn mỹ phẩm xịn với giá cực hời từ eShop!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-6.jpg",
+  "alt_text": "Chương trình Flash Sale từ eShop với các sản phẩm nước hoa cao cấp, khung nền lấp lánh sang trọng.",
+  "caption": "Tỏa hương quyến rũ – Săn nước hoa chính hãng giá cực ưu đãi cùng eShop!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-7.png",
+  "alt_text": "Khuyến mãi Mua 3 Tặng 1 Anodin tại eShop, các sản phẩm dưỡng da dịu nhẹ xuất hiện trên nền xanh tươi mát.",
+  "caption": "Siêu ưu đãi Anodin – Mua 3 Tặng 1, săn deal chăm da xịn sò tại eShop ngay hôm nay!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-8.png",
+  "alt_text": "Khuyến mãi Mua 3 Tặng 1 Momlove tại eShop, hình ảnh gói tã em bé xuất hiện cùng nền màu tím và xanh nổi bật.",
+  "caption": "Siêu ưu đãi từ Momlove – Mua 3 Tặng 1, chăm sóc bé yêu tiết kiệm cùng eShop!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-9.png",
+  "alt_text": "Khuyến mãi Mua 3 Tặng 1 từ eShop với sản phẩm dưỡng da Saffuna và Yaohoko, nền trắng với quà tặng trang trí xung quanh.",
+  "caption": "Chăm sóc làn da rạng rỡ cùng Saffuna và Yaohoko – Mua 3 Tặng 1 siêu ưu đãi chỉ có tại eShop!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-10.png",
+  "alt_text": "Khuyến mãi Mua 2 Tặng 1 từ eShop và Vacofarm, sản phẩm dược liệu và trà thảo mộc trên nền xanh bắt mắt.",
+  "caption": "Tăng cường sức khỏe tự nhiên với Vacofarm – Mua 2 Tặng 1 siêu ưu đãi tại eShop!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-11.png",
+  "alt_text": "Flash Sale eShop với các sản phẩm đặc sản: trà hoa sen, hạt sen sấy, khoai lang và bưởi sấy.",
+  "caption": "Nhanh tay săn đặc sản Việt trong Flash Sale cực hot tại eShop!"
+}
+
+,
+{
+  "type": "image",
+  "url": "images/project/backgroud-livestream-12.png",
+  "alt_text": "Flash Sale eShop với người mẫu nam và nữ, khuyến mãi lên đến 20%.",
+  "caption": "Special Offer - Flash Sale cực hấp dẫn lên đến 20% chỉ có tại eShop!"
+}
+  ]
+}
+,
+{
+  "id": "social-post-e-expo",
+  "project_name": "Thiết kế Social Post E-EXPO",
+  "project_thumbnail_url": "images/project/Thit-k-social-post-E-EXPO-1.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "3 tháng 9 năm 2024",
+  "client_name": "E-Expo",
+  "project_summary": "Thiết kế hình ảnh truyền thông cho bài đăng social hướng dẫn cách livestream bán hàng hiệu quả cho người mới bắt đầu.",
+  "project_description_detailed": "Hình ảnh được thiết kế cho sự kiện E-EXPO nhằm hướng dẫn những người mới bắt đầu cách livestream bán hàng hiệu quả. Bố cục hiện đại, tông màu xanh chủ đạo tạo cảm giác tin cậy và chuyên nghiệp. Các yếu tố biểu tượng mạng xã hội và lượt tương tác được sử dụng để nhấn mạnh yếu tố tăng trưởng, tăng doanh số. Hình ảnh nhân vật minh họa tạo sự thân thiện và dễ tiếp cận với người xem.",
+  "tools_used": ["Adobe Photoshop", "Canva"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-1.jpg",
+  "alt_text": "Hướng dẫn livestream bán hàng hiệu quả cho người mới bắt đầu trên nền xanh với biểu đồ tăng trưởng và cô gái cầm cọ trang điểm.",
+  "caption": "Cách Livestream bán hàng hiệu quả cho người mới bắt đầu - Hướng dẫn từ E-expo."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-2.jpg",
+  "alt_text": "E-Expo hợp tác với thương hiệu mỹ phẩm Dermina. Hình ảnh bắt tay tượng trưng cho sự hợp tác cùng các sản phẩm dưỡng da Dermina.",
+  "caption": "Hành trình mới: E-Expo đồng hành cùng Dermina – thương hiệu dược mỹ phẩm từ Pháp."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-3.jpg",
+  "alt_text": "Thông báo hợp tác giữa E-Expo và Duy Lâm Fashion. Hình ảnh người mẫu mặc áo đồng phục trắng với viền xanh lá.",
+  "caption": "Thông báo: E-Expo chính thức hợp tác cùng thương hiệu thời trang Duy Lâm Fashion."
+}             ,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-4.jpg",
+  "alt_text": "Người dùng đang đánh giá trên điện thoại với biểu tượng cảm xúc. Logo E-expo nổi bật cùng dòng chữ 'Đánh giá chân thật'.",
+  "caption": "E-Expo – Nơi mọi phản hồi đều được lắng nghe để cải thiện dịch vụ tốt hơn mỗi ngày."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-5.jpg",
+  "alt_text": "Banner giới thiệu cách săn deal sốc trên eShop E-expo, với hình ảnh các chai nước hoa và biểu tượng giảm giá 20%.",
+  "caption": "Khám phá những deal cực sốc chỉ có trên eShop của E-Expo – Mua sắm dễ dàng, tiết kiệm mỗi ngày!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-6.jpg",
+  "alt_text": "Banner với hình ảnh phụ nữ trẻ trung cầm túi mua sắm, biểu tượng đồng tiền, quà tặng, và điện thoại hiển thị logo eShop.",
+  "caption": "Kinh doanh từng phút – Giải trí từng giây cùng E-Expo eShop: Mua sắm thông minh, trải nghiệm thú vị mỗi ngày!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-7.jpg",
+  "alt_text": "Banner với các món đồ chơi trẻ em như bảng chữ cái, bảng viết vẽ, bộ bút màu, và đồ chơi cá sấu, nền là thành phố hoạt hình.",
+  "caption": "Top món đồ chơi bé yêu thích tại eShop – Ưu đãi đến 20% cùng E-Expo!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-8.jpg",
+  "alt_text": "Banner quảng cáo combo sản phẩm HYO gồm các chai nước giặt trong xe đẩy mua sắm, nền màu xanh lá cây với tiền vàng và hộp quà.",
+  "caption": "Combo sản phẩm HYO – E-Shop bán là E-Shop xài, cùng E-Expo mua sắm uy tín!"
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-9.jpg",
+  "alt_text": "Hình ảnh thanh hạt bí MAHENA và hộp quà tặng với phong cách nông thôn Việt Nam, quảng bá thương hiệu Mahena tại E-Expo.",
+  "caption": "Giới thiệu đôi nét về MAHENA – sản phẩm dinh dưỡng từ hạt, đậm bản sắc Việt."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-10.jpg",
+  "alt_text": "Hình ảnh các món đồ gia dụng cao cấp trong nhà bếp bao gồm nồi, chảo, và dụng cụ nấu ăn, mang thông điệp 'Những món đồ gia dụng không thể thiếu trong căn bếp'.",
+  "caption": "Khám phá những món đồ gia dụng không thể thiếu trong gian bếp hiện đại tại E-Expo."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-11.jpg",
+  "alt_text": "Hình ảnh sản phẩm gel tẩy tế bào chết TAROHOKO với cam và vitamin E, cùng các lợi ích chăm sóc da như làm sạch lỗ chân lông, ngăn ngừa mụn, và tăng cường độ ẩm.",
+  "caption": "Khám phá gel tẩy tế bào chết TAROHOKO tại E-Expo – sạch sâu, ngừa mụn, dưỡng ẩm mịn màng."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-12.jpg",
+  "alt_text": "Hình ảnh gel tẩy tế bào chết TAROHOKO với các thành phần nổi bật như Vitamin E, bột ngọc trai, glutathione và cam thảo.",
+  "caption": "Thành phần nổi bật trong TAROHOKO Tarocco Scrub: Vitamin E, cam thảo, bột ngọc trai và glutathione – cho làn da sáng mịn, khỏe mạnh."
+}
+
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-13.jpg",
+  "alt_text": "Hình ảnh gel tẩy tế bào chết TAROHOKO Tarocco cùng lý do nên sử dụng sản phẩm này.",
+  "caption": "Tại sao nên tẩy tế bào chết? Để loại bỏ lớp da chết, làm sáng da và tăng khả năng thẩm thấu dưỡng chất vào da – cùng TAROHOKO Tarocco."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-14.jpg",
+  "alt_text": "Hình ảnh nước vệ sinh bếp Olé với công thức enzyme tự nhiên từ GAXY.",
+  "caption": "Vệ sinh bếp Olé – làm sạch hiệu quả với enzyme tự nhiên, sáng bóng bề mặt, chống bám bẩn, và tuyệt đối an toàn cho da tay."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-15.jpg",
+  "alt_text": "Dầu gội thảo dược Kaffir Lime Herbal Shampoo với công thức ZPT & thảo dược đặc biệt.",
+  "caption": "Dầu gội Kaffir Lime Herbal Shampoo – công thức ZPT và thảo dược đặc biệt giúp ngăn ngừa và loại bỏ gàu, giảm ngứa hiệu quả. Không chứa SLS, đem lại cảm giác sánh, mịn và thơm mát."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-16.jpg",
+  "alt_text": "Dầu gội thảo dược Kaffir Lime Herbal Shampoo với chiết xuất thiên nhiên và công thức ZPT.",
+  "caption": "Dầu gội Kaffir Lime Herbal Shampoo – kết hợp công thức ZPT làm sạch gàu và nguồn thảo dược tự nhiên 100%. Hương thơm dịu nhẹ, không chứa SLS, giúp thư giãn và chăm sóc tóc nhẹ nhàng."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-17.jpg",
+  "alt_text": "Dầu gội và dầu xả thảo dược Dobuakua với chiết xuất chanh sả thiên nhiên.",
+  "caption": "Dầu gội & xả Dobuakua chiết xuất 100% từ thảo dược thiên nhiên như chanh, sả, nha đam. Công thức không SLS, làm sạch gàu hiệu quả, mang lại mái tóc mượt mà và thơm dịu."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-18.jpg",
+  "alt_text": "Banner chào mừng đại lễ Quốc khánh với quốc kỳ Việt Nam và lời chúc từ E-Expo.",
+  "caption": "E-Expo chào mừng đại lễ Quốc khánh. Kính chúc quý đối tác và khách hàng một ngày nghỉ trọn vẹn niềm vui và hạnh phúc."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Thit-k-social-post-E-EXPO-19.jpg",
+  "alt_text": "Banner quảng bá dịch vụ E-Expo xây dựng thương hiệu mạnh mẽ chỉ với một lần đầu tư.",
+  "caption": "Xây dựng thương hiệu mạnh mẽ chỉ 1 lần đầu tư với E-Expo – tối ưu chiến lược, tăng nhận diện, thu hút khách hàng hiệu quả."
+}
+  ]
+},
+{
+  "id": "social-post-giot-lanh",
+  "project_name": "Social Poster Giọt Lành",
+  "project_thumbnail_url": "images/project/social-post-Git-Lanh.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "2 tháng 8 năm 2024",
+  "client_name": "Giọt Lành",
+  "project_summary": "Thiết kế bài đăng truyền thông tặng thiệp miễn phí nhằm lan tỏa thông điệp yêu thương và sự quan tâm trong từng món quà.",
+  "project_description_detailed": "Bài đăng mạng xã hội cho thương hiệu 'Giọt Lành' với chủ đề 'Viết thiệp miễn phí'. Hình ảnh truyền tải cảm xúc nhẹ nhàng, tinh tế với tông màu xanh thiên nhiên dịu mắt. Thiết kế thể hiện thông điệp rằng mỗi món quà là một câu chuyện, chứa đựng sự quan tâm và yêu thương từ người gửi. Đây là một chiến dịch nhân văn, tạo thiện cảm với khách hàng và tăng sự gắn kết với thương hiệu.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+{
+  "type": "image",
+  "url": "images/project/social-post-Git-Lanh.jpg",
+  "alt_text": "Chương trình Viết Thiệp Miễn Phí từ Giọt Lành – gói quà đẹp, thiệp ý nghĩa.",
+  "caption": "Gói quà đẹp – Thiệp ý nghĩa hoàn toàn miễn phí cùng Giọt Lành. Mỗi món quà là một câu chuyện yêu thương được trao gửi."
+}
+
+
+  ]
+}
+
+
 
 ]
 
