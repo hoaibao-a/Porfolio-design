@@ -126,7 +126,7 @@ section:nth-child(even) {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to bottom, #fab9c6, #fdfdfd);
+    background: linear-gradient(to bottom, #f7c6cf, #fdfdfd);
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -145,7 +145,7 @@ section:nth-child(even) {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #f191a5;
+    
     margin-bottom: 20px;
     object-fit: cover;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -248,7 +248,7 @@ section:nth-child(even) {
 
 .experience-item .company {
     font-weight: 600;
-    color: #ff6347;
+    color: #c12767;
     margin-bottom: 5px;
 }
 
