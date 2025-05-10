@@ -920,11 +920,168 @@
   "alt_text": "Chương trình Viết Thiệp Miễn Phí từ Giọt Lành – gói quà đẹp, thiệp ý nghĩa.",
   "caption": "Gói quà đẹp – Thiệp ý nghĩa hoàn toàn miễn phí cùng Giọt Lành. Mỗi món quà là một câu chuyện yêu thương được trao gửi."
 }
+  ]
+}
+,
+{
+  "id": "social-post-neu-emba",
+  "project_name": "Social Post NEU - Executive MBA",
+  "project_thumbnail_url": "images/project/social-post-di-hc-kinh-t-quc-dan-1.png",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "2 tháng 8 năm 2024",
+  "client_name": "Đại học Kinh tế Quốc dân",
+  "project_summary": "Thiết kế bài đăng truyền thông chương trình Thạc sĩ điều hành cao cấp – Executive MBA dành cho lãnh đạo nhà nước và tổ chức.",
+  "project_description_detailed": "Bài đăng mạng xã hội quảng bá chương trình đào tạo Executive MBA của Đại học Kinh tế Quốc dân. Thiết kế nhấn mạnh yếu tố chuyên nghiệp, uy tín với hình ảnh lãnh đạo, biểu tượng chìa khóa MBA, kết hợp với tông màu đỏ – trắng nổi bật. Nội dung truyền đạt rõ ràng, nhấn mạnh chất lượng giảng dạy và thời hạn đăng ký. Đây là sản phẩm thiết kế truyền thông giáo dục dành cho nhóm đối tượng lãnh đạo, cán bộ cấp cao.",
+  "tools_used": ["Adobe Illustrator", "Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+{
+  "type": "image",
+  "url": "images/project/social-post-di-hc-kinh-t-quc-dan-1.png",
+  "alt_text": "Chương trình Thạc sĩ điều hành cao cấp Executive MBA tại Đại học Kinh tế Quốc dân.",
+  "caption": "Chương trình Executive MBA dành cho lãnh đạo nhà nước, tổ chức – trang bị kiến thức chuyên sâu và kỹ năng điều hành chiến lược, đăng ký trước 25/10."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-di-hc-kinh-t-quc-dan-2.png",
+  "alt_text": "Chương trình Thạc sĩ điều hành cao cấp Executive MBA tại Đại học Kinh tế Quốc dân.",
+  "caption": "Executive MBA – dành cho lãnh đạo nhà nước, tổ chức. Ngành quản lý kinh tế, ứng dụng phương pháp hiện đại dựa trên nghiên cứu thực tiễn. Hạn đăng ký: 25/10."
+}
+
 
 
   ]
 }
+,
+{
+  "id": "social-post-siam-thai-original",
+  "project_name": "Social Post SIAM THAI - Original Thai Tea",
+  "project_thumbnail_url": "images/project/social-post-SIAM-THAI-1.png",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "2 tháng 8 năm 2024",
+  "client_name": "Siam Thai",
+  "project_summary": "Bài đăng quảng bá dòng sản phẩm trà sữa Thái truyền thống từ thương hiệu Siam Thai, mang đến trải nghiệm thức uống đặc trưng và thu hút thị giác.",
+  "project_description_detailed": "Thiết kế tập trung giới thiệu bộ ba sản phẩm signature của Siam Thai gồm: Hồng trà kem cheese, Trà sữa Thái đỏ và Trà sữa Thái xanh. Tone màu nâu nhạt - cam ấm kết hợp hiệu ứng sương khói và topping chân thật giúp làm nổi bật sự tươi mới, bắt mắt và đậm chất thương hiệu.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+{
+  "type": "image",
+  "url": "images/project/social-post-SIAM-THAI-1.png",
+  "alt_text": "Ba loại trà sữa truyền thống của Siam Thai gồm Hồng trà kem cheese, Trà sữa thái đỏ và Trà sữa thái xanh.",
+  "caption": "The Original Thai Tea – Thưởng thức vị trà sữa Thái đích thực từ Siam Thai. Gồm: Hồng trà kem cheese, Trà sữa thái đỏ, Trà sữa thái xanh."
+}
 
+
+  ]
+}
+,
+{
+  "id": "social-post-chez-smile-design",
+  "project_name": "Social Post CHEZ Dental Clinic - Smile Design",
+  "project_thumbnail_url": "images/project/social-post-CHEZ-Dental-Clinic-1.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "2 tháng 8 năm 2024",
+  "client_name": "CHEZ Dental Clinic",
+  "project_summary": "Thiết kế bài đăng mạng xã hội quảng bá dịch vụ Smile Design tại CHEZ Dental Clinic với thông điệp 'Nụ cười tỉ lệ vàng'.",
+  "project_description_detailed": "Bài thiết kế thể hiện sự kết hợp giữa công nghệ nha khoa hiện đại và nụ cười rạng rỡ của khách hàng. Bố cục rõ ràng, phối màu xanh – cam tạo cảm giác tươi sáng, sạch sẽ và chuyên nghiệp. Sử dụng hình ảnh thật tại phòng khám giúp tăng tính tin cậy và kết nối cảm xúc.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-1.jpg",
+  "alt_text": "Banner quảng cáo dịch vụ Smile Design với hình ảnh bác sĩ đang điều trị răng và một cô gái với nụ cười rạng rỡ.",
+  "caption": "Chez Dental Clinic – Dịch vụ Smile Design giúp bạn có nụ cười chuẩn tỉ lệ vàng, tự tin và cuốn hút."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-2.jpg",
+  "alt_text": "Banner kỷ niệm 134 năm ngày sinh Chủ tịch Hồ Chí Minh (19/5/1890 – 19/5/2024) với hình ảnh Bác Hồ, hoa sen và ngôi sao vàng.",
+  "caption": "Chez Dental Clinic – Kỷ niệm 134 năm ngày sinh Chủ tịch Hồ Chí Minh, 19/5/1890 – 19/5/2024."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-3.jpg",
+  "alt_text": "Banner giới thiệu dịch vụ trám răng Composite của Chez Dental Clinic với hình ảnh mô tả quy trình trám răng và khách hàng tươi cười.",
+  "caption": "Chez Dental Clinic – Trám răng Composite: lựa chọn thông minh cho nụ cười khỏe mạnh."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-4.jpg",
+  "alt_text": "Banner chương trình ưu đãi Quốc tế Thiếu nhi 01/06 của Chez Dental Clinic, dành riêng cho cư dân Vinhomes Central Park, bao gồm giảm giá chỉnh nha và khám, chụp phim miễn phí.",
+  "caption": "Mừng Quốc tế Thiếu nhi 01/06 – Chez Dental Clinic ưu đãi đặc biệt cho cư dân Vinhomes Central Park (01/06/2024 – 31/07/2024)."
+}
+
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-5.jpg",
+  "alt_text": "Banner quảng bá dịch vụ chăm sóc sức khỏe răng miệng tại Chez Dental Clinic, hình ảnh bệnh nhân đang được nha sĩ kiểm tra răng miệng.",
+  "caption": "Chez Dental Clinic – Bảo vệ sức khỏe răng miệng cho bạn và gia đình."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-6.jpg",
+  "alt_text": "Banner về những khó khăn khi mang hàm giả tháo lắp tại Chez Dental Clinic, hình ảnh bác sĩ nha khoa đang điều trị cho bệnh nhân.",
+  "caption": "Chez Dental Clinic chia sẻ những vấn đề thường gặp khi sử dụng hàm giả tháo lắp và cách khắc phục."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-7.jpg",
+  "alt_text": "Banner hướng dẫn chăm sóc răng sau khi niềng của Chez Dental Clinic, hình ảnh người phụ nữ cười rạng rỡ cầm máng trong suốt.",
+  "caption": "Chez Dental Clinic hướng dẫn chăm sóc răng đúng cách sau khi tháo niềng để duy trì kết quả chỉnh nha lâu dài."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-8.jpg",
+  "alt_text": "Banner quảng bá dịch vụ tẩy trắng răng an toàn tại Chez Dental Clinic với hình ảnh cô gái cười rạng rỡ và răng trắng sáng.",
+  "caption": "Chez Dental Clinic cung cấp dịch vụ tẩy trắng răng an toàn, mang lại nụ cười trắng sáng và rạng ngời cho khách hàng."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-9.jpg",
+  "alt_text": "Banner giới thiệu dịch vụ cạo vôi răng tại Chez Dental Clinic, với hình ảnh minh họa vôi răng và quá trình làm sạch.",
+  "caption": "Cạo vôi răng định kỳ giúp bảo vệ sức khỏe răng miệng và ngăn ngừa các bệnh về nướu."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-10.jpg",
+  "alt_text": "Hình ảnh minh họa 4 phương pháp điều trị tam giác đen ở răng tại Chez Dental Clinic: trám kẽ răng, dán sứ veneer, niềng răng và bọc răng sứ.",
+  "caption": "4 cách khắc phục 'tam giác đen' giữa các răng giúp cải thiện thẩm mỹ nụ cười: Trám kẽ răng, dán sứ veneer, niềng răng, và bọc răng sứ."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-11.jpg",
+  "alt_text": "Hình ảnh minh họa quá trình niềng răng chỉnh nha giúp cải thiện tình trạng răng khấp khểnh.",
+  "caption": "Tạm biệt răng khấp khểnh với phương pháp niềng răng chỉnh nha tại Chez Dental Clinic – giải pháp hiệu quả cho nụ cười đều đẹp."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-CHEZ-Dental-Clinic-12.jpg",
+  "alt_text": "Hình ảnh các dụng cụ hỗ trợ vệ sinh răng miệng cho người niềng răng như bàn chải kẽ, chỉ nha khoa, tăm nước và nước súc miệng.",
+  "caption": "Điểm danh các trợ thủ đắc lực cho hội niềng răng: bàn chải kẽ, chỉ nha khoa, tăm nước và nước súc miệng – giúp chăm sóc răng miệng sạch sẽ, hiệu quả mỗi ngày."
+}
+
+
+
+
+  ]
+}
 
 
 ]
