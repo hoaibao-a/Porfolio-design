@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'MyCustomFont2';
+  src: url('/fonts/Roboto-Black.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 h1, h2, h3 {
     font-family: 'MyCustomFont1',sans-serif; /* A playful, handwritten-style font for headings */
     color:black; /* Tomato - a bright, energetic color */
@@ -15,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f8ff; /* AliceBlue - a light, cheerful base */
-    color: #333;
+    color: #fef2f4;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
@@ -118,10 +124,11 @@ nav ul li a:hover, nav ul li a.active {
 section {
     padding: 80px 20px;
     text-align: center;
+    background-color: #fff5f7;
 }
 
 section:nth-child(even) {
-    background-color:#fef2f4; /* Light Amber - alternating section colors */
+    background-color:#fff5f7; /* Light Amber - alternating section colors */
 }
 
 /* Hero Section */
@@ -305,9 +312,9 @@ section:nth-child(even) {
 }
 
 .project-info h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'MyCustomFont2', sans-serif;
     font-size: 1.4em;
-    color: #ff6347;
+    color: #c12767;
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -328,7 +335,7 @@ section:nth-child(even) {
 
 .project-summary {
     font-size: 0.95em;
-    color: #666;
+    color: black;
     flex-grow: 1;
     margin-bottom: 15px;
     text-align: justify;

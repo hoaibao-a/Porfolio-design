@@ -64,9 +64,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 let contactContent = `<div class="container">
                     <h2>Liên Hệ</h2>
                     <div id="contact-info">
-                        <p>Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, đừng ngần ngại liên hệ với tôi:</p>
-                        <p><strong>Email:</strong> <a href="mailto:${data.contact_email}">${data.contact_email}</a></p>
-                        ${data.phone_number ? `<p><strong>Điện thoại:</strong> ${data.phone_number}</p>` : ''}
+                        <p style="color: #c12767;">
+                            Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, đừng ngần ngại liên hệ với tôi:
+                        </p>
+                        <p>
+                        <strong style="color: #c12767;">Email:</strong> 
+                             <a href="mailto:${data.contact_email}">${data.contact_email}</a>
+                        </p>
+                        ${data.phone_number ? `<p>
+                            <strong style="color: #c12767;">Điện thoại:</strong>
+                            <span style="color: #c12767;">${data.phone_number}</span>
+                        </p>` : ''}
                         <!--
                         <ul class="social-links-contact">
                           ${data.social_links.map(link => `<li><a href="${link.url}" target="_blank" title="${link.platform}"><i class="${link.icon_class}"></i></a></li>`).join("")}
