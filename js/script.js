@@ -158,7 +158,7 @@ async function loadProjects() {
                 projectCard.innerHTML = `
                     <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail"
                          style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;"
-                         loading="lazy" width="360" height="240"> <!-- Lazy load images with defined width and height -->
+                         loading="lazy"> <!-- Lazy load images -->
 
                     <div class="project-info">
                         <h3>${project.project_name}</h3>
@@ -177,7 +177,6 @@ async function loadProjects() {
         }
     }
 }
-
 
 //test
 
