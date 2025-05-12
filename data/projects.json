@@ -1261,6 +1261,235 @@
 
   ]
 }
+,
+{
+  "id": "social-post-ruby-beauty-health",
+  "project_name": "Social Post Ruby Beauty & Health",
+  "project_thumbnail_url": "images/project/social-post-Ruby-beauty-Health-1.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "1 tháng 8 năm 2024",
+  "client_name": "Ruby Beauty & Health",
+  "project_summary": "Thiết kế bài đăng mạng xã hội giới thiệu dịch vụ làm đẹp và chăm sóc sức khỏe tại Ruby Beauty & Health.",
+  "project_description_detailed": "Bài thiết kế tập trung vào việc thể hiện dịch vụ làm đẹp và chăm sóc sức khỏe, tạo cảm giác tươi mới, năng động và đầy năng lượng. Hình ảnh người mẫu kết hợp với các dịch vụ làm đẹp như chăm sóc da, spa, và làm móng, nổi bật trên nền tươi sáng với tông màu vàng ánh kim.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-1.jpg",
+  "alt_text": "Nạp năng lượng cuối ngày với các dịch vụ thư giãn, chăm sóc sắc đẹp, với hình ảnh người được chăm sóc da và móng.",
+  "caption": "Nạp năng lượng cuối ngày - Thư giãn và chăm sóc sắc đẹp."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-2.jpg",
+  "alt_text": "Dịch vụ phun môi thẩm mỹ giúp tạo làn môi đẹp, với hình ảnh quy trình phun môi và kết quả sau khi thực hiện.",
+  "caption": "Có nên phun môi không? - Làm đẹp tự nhiên với phun môi."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-3.jpg",
+  "alt_text": "Dịch vụ chăm sóc sắc đẹp giúp thư giãn và tái tạo năng lượng giữa lòng thành phố, với hình ảnh quy trình massage và trị liệu.",
+  "caption": "An yên giữa lòng thành phố - Thư giãn và tái tạo năng lượng."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-4.jpg",
+  "alt_text": "Dịch vụ chăm sóc da giúp chống lão hóa và tái tạo làn da, với hình ảnh quy trình chăm sóc da và người dùng dịch vụ.",
+  "caption": "Chăm sóc da - Chống lão hóa, duy trì vẻ đẹp tự nhiên."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-5.jpg",
+  "alt_text": "Dịch vụ cải thiện sắc tố da giúp làn da đều màu và mịn màng, với hình ảnh sự khác biệt trước và sau khi chăm sóc da.",
+  "caption": "Cải thiện sắc tố da - Mang lại làn da đều màu và mịn màng."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-6.jpg",
+  "alt_text": "Thức khuya gây ảnh hưởng đến sức khỏe, với hình ảnh người làm việc khuya và căng thẳng do sử dụng điện thoại đêm.",
+  "caption": "Thức khuya - Kẻ đánh cắp sức khỏe của bạn."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-7.jpg",
+  "alt_text": "Dịch vụ phun môi giúp tạo làn môi đẹp tự nhiên, với hình ảnh người thực hiện phun môi và kết quả sau khi chăm sóc.",
+  "caption": "Phun môi tan viền - Mang lại làn môi đẹp tự nhiên, sắc nét."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-8.jpg",
+  "alt_text": "Dịch vụ giải pháp cho đôi vai, giúp thư giãn và giảm đau mỏi, với hình ảnh người được massage vai.",
+  "caption": "Giải pháp cho đôi vai - Thư giãn và giảm đau mỏi hiệu quả."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-9.jpg",
+  "alt_text": "Dịch vụ chăm sóc sắc đẹp, giúp thư giãn và chăm sóc da, với hình ảnh quy trình chăm sóc da và tóc.",
+  "caption": "Thứ 6 này, bạn có kế hoạch đi đâu chưa? - Thư giãn và làm đẹp tại Ruby."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-10.jpg",
+  "alt_text": "Dịch vụ gội đầu dưỡng sinh giúp thư giãn và cải thiện sức khỏe, với hình ảnh người được chăm sóc tóc.",
+  "caption": "Vũ điệu của gội đầu dưỡng sinh - Mang lại cảm giác thư giãn và chăm sóc tóc hiệu quả."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Ruby-beauty-Health-11.jpg",
+  "alt_text": "Dịch vụ chăm sóc da giúp làm sáng da và giảm mụn, với hình ảnh trước và sau khi chăm sóc da.",
+  "caption": "Bí quyết chăm sóc làn da xin màu - Từ mụn đến làn da mịn màng, sáng khỏe."
+}
+
+
+  ]
+}
+,
+{
+  "id": "social-post-earthlyglow",
+  "project_name": "Social Post Earthlyglow",
+  "project_thumbnail_url": "images/project/social-post-Earthlyglow-1.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "1 tháng 8 năm 2024",
+  "client_name": "Earthlyglow",
+  "project_summary": "Thiết kế bài đăng mạng xã hội giới thiệu sản phẩm chăm sóc sức khỏe cho gia đình Earthlyglow.",
+  "project_description_detailed": "Bài thiết kế tập trung vào việc quảng bá sản phẩm chăm sóc sức khỏe gia đình Earthlyglow với hình ảnh gia đình hạnh phúc, sử dụng sản phẩm Provaricose Veins Care. Tông màu chủ đạo là xanh dương, mang đến cảm giác tin cậy và sức khỏe.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "images/project/social-post-Earthlyglow-1.jpg",
+  "alt_text": "Earthlyglow - Thương hiệu chăm sóc sức khỏe cho gia đình, với hình ảnh một gia đình hạnh phúc và sản phẩm Provaricose Veins Care.",
+  "caption": "Earthlyglow - Thương hiệu số 1 cho gia đình bạn, với sản phẩm Provaricose Veins Care chăm sóc sức khỏe hiệu quả."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Earthlyglow-2.jpg",
+  "alt_text": "Provaricose Veins Care giúp chăm sóc toàn diện và xóa tan nỗi lo giãn tĩnh mạch, với hình ảnh sản phẩm và quy trình sử dụng.",
+  "caption": "Provaricose Veins Care - Chăm sóc toàn diện, xóa tan nỗi lo giãn tĩnh mạch hiệu quả."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Earthlyglow-3.jpg",
+  "alt_text": "Kỷ niệm 134 năm ngày sinh Chủ tịch Hồ Chí Minh, với hình ảnh Chủ tịch Hồ Chí Minh và hoa sen vàng.",
+  "caption": "Kỷ niệm 134 năm ngày sinh Chủ tịch Hồ Chí Minh (19/05/1890 - 19/05/2024)."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Earthlyglow-4.jpg",
+  "alt_text": "Dịch vụ chăm sóc sức khỏe cho cơn đau cơ xương khớp, với hình ảnh các tình trạng đau khớp ở các lứa tuổi khác nhau.",
+  "caption": "Đau cơ xương khớp - Nỗi ám ảnh của mọi lứa tuổi. Cùng chăm sóc sức khỏe hiệu quả."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Earthlyglow-5.jpg",
+  "alt_text": "Dấu hiệu nhận biết suy giãn tĩnh mạch, với hình ảnh các vết giãn tĩnh mạch trên cơ thể và cô gái đang chỉ dẫn.",
+  "caption": "Các dấu hiệu cần nhận biết về suy giãn tĩnh mạch - Chăm sóc sức khỏe đôi chân của bạn."
+}
+
+,
+{
+  "type": "image",
+  "url": "images/project/social-post-Earthlyglow-6.jpg",
+  "alt_text": "Provaricose Veins Care bảo vệ tĩnh mạch, với hình ảnh sản phẩm và sự cải thiện của tĩnh mạch trước và sau khi sử dụng.",
+  "caption": "Provaricose Veins Care - Bảo vệ tĩnh mạch tối ưu, mang lại làn da khỏe mạnh, mịn màng."
+}
+
+  ]
+}
+,
+{
+  "id": "banner-tham-my-vien-quoc-te-viola",
+  "project_name": "Banner Thẩm Mỹ Viện Quốc Tế VIOLA",
+  "project_thumbnail_url": "images/project/Banner-thm-m-vin-quc-t-VIOLA-1.jpg",
+  "project_category": "Thiết kế banner",
+  "project_date": "1 tháng 8 năm 2024",
+  "client_name": "Thẩm Mỹ Viện Quốc Tế VIOLA",
+  "project_summary": "Thiết kế banner quảng cáo ưu đãi sinh nhật tại Thẩm Mỹ Viện Quốc Tế VIOLA.",
+  "project_description_detailed": "Bài thiết kế tập trung vào việc quảng bá ưu đãi lớn 50% cho dịch vụ phẫu thuật thẩm mỹ mũi trong dịp sinh nhật của bác sĩ ThS.BS Thiện Nhân, kéo dài từ 15/05 đến 25/05/2024. Banner sử dụng hình ảnh bác sĩ và khách hàng nổi bật trên nền tươi sáng, mang lại cảm giác năng động và thu hút.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "images/project/Banner-thm-m-vin-quc-t-VIOLA-1.jpg",
+  "alt_text": "Ưu đãi sinh nhật mừng 134 năm ngày sinh của ThS.BS Thiện Nhân với giảm giá 50% phẫu thuật thẩm mỹ mũi và ưu đãi thêm 5% khi đi cùng 2 người.",
+  "caption": "Ưu đãi mừng sinh nhật ThS.BS Thiện Nhân - Giảm 50% phẫu thuật thẩm mỹ mũi và ưu đãi thêm 5% khi đi cùng 2 người, áp dụng từ 15/05 đến 25/05/2024."
+}
+
+  ]
+}
+,
+{
+  "id": "social-post-bo-to-tay-ninh-tai-sanh",
+  "project_name": "Social Post Bò Tơ Tây Ninh Tài Sanh",
+  "project_thumbnail_url": "images/project/social-post-Bo-to-tay-ninh-Tai-Sanh-1.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "1 tháng 8 năm 2024",
+  "client_name": "Bò Tơ Tây Ninh Tài Sanh",
+  "project_summary": "Thiết kế bài đăng mạng xã hội quảng bá ưu đãi đặc biệt cho khách hàng đặt bàn qua Facebook tại Bò Tơ Tây Ninh Tài Sanh.",
+  "project_description_detailed": "Bài thiết kế tập trung vào việc quảng bá ưu đãi đặc biệt tặng gói karaoke trị giá 1,5 triệu đồng cho đoàn khách đặt bàn qua Facebook. Hình ảnh món ăn đặc sắc kết hợp với thông tin ưu đãi rõ ràng, sử dụng tông màu đỏ ấm áp thu hút sự chú ý của khách hàng.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "images/project/social-post-Bo-to-tay-ninh-Tai-Sanh-1.jpg",
+  "alt_text": "Ưu đãi đặc biệt tại quán bò tơ Tây Ninh Tại Sành, tặng gói karaoke trị giá 1,5 triệu cho đoàn khách đặt bàn qua Facebook, kèm món ăn ngon.",
+  "caption": "Ưu đãi đặc biệt - Tặng gói karaoke trị giá 1,5 triệu cho đoàn khách đặt bàn qua Facebook ."
+}
+
+  ]
+}
+,
+{
+  "id": "social-post-hamac-lolipop-malaysia",
+  "project_name": "Social Post Hamac Lolipop Malaysia",
+  "project_thumbnail_url": "images/project/Social-post-Hamac-Lolipop-Malaysia-1.jpg",
+  "project_category": "Thiết kế mạng xã hội",
+  "project_date": "1 tháng 8 năm 2024",
+  "client_name": "Hamac Lolipop Malaysia",
+  "project_summary": "Thiết kế bài đăng mạng xã hội giới thiệu sản phẩm kẹo mút Hamac Lolipop với thông tin 3 điều bạn chưa biết.",
+  "project_description_detailed": "Bài thiết kế tập trung vào việc quảng bá các sản phẩm kẹo mút đa dạng với màu sắc nổi bật và thông điệp hấp dẫn. Hình ảnh kẹo mút với bao bì bắt mắt được sử dụng để thu hút sự chú ý, đồng thời giới thiệu các đặc điểm nổi bật của sản phẩm.",
+  "tools_used": ["Adobe Photoshop", "Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "images/project/Social-post-Hamac-Lolipop-Malaysia-1.jpg",
+  "alt_text": "Kẹo mút Hamac Lolipop với các thương hiệu nổi tiếng như Hot Lips, Yeti và Big Pop, giới thiệu 3 điều bạn chưa biết.",
+  "caption": "Kẹo mút Hamac Lolipop - 3 điều bạn chưa biết, cùng các sản phẩm kẹo mút thú vị từ Hot Lips, Yeti và Big Pop."
+}
+,
+{
+  "type": "image",
+  "url": "images/project/Social-post-Hamac-Lolipop-Malaysia-2.jpg",
+  "alt_text": "Kẹo mút Hamac Lolipop đồng hành cùng bé trong mọi khoảnh khắc, giới thiệu các sản phẩm nổi bật như Yeti, Hot Lips và Big Top.",
+  "caption": "Kẹo mút Hamac Lolipop - Luôn đồng hành cùng bé trong mọi khoảnh khắc, tìm nhà phân phối trên toàn quốc."
+}
+
+  ]
+}
 
 
 ]

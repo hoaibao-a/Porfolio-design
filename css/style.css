@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f8ff; /* AliceBlue - a light, cheerful base */
-    color: #fef2f4;
+    color: #444;;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
