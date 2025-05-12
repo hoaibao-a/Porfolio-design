@@ -106,39 +106,86 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Fetch and display projects
-    async function loadProjects() {
-        try {
-            const response = await fetch(`${API_BASE_URL}/projects.json`);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            const projects = await response.json();
-            const projectGrid = document.querySelector(".project-grid");
+    // async function loadProjects() {
+    //     try {
+    //         const response = await fetch(`${API_BASE_URL}/projects.json`);
+    //         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    //         const projects = await response.json();
+    //         const projectGrid = document.querySelector(".project-grid");
 
-            if (projectGrid) {
-                projectGrid.innerHTML = ""; // Clear existing projects
-                projects.forEach(project => {
-                    const projectCard = document.createElement("div");
-                    projectCard.classList.add("project-card");
-                    projectCard.dataset.projectId = project.id;
-                    projectCard.innerHTML = `
-              <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail"
-     style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;">
+    //         if (projectGrid) {
+    //             projectGrid.innerHTML = ""; // Clear existing projects
+    //             projects.forEach(project => {
+    //                 const projectCard = document.createElement("div");
+    //                 projectCard.classList.add("project-card");
+    //                 projectCard.dataset.projectId = project.id;
+    //                 projectCard.innerHTML = `
+    //           <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail"
+    //  style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;">
 
-                        <div class="project-info">
-                            <h3>${project.project_name}</h3>
-                            <span class="project-category">${project.project_category}</span>
-                            <p class="project-summary">${project.project_summary}</p>
-                        </div>
+    //                     <div class="project-info">
+    //                         <h3>${project.project_name}</h3>
+    //                         <span class="project-category">${project.project_category}</span>
+    //                         <p class="project-summary">${project.project_summary}</p>
+    //                     </div>
                         
-                    `;
-                    projectCard.addEventListener("click", () => openProjectModal(project.id, projects));
-                    projectGrid.appendChild(projectCard);
-                });
-            }
-        } catch (error) {
-            console.error("Could not load projects:", error);
-            if (document.querySelector(".project-grid")) document.querySelector(".project-grid").innerHTML = "<p>Lỗi tải danh sách dự án.</p>";
+    //                 `;
+    //                 projectCard.addEventListener("click", () => openProjectModal(project.id, projects));
+    //                 projectGrid.appendChild(projectCard);
+    //             });
+    //         }
+    //     } catch (error) {
+    //         console.error("Could not load projects:", error);
+    //         if (document.querySelector(".project-grid")) document.querySelector(".project-grid").innerHTML = "<p>Lỗi tải danh sách dự án.</p>";
+    //     }
+    // }
+
+
+//test
+async function loadProjects() {
+    try {
+        const response = await fetch(`${API_BASE_URL}/projects.json`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const projects = await response.json();
+        const projectGrid = document.querySelector(".project-grid");
+
+        if (projectGrid) {
+            projectGrid.innerHTML = ""; // Clear existing projects
+            projects.forEach(project => {
+                const projectCard = document.createElement("div");
+                projectCard.classList.add("project-card");
+                projectCard.dataset.projectId = project.id;
+                projectCard.innerHTML = `
+                    <img src="${project.project_thumbnail_url}" alt="${project.project_name}" class="project-thumbnail"
+                         style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;"
+                         loading="lazy"> <!-- Lazy load images -->
+
+                    <div class="project-info">
+                        <h3>${project.project_name}</h3>
+                        <span class="project-category">${project.project_category}</span>
+                        <p class="project-summary">${project.project_summary}</p>
+                    </div>
+                `;
+                projectCard.addEventListener("click", () => openProjectModal(project.id, projects));
+                projectGrid.appendChild(projectCard);
+            });
+        }
+    } catch (error) {
+        console.error("Could not load projects:", error);
+        if (document.querySelector(".project-grid")) {
+            document.querySelector(".project-grid").innerHTML = "<p>Lỗi tải danh sách dự án.</p>";
         }
     }
+}
+
+//test
+
+
+
+
+
+
+
 
     // Modal functionality
     const modal = document.getElementById("project-modal");
