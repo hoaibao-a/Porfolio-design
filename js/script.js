@@ -9,17 +9,28 @@ document.addEventListener("DOMContentLoaded", () => {
             const data = await response.json();
 
             // Hero Section
-            const heroSection = document.getElementById("hero");
-            if (heroSection) {
-                let heroContent = `<div class="hero-content">
-                    <img src="${data.profile_picture_url}" alt="${data.name}" id="profile-pic">
-                    <h1>${data.name}</h1>
-                    <p id="hero-tagline">${data.tagline}</p>
-                    <p id="hero-bio-short">${data.bio_short}</p>
-                    <a href="#projects" class="cta-button">Xem Dự Án</a>
-                </div>`;
-                heroSection.innerHTML = heroContent;
-            }
+        const heroSection = document.getElementById("hero");
+if (heroSection) {
+    let heroContent = `
+        <div class="hero-content">
+            <img src="${data.profile_picture_url}" alt="${data.name}" id="profile-pic">
+            <h1>${data.name}</h1>
+            <ul class="social-links-contact">
+                ${data.social_links.map(link => `
+                    <li>
+                        <a href="${link.url}" target="_blank" title="${link.platform}">
+                            ${/\.(png|jpe?g|svg|gif)$/i.test(link.icon_class)
+                                ? `<img src="${link.icon_class}" alt="${link.platform} icon" class="social-icon-img" style="height: 30px; vertical-align: middle; margin-left: 10px;">`
+                                : `<i class="${link.icon_class}" style="font-size: 30px; margin-left: 10px;"></i>`}
+                        </a>
+                    </li>`).join("")}
+            </ul>
+            <p id="hero-tagline">${data.tagline}</p>
+            <p id="hero-bio-short">${data.bio_short}</p>
+            <a href="#projects" class="cta-button">Xem Dự Án</a>
+        </div>`;
+    heroSection.innerHTML = heroContent;
+}
 
             // About Section
             const aboutSection = document.getElementById("about");
