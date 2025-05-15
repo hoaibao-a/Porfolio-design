@@ -569,42 +569,6 @@ footer p {
   color: #333;
   margin: 10px;
 }
-/* Ẩn menu trên mobile, hiển thị khi bấm hamburger */
-.nav-menu {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-.hamburger {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-/* Media query cho mobile */
-@media (max-width: 768px) {
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    background: white;
-    position: absolute;
-    top: 60px; /* phù hợp với header */
-    right: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    padding: 10px;
-    border-radius: 6px;
-  }
-  .nav-menu.active {
-    display: flex;
-  }
-  .hamburger {
-    display: block;
-  }
-}
-
 
   
 
