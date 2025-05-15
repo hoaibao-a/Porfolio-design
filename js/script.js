@@ -1,24 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
   const API_BASE_URL = 'data';
-  let currentLang = localStorage.getItem("language") || "vi"; // Mặc định là tiếng Việt
+  let currentLang = localStorage.getItem("language") || "vi"; // Mặc định tiếng Việt
 
-  // Change language
-  function changeLanguage() {
-    const select = document.getElementById("language-select");
-    if (!select) {
-      console.error("Language select element not found!");
-      return;
-    }
-    currentLang = select.value;
-    console.log("Changing language to:", currentLang);
-    localStorage.setItem("language", currentLang);
+  // Load tất cả nội dung theo ngôn ngữ hiện tại
+  async function loadAll() {
     document.documentElement.lang = currentLang;
     document.title = currentLang === "vi" ? "Portfolio Thiết Kế" : "Design Portfolio";
-    loadPersonalInfo();
-    loadProjects();
+    await loadPersonalInfo();
+    await loadProjects();
   }
 
-  // Fetch and display personal information
+  // Đổi ngôn ngữ và lưu vào localStorage, rồi tải lại nội dung
+  async function setLanguage(lang) {
+    if (lang === currentLang) return; // Nếu đã chọn ngôn ngữ đó thì thôi
+    currentLang = lang;
+    localStorage.setItem("language", lang);
+    await loadAll();
+  }
+
+  // Fetch và hiển thị thông tin cá nhân
   async function loadPersonalInfo() {
     const heroSection = document.getElementById("hero");
     if (!heroSection) {
@@ -31,127 +31,115 @@ document.addEventListener("DOMContentLoaded", () => {
       const response = await fetch(`${API_BASE_URL}/${currentLang}/personal_info.json`);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       const data = await response.json();
-      console.log("Personal info loaded:", data);
 
       // Hero Section
-      if (heroSection) {
-        let heroContent = `
-          <div class="hero-content">
-            <img src="${data.profile_picture_url || 'images/placeholder.jpg'}" alt="${data.name || 'Profile'}" id="profile-pic">
-            <h1>${data.name || (currentLang === "vi" ? "Tên Người Dùng" : "User Name")}</h1>
-            <ul class="social-links-contact">
-              ${(data.social_links || [])
-                .map(
-                  (link) => `
-                <li>
-                  <a href="${link.url || '#'}" target="_blank" title="${link.platform || 'Social'}" aria-label="Liên kết tới ${link.platform || 'mạng xã hội'}">
-                    ${
-                      /\.(png|jpe?g|svg|gif)$/i.test(link.icon_class || '')
-                        ? `<img src="${link.icon_class}" alt="${link.platform || 'icon'} icon" class="social-icon-img" style="height: 30px; vertical-align: middle; margin-left: 10px;">`
-                        : `<i class="${link.icon_class || 'fa fa-link'}" style="font-size: 30px; margin-left: 10px;"></i>`
-                    }
-                  </a>
-                </li>`
-                )
-                .join("")}
-            </ul>
-            <p id="hero-tagline">${data.tagline || (currentLang === "vi" ? "Dòng giới thiệu" : "Tagline")}</p>
-            <p id="hero-bio-short">${data.bio_short || (currentLang === "vi" ? "Tiểu sử ngắn" : "Short bio")}</p>
-            <a href="#projects" class="cta-button">${data.cta_button || (currentLang === "vi" ? "Xem Dự Án" : "View Projects")}</a>
-          </div>`;
-        heroSection.innerHTML = heroContent;
-      }
+      let heroContent = `
+        <div class="hero-content">
+          <img src="${data.profile_picture_url || 'images/placeholder.jpg'}" alt="${data.name || 'Profile'}" id="profile-pic">
+          <h1>${data.name || (currentLang === "vi" ? "Tên Người Dùng" : "User Name")}</h1>
+          <ul class="social-links-contact">
+            ${(data.social_links || []).map(link => `
+              <li>
+                <a href="${link.url || '#'}" target="_blank" title="${link.platform || 'Social'}" aria-label="Liên kết tới ${link.platform || 'mạng xã hội'}">
+                  ${
+                    /\.(png|jpe?g|svg|gif)$/i.test(link.icon_class || '') 
+                      ? `<img src="${link.icon_class}" alt="${link.platform || 'icon'} icon" class="social-icon-img" style="height: 30px; vertical-align: middle; margin-left: 10px;">` 
+                      : `<i class="${link.icon_class || 'fa fa-link'}" style="font-size: 30px; margin-left: 10px;"></i>`
+                  }
+                </a>
+              </li>
+            `).join("")}
+          </ul>
+          <p id="hero-tagline">${data.tagline || (currentLang === "vi" ? "Dòng giới thiệu" : "Tagline")}</p>
+          <p id="hero-bio-short">${data.bio_short || (currentLang === "vi" ? "Tiểu sử ngắn" : "Short bio")}</p>
+          <a href="#projects" class="cta-button">${data.cta_button || (currentLang === "vi" ? "Xem Dự Án" : "View Projects")}</a>
+        </div>`;
+      heroSection.innerHTML = heroContent;
 
       // About Section
       const aboutSection = document.getElementById("about");
       if (aboutSection) {
-        let aboutContent = `<div class="container">
-          <h2>${data.about_title || (currentLang === "vi" ? "Về Tôi" : "About Me")}</h2>
-          <p id="bio-long">${data.bio_long || (currentLang === "vi" ? "Thông tin chi tiết" : "Detailed information")}</p>
-          <div class="skills-container">
-            <h3>${data.skills_technical_title || (currentLang === "vi" ? "Kỹ Năng Chuyên Môn" : "Technical Skills")}</h3>
-            <ul class="skills-list" id="technical-skills">
-              ${(data.skills_technical || []).map((skill) => `<li>${skill}</li>`).join("")}
-            </ul>
-          </div>
-          <div class="skills-container">
-            <h3>${data.skills_software_title || (currentLang === "vi" ? "Phần Mềm Thành Thạo" : "Proficient Software")}</h3>
-            <ul class="skills-list" id="software-skills">
-              ${(data.skills_software || []).map((skill) => `<li>${skill}</li>`).join("")}
-            </ul>
-          </div>
-          <div class="experience-container">
-            <h3>${data.experience_title || (currentLang === "vi" ? "Kinh Nghiệm Làm Việc" : "Work Experience")}</h3>
-            <div id="work-experience">
-              ${(data.work_experience || [])
-                .map(
-                  (exp) => `
-                <div class="experience-item">
-                  <h4>${exp.job_title || (currentLang === "vi" ? "Chức vụ" : "Position")}</h4>
-                  <p class="company">${exp.company_name || (currentLang === "vi" ? "Công ty" : "Company")} ${
-                    exp.company_logo_url
-                      ? `<img src="${exp.company_logo_url}" alt="${exp.company_name || 'company'} logo" style="height:20px; vertical-align:middle; margin-left:5px;">`
-                      : ""
-                  }</p>
-                  <p class="duration">${exp.duration || ""}</p>
-                  <ul>
-                    ${(exp.responsibilities || []).map((res) => `<li>${res}</li>`).join("")}
-                  </ul>
-                </div>
-              `
-                )
-                .join("")}
+        let aboutContent = `
+          <div class="container">
+            <h2>${data.about_title || (currentLang === "vi" ? "Về Tôi" : "About Me")}</h2>
+            <p id="bio-long">${data.bio_long || (currentLang === "vi" ? "Thông tin chi tiết" : "Detailed information")}</p>
+            <div class="skills-container">
+              <h3>${data.skills_technical_title || (currentLang === "vi" ? "Kỹ Năng Chuyên Môn" : "Technical Skills")}</h3>
+              <ul class="skills-list" id="technical-skills">
+                ${(data.skills_technical || []).map(skill => `<li>${skill}</li>`).join("")}
+              </ul>
             </div>
-          </div>
-        </div>`;
+            <div class="skills-container">
+              <h3>${data.skills_software_title || (currentLang === "vi" ? "Phần Mềm Thành Thạo" : "Proficient Software")}</h3>
+              <ul class="skills-list" id="software-skills">
+                ${(data.skills_software || []).map(skill => `<li>${skill}</li>`).join("")}
+              </ul>
+            </div>
+            <div class="experience-container">
+              <h3>${data.experience_title || (currentLang === "vi" ? "Kinh Nghiệm Làm Việc" : "Work Experience")}</h3>
+              <div id="work-experience">
+                ${(data.work_experience || []).map(exp => `
+                  <div class="experience-item">
+                    <h4>${exp.job_title || (currentLang === "vi" ? "Chức vụ" : "Position")}</h4>
+                    <p class="company">${exp.company_name || (currentLang === "vi" ? "Công ty" : "Company")} ${
+                      exp.company_logo_url ? `<img src="${exp.company_logo_url}" alt="${exp.company_name || 'company'} logo" style="height:20px; vertical-align:middle; margin-left:5px;">` : ""
+                    }</p>
+                    <p class="duration">${exp.duration || ""}</p>
+                    <ul>
+                      ${(exp.responsibilities || []).map(res => `<li>${res}</li>`).join("")}
+                    </ul>
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+          </div>`;
         aboutSection.innerHTML = aboutContent;
       }
 
       // Contact Section
       const contactSection = document.getElementById("contact");
       if (contactSection) {
-        let contactContent = `<div class="container">
-          <h2>${data.contact_title || (currentLang === "vi" ? "Liên Hệ" : "Contact")}</h2>
-          <div id="contact-info">
-            <p style="color: #c12767;">
-              ${data.contact_message || (currentLang === "vi" ? "Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, đừng ngần ngại liên hệ với tôi:" : "If you have any questions or would like to collaborate, feel free to reach out:")}
-            </p>
-            <p>
-              <strong style="color: #c12767;">${data.contact_email_label || (currentLang === "vi" ? "Email:" : "Email:")}</strong> 
-              <a href="mailto:${data.contact_email || ''}" aria-label="Gửi email tới ${data.contact_email || 'contact'}">${data.contact_email || "email@example.com"}</a>
-            </p>
-            ${
-              data.phone_number
-                ? `<p>
-                <strong style="color: #c12767;">${data.contact_PHONE_label || (currentLang === "vi" ? "Điện thoại:" : "Phone:")}</strong>
-                <span style="color: #c12767;">${data.phone_number}</span>
-              </p>`
-                : ""
-            }
-            <ul class="social-links-contact">
-              ${(data.social_links || [])
-                .map(
-                  (link) => `
-                <li>
-                  <a href="${link.url || '#'}" target="_blank" title="${link.platform || 'Social'}" aria-label="Liên kết tới ${link.platform || 'mạng xã hội'}">
-                    ${
-                      /\.(png|jpe?g|svg|gif)$/i.test(link.icon_class || '')
-                        ? `<img src="${link.icon_class}" alt="${link.platform || 'icon'} icon" class="social-icon-img" />`
-                        : `<i class="${link.icon_class || 'fa fa-link'}"></i>`
-                    }
-                  </a>
-                </li>`
-                )
-                .join("")}
-            </ul>
-          </div>
-        </div>`;
+        let contactContent = `
+          <div class="container">
+            <h2>${data.contact_title || (currentLang === "vi" ? "Liên Hệ" : "Contact")}</h2>
+            <div id="contact-info">
+              <p style="color: #c12767;">
+                ${data.contact_message || (currentLang === "vi" ? "Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, đừng ngần ngại liên hệ với tôi:" : "If you have any questions or would like to collaborate, feel free to reach out:")}
+              </p>
+              <p>
+                <strong style="color: #c12767;">${data.contact_email_label || (currentLang === "vi" ? "Email:" : "Email:")}</strong> 
+                <a href="mailto:${data.contact_email || ''}" aria-label="Gửi email tới ${data.contact_email || 'contact'}">${data.contact_email || "email@example.com"}</a>
+              </p>
+              ${
+                data.phone_number
+                  ? `<p>
+                    <strong style="color: #c12767;">${data.contact_PHONE_label || (currentLang === "vi" ? "Điện thoại:" : "Phone:")}</strong>
+                    <span style="color: #c12767;">${data.phone_number}</span>
+                  </p>`
+                  : ""
+              }
+              <ul class="social-links-contact">
+                ${(data.social_links || []).map(link => `
+                  <li>
+                    <a href="${link.url || '#'}" target="_blank" title="${link.platform || 'Social'}" aria-label="Liên kết tới ${link.platform || 'mạng xã hội'}">
+                      ${
+                        /\.(png|jpe?g|svg|gif)$/i.test(link.icon_class || '')
+                          ? `<img src="${link.icon_class}" alt="${link.platform || 'icon'} icon" class="social-icon-img" />`
+                          : `<i class="${link.icon_class || 'fa fa-link'}"></i>`
+                      }
+                    </a>
+                  </li>
+                `).join("")}
+              </ul>
+            </div>
+          </div>`;
         contactSection.innerHTML = contactContent;
       }
 
       // Footer Name
       const footerName = document.getElementById("footer-name");
       if (footerName) footerName.textContent = data.name || (currentLang === "vi" ? "Tên Nhà Thiết Kế" : "Designer Name");
+
     } catch (error) {
       console.error("Could not load personal info:", error);
       if (heroSection) {
@@ -160,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Fetch and display projects
+  // Fetch và hiển thị dự án
   async function loadProjects() {
     const projectGrid = document.querySelector(".project-grid");
     if (!projectGrid) {
@@ -173,37 +161,35 @@ document.addEventListener("DOMContentLoaded", () => {
       const response = await fetch(`${API_BASE_URL}/${currentLang}/projects.json`);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       const projects = await response.json();
-      console.log("Projects loaded:", projects);
 
-      if (projectGrid) {
-        projectGrid.innerHTML = "";
-        projects.forEach((project) => {
-          const projectCard = document.createElement("div");
-          projectCard.classList.add("project-card");
-          projectCard.dataset.projectId = project.id;
-          projectCard.innerHTML = `
-            <img src="${project.project_thumbnail_url || 'images/placeholder.jpg'}" alt="${project.project_name || 'Project'}" class="project-thumbnail"
-                 style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;"
-                 loading="lazy">
-            <div class="project-info">
-              <h3>${project.project_name || (currentLang === "vi" ? "Tên Dự Án" : "Project Name")}</h3>
-              <span class="project-category">${project.project_category || (currentLang === "vi" ? "Thể loại" : "Category")}</span>
-              <p class="project-summary">${project.project_summary || (currentLang === "vi" ? "Tóm tắt dự án" : "Project summary")}</p>
-            </div>
-          `;
-          projectCard.addEventListener("click", () => openProjectModal(project.id, projects));
-          projectGrid.appendChild(projectCard);
-        });
-      }
+      projectGrid.innerHTML = "";
+      projects.forEach(project => {
+        const projectCard = document.createElement("div");
+        projectCard.classList.add("project-card");
+        projectCard.dataset.projectId = project.id;
+        projectCard.innerHTML = `
+          <img src="${project.project_thumbnail_url || 'images/placeholder.jpg'}" alt="${project.project_name || 'Project'}" class="project-thumbnail"
+               style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;"
+               loading="lazy">
+          <div class="project-info">
+            <h3>${project.project_name || (currentLang === "vi" ? "Tên Dự Án" : "Project Name")}</h3>
+            <span class="project-category">${project.project_category || (currentLang === "vi" ? "Thể loại" : "Category")}</span>
+            <p class="project-summary">${project.project_summary || (currentLang === "vi" ? "Tóm tắt dự án" : "Project summary")}</p>
+          </div>
+        `;
+        projectCard.addEventListener("click", () => openProjectModal(project.id, projects));
+        projectGrid.appendChild(projectCard);
+      });
     } catch (error) {
       console.error("Could not load projects:", error);
+      const projectGrid = document.querySelector(".project-grid");
       if (projectGrid) {
         projectGrid.innerHTML = `<p>${currentLang === "vi" ? "Lỗi tải danh sách dự án." : "Error loading project list."}</p>`;
       }
     }
   }
 
-  // Modal functionality
+  // Modal hiển thị chi tiết dự án
   function openProjectModal(projectId, allProjects) {
     const modal = document.getElementById("project-modal");
     const modalContent = document.getElementById("modal-project-content");
@@ -212,15 +198,15 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const project = allProjects.find((p) => p.id === projectId);
+    const project = allProjects.find(p => p.id === projectId);
     if (!project) {
       console.error("Project not found:", projectId);
       return;
     }
 
-    const imageCount = (project.media || []).filter((item) => item.type === "image").length;
+    const imageCount = (project.media || []).filter(item => item.type === "image").length;
     let mediaHTML = '<div class="media-gallery">';
-    (project.media || []).forEach((item) => {
+    (project.media || []).forEach(item => {
       if (item.type === "image") {
         const isMultiple = imageCount > 1;
         const imageStyle = isMultiple
@@ -228,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
           : "width: 100%; height: auto;";
         mediaHTML += `
           <div class="media-item">
-            <img class="zoomable-image" src="${item.url || ' builder: images/placeholder.jpg'}" alt="${item.alt_text || 'Media'}"
+            <img class="zoomable-image" src="${item.url || 'images/placeholder.jpg'}" alt="${item.alt_text || 'Media'}"
                  style="border: 2px solid black !important; ${imageStyle}">
             <p style="text-align: justify;">${item.caption || ""}</p>
           </div>`;
@@ -267,7 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
           : ""
       }
       ${
-        project.project_pressed_url
+        project.project_live_url
           ? `<p><a href="${project.project_live_url}" target="_blank" class="cta-button" aria-label="Xem dự án trực tiếp">${project.view_live_label || (currentLang === "vi" ? "Xem trực tiếp" : "View Live")}</a></p>`
           : ""
       }
@@ -282,37 +268,35 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.style.display = "block";
   }
 
-  // Modal close functionality
+  // Đóng modal
   const closeButton = document.querySelector(".close-button");
   if (closeButton) {
-    closeButton.onclick = function () {
+    closeButton.onclick = () => {
       const modal = document.getElementById("project-modal");
       if (modal) modal.style.display = "none";
     };
   }
 
-  window.onclick = function (event) {
+  window.onclick = event => {
     const modal = document.getElementById("project-modal");
     if (event.target === modal) {
       if (modal) modal.style.display = "none";
     }
   };
 
-  // Smooth scrolling for navigation links
-  document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
-    anchor.addEventListener("click", function (e) {
+  // Scroll mượt cho navigation
+  document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", e => {
       e.preventDefault();
-      const targetId = this.getAttribute("href");
+      const targetId = anchor.getAttribute("href");
       const targetElement = document.querySelector(targetId);
       if (targetElement) {
-        targetElement.scrollIntoView({
-          behavior: "smooth",
-        });
+        targetElement.scrollIntoView({ behavior: "smooth" });
       }
     });
   });
 
-  // Hamburger menu toggle
+  // Toggle hamburger menu
   const hamburger = document.getElementById("hamburger");
   const navUl = document.querySelector("nav ul");
   if (hamburger && navUl) {
@@ -322,11 +306,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Image zoom overlay
+  // Zoom ảnh overlay
   const overlay = document.getElementById("imageOverlay");
   const overlayImage = document.getElementById("overlayImage");
 
-  document.body.addEventListener("click", function (e) {
+  document.body.addEventListener("click", e => {
     if (e.target.classList.contains("zoomable-image")) {
       overlayImage.src = e.target.src;
       overlay.style.display = "flex";
@@ -337,21 +321,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Initialize
-  async function init() {
-    const select = document.getElementById("language-select");
-    if (!select) {
-      console.error("Language select element not found during initialization!");
-      return;
-    }
-    select.value = currentLang;
-    select.addEventListener("change", changeLanguage); // Gắn sự kiện động
-    document.documentElement.lang = currentLang;
-    document.title = currentLang === "vi" ? "Portfolio Thiết Kế" : "Design Portfolio";
-    console.log("Initializing with language:", currentLang);
-    await loadPersonalInfo();
-    await loadProjects();
+  // Xử lý chọn ngôn ngữ bằng click icon cờ
+  const langVi = document.getElementById("lang-vi");
+  const langEn = document.getElementById("lang-en");
+
+  if (langVi && langEn) {
+    langVi.addEventListener("click", () => setLanguage("vi"));
+    langEn.addEventListener("click", () => setLanguage("en"));
+  } else {
+    console.error("Language icon elements not found!");
   }
 
-  init();
+  // Khởi tạo ban đầu
+  loadAll();
 });
