@@ -1,79 +1,83 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Thiết Kế</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <a href="#" onclick="location.reload(); return false;">
-            <img src="images/icon_web/iocn.png" alt="icon" style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" />
-          </a>
-        </div>
-        <ul>
-          <li><a href="#hero" data-lang="nav_home">Trang Chủ</a></li>
-          <li><a href="#about" data-lang="nav_about">Giới Thiệu</a></li>
-          <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
-          <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
-        </ul>
-
-      <div class="language-icons">
-  <img src="images/icon_language/VN.png" alt="Tiếng Việt" id="lang-vi" style="cursor:pointer; width:24px; margin-right:10px;" />
-  <img src="images/icon_language/co_My.png" alt="English" id="lang-en" style="cursor:pointer; width:24px;" />
-</div>
-
-       
-      </nav>
-    </header>
-
-    <main>
-      <section id="hero" class="hero-section"></section>
-      <section id="about" class="about-section">
-        <h2>Về Tôi</h2>
-      </section>
-      <section id="projects" class="projects-section">
-        <h2 data-lang="projects_title">Dự Án Của Tôi</h2>
-        <div class="project-grid"></div>
-      </section>
-      <section id="contact" class="contact-section" style="background: radial-gradient(circle at 30% 40%, #ffd1dc 0%, #ffe4ec 30%, #fff 100%);">
-        <h2>Liên Hệ</h2>
-      </section>
-    </main>
-
-    <footer>
-      <p>
-        © 2022 <span id="footer-name">Tên Nhà Thiết Kế</span>. Design with ❤️.
-      </p>
-    </footer>
-
-    <div id="project-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-button">×</span>
-        <div id="modal-project-content">
-          <span class="close-button">×</span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio thiết kế chuyên nghiệp, giới thiệu dự án và thông tin liên hệ." />
+  <title>Portfolio Thiết Kế</title>
+  <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
+  
+  <!-- Font Awesome (giữ 1 link thôi) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- CSS chính -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <div class="logo">
+        <a href="#" onclick="location.reload(); return false;" aria-label="Trang chủ">
+          <img src="images/icon_web/iocn.png" alt="Logo" style="max-width: 80px; height: auto; vertical-align: middle; margin-right: 40px;" />
+        </a>
       </div>
-    </div>
-    <div class="image-overlay" id="imageOverlay">
-      <img id="overlayImage" src="" alt="" />
-    </div>
+      
+      <!-- Hamburger menu button cho mobile -->
 
-    <!-- Load file JS tách ra -->
-    <script src="js/language.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#hero" data-lang="nav_home">Trang Chủ</a></li>
+        <li><a href="#about" data-lang="nav_about">Giới Thiệu</a></li>
+        <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
+        <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
+      </ul>
+
+      <div class="language-icons" role="list" aria-label="Chọn ngôn ngữ">
+        <img src="images/icon_language/VN.png" alt="Tiếng Việt" id="lang-vi" tabindex="0" style="cursor:pointer; width:24px; margin-right:10px;" />
+        <img src="images/icon_language/co_My.png" alt="English" id="lang-en" tabindex="0" style="cursor:pointer; width:24px;" />
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section"></section>
+    <section id="about" class="about-section">
+      <h2>Về Tôi</h2>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2 data-lang="projects_title">Dự Án Của Tôi</h2>
+      <div class="project-grid"></div>
+    </section>
+    <section id="contact" class="contact-section" style="background: radial-gradient(circle at 30% 40%, #ffd1dc 0%, #ffe4ec 30%, #fff 100%);">
+      <h2>Liên Hệ</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2022 <span id="footer-name">Tên Nhà Thiết Kế</span>. Design with ❤️.</p>
+  </footer>
+
+  <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-content">
+    <div class="modal-content">
+      <button class="close-button" aria-label="Đóng modal">×</button>
+      <div id="modal-project-content"></div>
+    </div>
+  </div>
+
+  <div class="image-overlay" id="imageOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <img id="overlayImage" src="" alt="" />
+  </div>
+
+  <!-- JS -->
+  <script src="js/language.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
