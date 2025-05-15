@@ -2,12 +2,11 @@
 <html lang="vi">
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-     <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon">
+    <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Thiết Kế</title>
     <link rel="stylesheet" href="css/style.css" />
-    <!-- Thêm link FontAwesome nếu cần cho icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -21,70 +20,119 @@
     <header>
       <nav>
         <div class="logo">
-        <img src="images/icon_web/iocn.png" alt="icon" style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;">
-       </div>
-      
+          <img src="images/icon_web/iocn.png" alt="icon" style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;">
+        </div>
         <ul>
-          <li><a href="#hero">Trang Chủ</a></li>
-          <li><a href="#about">Giới Thiệu</a></li>
-          <li><a href="#projects">Dự Án</a></li>
-          <li><a href="#contact">Liên Hệ</a></li>
+          <li><a href="#hero" data-lang="nav_home">Trang Chủ</a></li>
+          <li><a href="#about" data-lang="nav_about">Giới Thiệu</a></li>
+          <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
+          <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
         </ul>
         <div class="hamburger" id="hamburger">
-         
           <!-- Hamburger icon -->
         </div>
         <select id="language-select" onchange="changeLanguage()">
-  <option value="vi">Tiếng Việt</option>
-  <option value="en">English</option>
-</select>
+          <option value="vi">Tiếng Việt</option>
+          <option value="en">English</option>
+        </select>
       </nav>
     </header>
 
     <main>
-      <section id="hero" class="hero-section">
-        <!-- Nội dung hero sẽ được tải từ personal_info.json -->
-      </section>
-
+      <section id="hero" class="hero-section"></section>
       <section id="about" class="about-section">
         <h2>Về Tôi</h2>
-        <!-- Nội dung giới thiệu, kỹ năng, kinh nghiệm sẽ được tải từ personal_info.json -->
       </section>
-
       <section id="projects" class="projects-section">
-        <h2>Dự Án Của Tôi</h2>
-        <div class="project-grid">
-          <!-- Các dự án sẽ được tải từ projects.json -->
-        </div>
+        <h2 data-lang="projects_title">Dự Án Của Tôi</h2>
+        <div class="project-grid"></div>
       </section>
-
-    <section id="contact" class="contact-section" style="background: radial-gradient(circle at 30% 40%, #ffd1dc 0%, #ffe4ec 30%, #fff 100%);">
-  <h2>Liên Hệ</h2>
-  <!-- Thông tin liên hệ sẽ được tải từ personal_info.json -->
-</section>
+      <section id="contact" class="contact-section" style="background: radial-gradient(circle at 30% 40%, #ffd1dc 0%, #ffe4ec 30%, #fff 100%);">
+        <h2>Liên Hệ</h2>
+      </section>
     </main>
 
-<footer>
-  <p>
-    &copy; 2022 <span id="footer-name">Tên Nhà Thiết Kế</span>. Design with
-    ❤️.
-  </p>
-</footer>
+    <footer>
+      <p>
+        © 2022 <span id="footer-name">Tên Nhà Thiết Kế</span>. Design with
+        ❤️.
+      </p>
+    </footer>
 
-
-    <!-- Modal cho chi tiết dự án -->
     <div id="project-modal" class="modal">
       <div class="modal-content">
-        <span class="close-button">&times;</span>
+        <span class="close-button">×</span>
         <div id="modal-project-content">
-          <!-- Chi tiết dự án sẽ được tải vào đây -->
-          <span class="close-button">&times;</span>
+          <span class="close-button">×</span>
         </div>
       </div>
     </div>
     <div class="image-overlay" id="imageOverlay">
       <img id="overlayImage" src="" alt="">
-  </div>
+    </div>
+
+    <!-- Script nội tuyến để xử lý chuyển đổi ngôn ngữ -->
+    <script>
+      // Đối tượng translations
+      const translations = {
+        vi: {
+          nav_home: "Trang Chủ",
+          nav_about: "Giới Thiệu",
+          nav_projects: "Dự Án",
+          nav_contact: "Liên Hệ",
+          projects_title: "Dự Án Của Tôi"
+        },
+        en: {
+          nav_home: "Home",
+          nav_about: "About",
+          nav_projects: "Projects",
+          nav_contact: "Contact",
+          projects_title: "My Projects"
+        }
+      };
+
+      // Lấy ngôn ngữ từ localStorage hoặc mặc định là 'vi'
+      let currentLang = localStorage.getItem("language") || "vi";
+
+      // Hàm cập nhật các phần tử có data-lang
+      function updateTranslations() {
+        const elements = document.querySelectorAll("[data-lang]");
+        elements.forEach(element => {
+          const key = element.getAttribute("data-lang");
+          element.textContent = translations[currentLang][key] || element.textContent;
+        });
+      }
+
+      // Hàm xử lý thay đổi ngôn ngữ
+      function changeLanguage() {
+        const select = document.getElementById("language-select");
+        if (select) {
+          currentLang = select.value;
+          localStorage.setItem("language", currentLang);
+          updateTranslations();
+        }
+      }
+
+      // Xử lý hamburger menu
+      const hamburger = document.getElementById("hamburger");
+      const navUl = document.querySelector("nav ul");
+      if (hamburger && navUl) {
+        hamburger.innerHTML = "☰";
+        hamburger.addEventListener("click", () => {
+          navUl.classList.toggle("active");
+        });
+      }
+
+      // Khởi tạo
+      document.addEventListener("DOMContentLoaded", () => {
+        const select = document.getElementById("language-select");
+        if (select) {
+          select.value = currentLang;
+          updateTranslations();
+        }
+      });
+    </script>
+
     <script src="js/script.js"></script>
   </body>
 </html>
