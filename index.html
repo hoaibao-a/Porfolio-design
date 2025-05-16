@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWixZZ6A3Qe4bZ6eTU6e+h8o9AipfL92VNgE7i4A2W5I8B/0nW2Q2zTJ2uF9lcIXvZ9sx6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Thiết Kế</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">
           <a href="#hero">
-            <img src="images/icon_web/iocn.png" alt="icon" style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" />
+            <img 
+              src="images/icon_web/iocn.png" 
+              alt="icon" 
+              style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" 
+              loading="eager" 
+              fetchpriority="high" 
+              decoding="async"
+              srcset="images/icon_web/iocn.png 1x, images/icon_web/iocn@2x.png 2x"
+              sizes="80px"
+            />
           </a>
         </div>
         <ul>
@@ -32,8 +34,26 @@
         </ul>
         <div class="nav-right">
           <div class="language-icons">
-            <img src="images/icon_language/VN.png" alt="Tiếng Việt" id="lang-vi" style="cursor: pointer; width: 24px; margin-right: 10px;" />
-            <img src="images/icon_language/co_My.png" alt="English" id="lang-en" style="cursor: pointer; width: 24px;" />
+            <img 
+              src="images/icon_language/VN.png" 
+              alt="Tiếng Việt" 
+              id="lang-vi" 
+              style="cursor: pointer; width: 24px; margin-right: 10px;" 
+              loading="lazy" 
+              decoding="async"
+              srcset="images/icon_language/VN.png 1x, images/icon_language/VN@2x.png 2x"
+              sizes="24px"
+            />
+            <img 
+              src="images/icon_language/co_My.png" 
+              alt="English" 
+              id="lang-en" 
+              style="cursor: pointer; width: 24px;" 
+              loading="lazy" 
+              decoding="async"
+              srcset="images/icon_language/co_My.png 1x, images/icon_language/co_My@2x.png 2x"
+              sizes="24px"
+            />
           </div>
           <div class="hamburger" id="hamburger">☰</div>
         </div>
@@ -67,10 +87,15 @@
       </div>
     </div>
     <div class="image-overlay" id="imageOverlay">
-      <img id="overlayImage" src="" alt="" />
+      <img 
+        id="overlayImage" 
+        src="" 
+        alt="" 
+        loading="lazy" 
+        decoding="async"
+      />
     </div>
 
-   
     <script src="js/script.js"></script>
   </body>
 </html>
