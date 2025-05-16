@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const API_BASE_URL = 'data';
-  let currentLang = localStorage.getItem("language") || "vi";
+  let currentLang = localStorage.getItem("language") || sessionStorage.getItem("language") || "vi";
 
   // Lưu text gốc (tiếng Việt) của phần tử data-lang
   const elements = document.querySelectorAll('[data-lang]');
@@ -33,7 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Load tất cả nội dung
   async function loadAll() {
     console.log('Loading all content for language:', currentLang);
-    localStorage.setItem('language', currentLang); // Ép lưu localStorage
+    // Ép lưu cả localStorage và sessionStorage
+    localStorage.setItem('language', currentLang);
+    sessionStorage.setItem('language', currentLang);
     switchLanguage(currentLang); // Cập nhật data-lang trước
     await loadPersonalInfo();
     await loadProjects();
@@ -47,7 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     console.log('Setting language to:', lang);
     currentLang = lang;
-    localStorage.setItem('language', lang); // Lưu ngay
+    // Lưu ngay vào cả localStorage và sessionStorage
+    localStorage.setItem('language', lang);
+    sessionStorage.setItem('language', lang);
+    console.log('Stored language:', localStorage.getItem('language'), sessionStorage.getItem('language'));
     switchLanguage(lang); // Cập nhật data-lang ngay
     loadAll(); // Tải lại nội dung
   }
@@ -63,7 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await fetch(`${API_BASE_URL}/${currentLang}/personal_info.json`);
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      if (!response.ok) {
+        console.warn(`Failed to fetch personal_info for ${currentLang}, trying fallback`);
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
       const data = await response.json();
 
       // Hero Section
@@ -192,7 +200,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await fetch(`${API_BASE_URL}/${currentLang}/projects.json`);
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      if (!response.ok) {
+        console.warn(`Failed to fetch projects for ${currentLang}, trying fallback`);
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
       const projects = await response.json();
 
       projectGrid.innerHTML = "";
@@ -356,19 +367,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const langVi = document.getElementById("lang-vi");
   const langEn = document.getElementById("lang-en");
   if (langVi && langEn) {
-    ['pointerdown'].forEach(event => {
+    ['click', 'touchstart'].forEach(event => {
       langVi.addEventListener(event, e => {
         e.preventDefault();
         e.stopPropagation();
         console.log('Vietnamese flag triggered');
         setLanguage("vi");
-      });
+      }, { passive: false });
       langEn.addEventListener(event, e => {
         e.preventDefault();
         e.stopPropagation();
         console.log('English flag triggered');
         setLanguage("en");
-      });
+      }, { passive: false });
     });
   } else {
     console.error("Language icon elements not found!");
@@ -377,13 +388,15 @@ document.addEventListener("DOMContentLoaded", () => {
   // Ngăn reload không mong muốn
   window.addEventListener('beforeunload', () => {
     localStorage.setItem('language', currentLang);
+    sessionStorage.setItem('language', currentLang);
     console.log('Saving language before unload:', currentLang);
   });
 
-  // Kiểm tra localStorage khi tải trang
+  // Kiểm tra localStorage và sessionStorage khi tải trang
   console.log('Initial localStorage language:', localStorage.getItem('language'));
-  if (localStorage.getItem('language')) {
-    currentLang = localStorage.getItem('language');
+  console.log('Initial sessionStorage language:', sessionStorage.getItem('language'));
+  if (localStorage.getItem('language') || sessionStorage.getItem('language')) {
+    currentLang = localStorage.getItem('language') || sessionStorage.getItem('language');
     console.log('Using stored language:', currentLang);
   }
 
