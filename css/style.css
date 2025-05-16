@@ -109,6 +109,8 @@ nav ul li a:hover, nav ul li a.active {
     height: 24px;
     cursor: pointer;
     transition: opacity 0.3s, transform 0.3s;
+    touch-action: manipulation;
+    padding: 5px; /* Tăng vùng nhấp */
 }
 .language-icons img:hover {
     opacity: 0.8;
@@ -501,8 +503,9 @@ footer p {
         gap: 10px;
     }
     .language-icons img {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
+        padding: 8px; /* Tăng vùng nhấp trên mobile */
     }
     .hamburger {
         display: block;
