@@ -1,28 +1,52 @@
 document.addEventListener("DOMContentLoaded", () => {
   const API_BASE_URL = 'data';
-  let currentLang = localStorage.getItem("language") || "vi"; // Mặc định tiếng Việt
+  let currentLang = localStorage.getItem("language") || "vi";
 
-  // Load tất cả nội dung theo ngôn ngữ hiện tại
+  // Lưu text gốc (tiếng Việt) của phần tử data-lang
+  const elements = document.querySelectorAll('[data-lang]');
+  const originalTexts = {};
+  elements.forEach(el => {
+    originalTexts[el.getAttribute('data-lang')] = el.textContent.trim();
+  });
+
+  // Bảng dịch tiếng Anh
+  const translations = {
+    nav_home: 'Home',
+    nav_about: 'About',
+    nav_projects: 'Projects',
+    nav_contact: 'Contact',
+    projects_title: 'My Projects',
+    footer_name: 'Designer Name'
+  };
+
+  // Cập nhật văn bản data-lang
+  function switchLanguage(lang) {
+    console.log('Switching to language:', lang);
+    elements.forEach(el => {
+      const key = el.getAttribute('data-lang');
+      el.textContent = lang === 'vi' ? originalTexts[key] : translations[key] || originalTexts[key];
+    });
+  }
+
+  // Load tất cả nội dung
   async function loadAll() {
     document.documentElement.lang = currentLang;
     document.title = currentLang === "vi" ? "Portfolio Thiết Kế" : "Design Portfolio";
+    switchLanguage(currentLang); // Cập nhật data-lang
     await loadPersonalInfo();
     await loadProjects();
   }
 
-  // Đổi ngôn ngữ và lưu vào localStorage, rồi tải lại nội dung
-async function setLanguage(lang) {
-  if (lang === currentLang) return;
-  currentLang = lang;
-  localStorage.setItem('language', lang);
-  await loadAll();
-  // Gọi switchLanguage từ file thứ hai nếu nó tồn tại
-  if (typeof window.switchLanguage === 'function') {
-    window.switchLanguage(lang);
+  // Đổi ngôn ngữ và tải lại nội dung
+  async function setLanguage(lang) {
+    if (lang === currentLang) return;
+    currentLang = lang;
+    localStorage.setItem('language', lang);
+    console.log('Language set to:', lang);
+    await loadAll();
   }
-}
 
-  // Fetch và hiển thị thông tin cá nhân
+  // Fetch thông tin cá nhân
   async function loadPersonalInfo() {
     const heroSection = document.getElementById("hero");
     if (!heroSection) {
@@ -142,8 +166,7 @@ async function setLanguage(lang) {
 
       // Footer Name
       const footerName = document.getElementById("footer-name");
-      if (footerName) footerName.textContent = data.name || (currentLang === "vi" ? "Tên Nhà Thiết Kế" : "Designer Name");
-
+      if (footerName) footerName.textContent = data.name || translations.footer_name;
     } catch (error) {
       console.error("Could not load personal info:", error);
       if (heroSection) {
@@ -152,7 +175,7 @@ async function setLanguage(lang) {
     }
   }
 
-  // Fetch và hiển thị dự án
+  // Fetch dự án
   async function loadProjects() {
     const projectGrid = document.querySelector(".project-grid");
     if (!projectGrid) {
@@ -186,14 +209,13 @@ async function setLanguage(lang) {
       });
     } catch (error) {
       console.error("Could not load projects:", error);
-      const projectGrid = document.querySelector(".project-grid");
       if (projectGrid) {
         projectGrid.innerHTML = `<p>${currentLang === "vi" ? "Lỗi tải danh sách dự án." : "Error loading project list."}</p>`;
       }
     }
   }
 
-  // Modal hiển thị chi tiết dự án
+  // Modal chi tiết dự án
   function openProjectModal(projectId, allProjects) {
     const modal = document.getElementById("project-modal");
     const modalContent = document.getElementById("modal-project-content");
@@ -288,7 +310,7 @@ async function setLanguage(lang) {
     }
   };
 
-  // Scroll mượt cho navigation
+  // Cuộn mượt
   document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", e => {
       e.preventDefault();
@@ -300,7 +322,7 @@ async function setLanguage(lang) {
     });
   });
 
-  // Toggle hamburger menu
+  // Hamburger menu
   const hamburger = document.getElementById("hamburger");
   const navUl = document.querySelector("nav ul");
   if (hamburger && navUl) {
@@ -310,10 +332,9 @@ async function setLanguage(lang) {
     });
   }
 
-  // Zoom ảnh overlay
+  // Zoom ảnh
   const overlay = document.getElementById("imageOverlay");
   const overlayImage = document.getElementById("overlayImage");
-
   document.body.addEventListener("click", e => {
     if (e.target.classList.contains("zoomable-image")) {
       overlayImage.src = e.target.src;
@@ -325,17 +346,26 @@ async function setLanguage(lang) {
     }
   });
 
-  // Xử lý chọn ngôn ngữ bằng click icon cờ
+  // Xử lý cờ ngôn ngữ
   const langVi = document.getElementById("lang-vi");
   const langEn = document.getElementById("lang-en");
-
   if (langVi && langEn) {
-    langVi.addEventListener("click", () => setLanguage("vi"));
-    langEn.addEventListener("click", () => setLanguage("en"));
+    ['click', 'touchstart'].forEach(event => {
+      langVi.addEventListener(event, e => {
+        e.preventDefault();
+        console.log('Vietnamese flag triggered');
+        setLanguage("vi");
+      });
+      langEn.addEventListener(event, e => {
+        e.preventDefault();
+        console.log('English flag triggered');
+        setLanguage("en");
+      });
+    });
   } else {
     console.error("Language icon elements not found!");
   }
 
-  // Khởi tạo ban đầu
+  // Khởi tạo
   loadAll();
 });
