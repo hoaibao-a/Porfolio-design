@@ -11,12 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Đổi ngôn ngữ và lưu vào localStorage, rồi tải lại nội dung
-  async function setLanguage(lang) {
-    if (lang === currentLang) return; // Nếu đã chọn ngôn ngữ đó thì thôi
-    currentLang = lang;
-    localStorage.setItem("language", lang);
-    await loadAll();
+async function setLanguage(lang) {
+  if (lang === currentLang) return;
+  currentLang = lang;
+  localStorage.setItem('language', lang);
+  await loadAll();
+  // Gọi switchLanguage từ file thứ hai nếu nó tồn tại
+  if (typeof window.switchLanguage === 'function') {
+    window.switchLanguage(lang);
   }
+}
 
   // Fetch và hiển thị thông tin cá nhân
   async function loadPersonalInfo() {

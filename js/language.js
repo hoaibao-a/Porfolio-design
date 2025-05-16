@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     nav_contact: 'Contact',
     projects_title: 'My Projects',
     footer_name: 'Designer Name',
-    // ... bạn có thể thêm nếu cần
   };
 
   // Hàm đổi ngôn ngữ
@@ -22,19 +21,39 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.forEach(el => {
       const key = el.getAttribute('data-lang');
       if (lang === 'vi') {
-        // Trả về text gốc tiếng Việt
         el.textContent = originalTexts[key];
       } else if (lang === 'en') {
-        // Nếu có dịch thì thay, không thì giữ nguyên
         el.textContent = translations[key] || originalTexts[key];
       }
     });
   }
 
+  // Lấy ngôn ngữ hiện tại từ localStorage
+  const currentLang = localStorage.getItem('language') || 'vi';
+  
   // Gán sự kiện click cho icon cờ
-  document.getElementById('lang-en').addEventListener('click', () => switchLanguage('en'));
-  document.getElementById('lang-vi').addEventListener('click', () => switchLanguage('vi'));
+  document.getElementById('lang-en').addEventListener('click', () => {
+    // Gọi setLanguage của file đầu tiên (nếu có) và switchLanguage
+    if (typeof setLanguage === 'function') {
+      setLanguage('en');
+    } else {
+      localStorage.setItem('language', 'en');
+      switchLanguage('en');
+    }
+  });
+  
+  document.getElementById('lang-vi').addEventListener('click', () => {
+    if (typeof setLanguage === 'function') {
+      setLanguage('vi');
+    } else {
+      localStorage.setItem('language', 'vi');
+      switchLanguage('vi');
+    }
+  });
 
-  // Mặc định tiếng Việt
-  switchLanguage('vi');
+  // Gọi switchLanguage với ngôn ngữ hiện tại
+  switchLanguage(currentLang);
+
+  // Xuất switchLanguage để file đầu tiên có thể gọi (nếu cần)
+  window.switchLanguage = switchLanguage;
 });
