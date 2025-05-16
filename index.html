@@ -20,10 +20,9 @@
     <header>
       <nav>
         <div class="logo">
-      <a href="#" onclick="window.location.href = window.location.href; return false;">
-  <img src="images/icon_web/iocn.png" alt="icon" style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" />
-</a>
-
+          <a href="#" onclick="window.location.href = window.location.href; return false;">
+            <img src="images/icon_web/iocn.png" alt="icon" style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" />
+          </a>
         </div>
         <ul>
           <li><a href="#hero" data-lang="nav_home">Trang Chủ</a></li>
@@ -31,13 +30,13 @@
           <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
           <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
         </ul>
-
-      <div class="language-icons">
-  <img src="images/icon_language/VN.png" alt="Tiếng Việt" id="lang-vi" style="cursor:pointer; width:24px; margin-right:10px;" />
-  <img src="images/icon_language/co_My.png" alt="English" id="lang-en" style="cursor:pointer; width:24px;" />
-</div>
-
-       
+        <div class="nav-right">
+          <div class="language-icons">
+            <img src="images/icon_language/VN.png" alt="Tiếng Việt" id="lang-vi" style="cursor: pointer; width: 24px; margin-right: 10px;" />
+            <img src="images/icon_language/co_My.png" alt="English" id="lang-en" style="cursor: pointer; width: 24px;" />
+          </div>
+          <div class="hamburger" id="hamburger">☰</div>
+        </div>
       </nav>
     </header>
 
@@ -63,9 +62,7 @@
 
     <div id="project-modal" class="modal">
       <div class="modal-content">
-        
-        <div id="modal-project-content">
-        </div>
+        <div id="modal-project-content"></div>
         <span class="close-button">×</span>
       </div>
     </div>
@@ -73,7 +70,6 @@
       <img id="overlayImage" src="" alt="" />
     </div>
 
-    <!-- Load file JS tách ra -->
     <script src="js/language.js"></script>
     <script src="js/script.js"></script>
   </body>
