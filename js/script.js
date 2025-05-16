@@ -26,24 +26,30 @@ document.addEventListener("DOMContentLoaded", () => {
       const key = el.getAttribute('data-lang');
       el.textContent = lang === 'vi' ? originalTexts[key] : translations[key] || originalTexts[key];
     });
+    document.documentElement.lang = lang;
+    document.title = lang === "vi" ? "Portfolio Thiết Kế" : "Design Portfolio";
   }
 
   // Load tất cả nội dung
   async function loadAll() {
-    document.documentElement.lang = currentLang;
-    document.title = currentLang === "vi" ? "Portfolio Thiết Kế" : "Design Portfolio";
-    switchLanguage(currentLang); // Cập nhật data-lang
+    console.log('Loading all content for language:', currentLang);
+    localStorage.setItem('language', currentLang); // Ép lưu localStorage
+    switchLanguage(currentLang); // Cập nhật data-lang trước
     await loadPersonalInfo();
     await loadProjects();
   }
 
   // Đổi ngôn ngữ và tải lại nội dung
-  async function setLanguage(lang) {
-    if (lang === currentLang) return;
+  function setLanguage(lang) {
+    if (lang === currentLang) {
+      console.log('Language unchanged:', lang);
+      return;
+    }
+    console.log('Setting language to:', lang);
     currentLang = lang;
-    localStorage.setItem('language', lang);
-    console.log('Language set to:', lang);
-    await loadAll();
+    localStorage.setItem('language', lang); // Lưu ngay
+    switchLanguage(lang); // Cập nhật data-lang ngay
+    loadAll(); // Tải lại nội dung
   }
 
   // Fetch thông tin cá nhân
@@ -350,20 +356,35 @@ document.addEventListener("DOMContentLoaded", () => {
   const langVi = document.getElementById("lang-vi");
   const langEn = document.getElementById("lang-en");
   if (langVi && langEn) {
-    ['click', 'touchstart'].forEach(event => {
+    ['pointerdown'].forEach(event => {
       langVi.addEventListener(event, e => {
         e.preventDefault();
+        e.stopPropagation();
         console.log('Vietnamese flag triggered');
         setLanguage("vi");
       });
       langEn.addEventListener(event, e => {
         e.preventDefault();
+        e.stopPropagation();
         console.log('English flag triggered');
         setLanguage("en");
       });
     });
   } else {
     console.error("Language icon elements not found!");
+  }
+
+  // Ngăn reload không mong muốn
+  window.addEventListener('beforeunload', () => {
+    localStorage.setItem('language', currentLang);
+    console.log('Saving language before unload:', currentLang);
+  });
+
+  // Kiểm tra localStorage khi tải trang
+  console.log('Initial localStorage language:', localStorage.getItem('language'));
+  if (localStorage.getItem('language')) {
+    currentLang = localStorage.getItem('language');
+    console.log('Using stored language:', currentLang);
   }
 
   // Khởi tạo
