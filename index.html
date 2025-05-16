@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWixZZ6A3Qe4bZ6eTU6e+h8o9AipfL92VNgE7i4A2W5I8B/0nW2Q2zTJ2uF9lcIXvZ9sx6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Thiết Kế</title>
+    <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWixZZ6A3Qe4bZ6eTU6e+h8o9AipfL92VNgE7i4A2W5I8B/0nW2Q2zTJ2uF9lcIXvZ9sx6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      /* Đảm bảo icon hiển thị trên mobile */
+      .logo img,
+      .language-icons img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+      }
+      @media (max-width: 768px) {
+        .logo img {
+          width: 60px;
+          height: 45px;
+          margin-right: 20px;
+        }
+        .language-icons img {
+          width: 20px;
+          margin-right: 8px;
+        }
+        .nav-right .hamburger {
+          font-size: 24px;
+          cursor: pointer;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -18,11 +42,7 @@
               src="images/icon_web/iocn.png" 
               alt="icon" 
               style="width: 80px; height: 60px; vertical-align: middle; margin-right: 40px;" 
-              loading="eager" 
-              fetchpriority="high" 
-              decoding="async"
-              srcset="images/icon_web/iocn.png 1x, images/icon_web/iocn@2x.png 2x"
-              sizes="80px"
+              fetchpriority="high"
             />
           </a>
         </div>
@@ -39,20 +59,12 @@
               alt="Tiếng Việt" 
               id="lang-vi" 
               style="cursor: pointer; width: 24px; margin-right: 10px;" 
-              loading="lazy" 
-              decoding="async"
-              srcset="images/icon_language/VN.png 1x, images/icon_language/VN@2x.png 2x"
-              sizes="24px"
             />
             <img 
               src="images/icon_language/co_My.png" 
               alt="English" 
               id="lang-en" 
               style="cursor: pointer; width: 24px;" 
-              loading="lazy" 
-              decoding="async"
-              srcset="images/icon_language/co_My.png 1x, images/icon_language/co_My@2x.png 2x"
-              sizes="24px"
             />
           </div>
           <div class="hamburger" id="hamburger">☰</div>
@@ -76,7 +88,7 @@
 
     <footer>
       <p>
-        © 2022 <span id="footer-name" data-lang="footer_name">Tên Nhà Thiết Kế</span>. Design with ❤️.
+        © 2025 <span id="footer-name" data-lang="footer_name">Tên Nhà Thiết Kế</span>. Design with ❤️.
       </p>
     </footer>
 
@@ -87,13 +99,7 @@
       </div>
     </div>
     <div class="image-overlay" id="imageOverlay">
-      <img 
-        id="overlayImage" 
-        src="" 
-        alt="" 
-        loading="lazy" 
-        decoding="async"
-      />
+      <img id="overlayImage" src="" alt="" />
     </div>
 
     <script src="js/script.js"></script>
