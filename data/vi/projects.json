@@ -1,5 +1,224 @@
 [
   {
+  "id": "Thiet-ke-poster-BaoLong",
+  "project_name": "Thiết kế poster - Bao Long Proshop",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-1.jpg?updatedAt=1748010861625",
+  "project_category": "Poster",
+  "project_date": "23 tháng 5 năm 2025",
+  "client_name": "Bao Long Proshop",
+  "project_summary": "Thiết kế poster khuyến mãi mừng đại lễ cho Bao Long Proshop, nổi bật với tông đỏ rực rỡ, hình ảnh pháo hoa và cờ Việt Nam, kết hợp typography nổi bật để truyền tải thông điệp giảm giá mạnh lên đến 50% và tặng voucher giá trị.",
+  "project_description_detailed": "Poster truyền thông cho chương trình ưu đãi lớn nhân dịp đại lễ tại Bao Long Proshop – cửa hàng thời trang golf cao cấp. Thiết kế sử dụng gam màu đỏ chủ đạo tạo không khí lễ hội, với hiệu ứng chữ vàng nổi bật phần trăm giảm giá (up to 50%) và thông điệp tặng voucher 200.000 VNĐ cho đơn hàng từ 2.000.000 VNĐ. Kết hợp các yếu tố đồ họa như pháo hoa, cờ tổ quốc và background cửa hàng tạo cảm giác trang trọng và hấp dẫn.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-1.jpg?updatedAt=1748010861625",
+    "alt_text": "Poster đại lễ khuyến mãi rực đỏ với pháo hoa, cờ Việt và ưu đãi 50% + tặng voucher 200K cho đơn từ 2 triệu.",
+    "caption": "Poster đại lễ khuyến mãi rực đỏ với pháo hoa, cờ Việt và ưu đãi 50% + tặng voucher 200K cho đơn từ 2 triệu."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-2.jpg?updatedAt=1748010863495",
+    "alt_text": "Poster giảm 50% cho bộ gậy golf Fullset Cobra XL Lady – Deal dịp lễ từ Bảo Long Proshop.",
+    "caption": "Poster giảm 50% cho bộ gậy golf Fullset Cobra XL Lady – Deal dịp lễ từ Bảo Long Proshop."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-3.jpg?updatedAt=1748010865931",
+    "alt_text": "Full Set RV-8 giảm giá 50% – ưu đãi đặc biệt nhân dịp đại lễ tại Bảo Long Proshop.",
+    "caption": "Full Set RV-8 giảm giá 50% – ưu đãi đặc biệt nhân dịp đại lễ tại Bảo Long Proshop."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-4.jpg?updatedAt=1748010866522",
+    "alt_text": "Poster tuyển cộng tác viên giới thiệu khách Golf Tour và Proshop – nhận hoa hồng đến 8%.",
+    "caption": "Poster tuyển cộng tác viên giới thiệu khách Golf Tour và Proshop – nhận hoa hồng đến 8%."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-5.jpg?updatedAt=1748010867628",
+    "alt_text": "Không gian mua sắm hiện đại, 5 cửa hàng Bảo Long tại TP.HCM & Hà Nội, đầy đủ phụ kiện golf.",
+    "caption": "Không gian mua sắm hiện đại, 5 cửa hàng Bảo Long tại TP.HCM & Hà Nội, đầy đủ phụ kiện golf."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-6.jpg?updatedAt=1748010867446",
+    "alt_text": "Dịch vụ du lịch golf toàn diện – slogan 'From Swing to Signature' – hình ảnh tour, người chơi, túi gậy.",
+    "caption": "Dịch vụ du lịch golf toàn diện – slogan 'From Swing to Signature' – hình ảnh tour, người chơi, túi gậy."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-7.jpg?updatedAt=1748010867984",
+    "alt_text": "Poster chào mừng đại lễ – sắc đỏ, pháo hoa, ngôi sao vàng, chim lạc – không khí lễ hội sang trọng.",
+    "caption": "Poster chào mừng đại lễ – sắc đỏ, pháo hoa, ngôi sao vàng, chim lạc – không khí lễ hội sang trọng."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-8.jpg?updatedAt=1748010867415",
+    "alt_text": "Golf Fair 2025 – sự kiện tại Long Biên với ưu đãi khủng đến 80% từ nhiều thương hiệu golf cao cấp.",
+    "caption": "Golf Fair 2025 – sự kiện tại Long Biên với ưu đãi khủng đến 80% từ nhiều thương hiệu golf cao cấp."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-9.jpg?updatedAt=1748010867855",
+    "alt_text": "Tour Easy Break – thiết kế theo phong cách cuộn phim – nhắm đến nhiều nhóm khách hàng mục tiêu.",
+    "caption": "Tour Easy Break – thiết kế theo phong cách cuộn phim – nhắm đến nhiều nhóm khách hàng mục tiêu."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-10.jpg?updatedAt=1748010860675",
+    "alt_text": "Gói tour 3N2Đ đến 5N4Đ – chơi 2–3 sân golf, ở khách sạn 4–5 sao – phù hợp doanh nghiệp & khách quốc tế.",
+    "caption": "Gói tour 3N2Đ đến 5N4Đ – chơi 2–3 sân golf, ở khách sạn 4–5 sao – phù hợp doanh nghiệp & khách quốc tế."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-11.jpg?updatedAt=1748010861085",
+    "alt_text": "Poster lễ 30/4 – 1/5 với nền cờ, chim bồ câu và thông điệp tri ân khách hàng từ Bảo Long Proshop.",
+    "caption": "Poster lễ 30/4 – 1/5 với nền cờ, chim bồ câu và thông điệp tri ân khách hàng từ Bảo Long Proshop."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-12.jpg?updatedAt=1748010862103",
+    "alt_text": "Poster đại lễ với trống đồng, pháo hoa, địa danh Việt Nam – đậm đà tinh thần dân tộc trong thể thao.",
+    "caption": "Poster đại lễ với trống đồng, pháo hoa, địa danh Việt Nam – đậm đà tinh thần dân tộc trong thể thao."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-14.jpg?updatedAt=1748010861235",
+    "alt_text": "Tour Easy Break – hành trình 3 vòng golf tại Tân Sơn Nhất, Hồ Tràm và Long Thành – khách sạn cao cấp.",
+    "caption": "Tour Easy Break – hành trình 3 vòng golf tại Tân Sơn Nhất, Hồ Tràm và Long Thành – khách sạn cao cấp."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-15.jpg?updatedAt=1748010860515",
+    "alt_text": "Banner Golf Fair 2025 – ưu đãi 80% từ các thương hiệu golf hàng đầu – tổ chức tại Long Biên, Hà Nội.",
+    "caption": "Banner Golf Fair 2025 – ưu đãi 80% từ các thương hiệu golf hàng đầu – tổ chức tại Long Biên, Hà Nội."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-16.jpg?updatedAt=1748010861603",
+    "alt_text": "Kỷ niệm 50 năm thống nhất – nền đỏ, pháo hoa, golfer đánh bóng – tinh thần đoàn kết & phát triển bền vững.",
+    "caption": "Kỷ niệm 50 năm thống nhất – nền đỏ, pháo hoa, golfer đánh bóng – tinh thần đoàn kết & phát triển bền vững."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-17.jpg?updatedAt=1748010860008",
+    "alt_text": "Danh thiếp CCO Bảo Long – logo, thông tin liên hệ, mã QR, địa chỉ tại TP.HCM và Hà Nội.",
+    "caption": "Danh thiếp CCO Bảo Long – logo, thông tin liên hệ, mã QR, địa chỉ tại TP.HCM và Hà Nội."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/BaoLong/bao-long-18.jpg?updatedAt=1748010859457",
+    "alt_text": "Logo Bảo Long – xanh vàng sang trọng, slogan 'From Swing to Signature' và hệ sinh thái dịch vụ golf.",
+    "caption": "Logo Bảo Long – xanh vàng sang trọng, slogan 'From Swing to Signature' và hệ sinh thái dịch vụ golf."
+  }
+  ]
+}
+,
+{
+  "id": "thiet-ke-poster-nhat-tuu-lau-83",
+  "project_name": "Thiết kế poster 8/3 - Nhật Tửu Lâu",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-1.jpg?updatedAt=1748012903310",
+  "project_category": "Poster",
+  "project_date": "23 tháng 5 năm 2025",
+  "client_name": "Nhật Tửu Lâu",
+  "project_summary": "Thiết kế poster chúc mừng ngày Quốc tế Phụ nữ 8/3 với hình ảnh tông đỏ nổi bật, nhấn mạnh ưu đãi tặng vang đỏ và cá mú cho nhóm khách nữ.",
+  "project_description_detailed": "Poster được thiết kế với tông màu đỏ chủ đạo, thể hiện sự sang trọng và ấm áp. Trung tâm là biểu tượng 8/3 được cách điệu với hình trái tim và vương miện vàng. Bên cạnh đó là hình ảnh món cá mú hấp dẫn và chai vang đỏ cao cấp. Thiết kế truyền tải rõ thông điệp chương trình ưu đãi: nhóm khách đủ 4 nữ được tặng 1 chai vang đỏ, nhóm dưới 4 nữ được tặng 1 con cá mú. Phù hợp sử dụng trên các nền tảng mạng xã hội và in ấn.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-1.jpg?updatedAt=1748012903310",
+  "alt_text": "Phòng trà J&B – nơi mọi cảm xúc được lắng nghe, nổi bật với không gian âm nhạc sống động và món ăn tinh tế.",
+  "caption": "Phòng Trà J&B – Nhật Tửu Lầu, nơi mọi cảm xúc được lắng nghe. Thưởng thức âm nhạc live đầy cảm xúc, không gian lung linh sắc màu và ẩm thực tinh tế. Liên hệ đặt bàn: 090 811 34 56."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-2.jpg?updatedAt=1748012267583",
+  "alt_text": "Đội ngũ nhân viên Nhật Tửu Lầu mặc trang phục đỏ, tươi cười, chuyên nghiệp và thân thiện.",
+  "caption": "Phục vụ tận tình – chu đáo tại Nhật Tửu Lầu. Đội ngũ nhân viên chuyên nghiệp luôn hỗ trợ set-up, gọi món và chăm sóc khách hàng chu đáo từng chi tiết nhỏ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-3.jpg?updatedAt=1748012269383",
+  "alt_text": "Phòng tiệc đẳng cấp với bàn dài, ly tách sang trọng tại Nhật Tửu Lầu.",
+  "caption": "Không gian đẳng cấp – phù hợp mọi loại hình tiệc. Từ sinh nhật, họp mặt công ty đến tiếp khách VIP, Nhật Tửu Lầu luôn là lựa chọn lý tưởng cho sự kiện của bạn."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-4.jpg?updatedAt=1748012270194",
+  "alt_text": "Món cua hoàng đế cỡ lớn tại Nhật Tửu Lầu, bày biện đẹp mắt bên rượu Macallan.",
+  "caption": "Món ăn chất lượng – đẹp mắt – ngon miệng. Nhật Tửu Lầu phục vụ từ bò dát vàng, sashimi cao cấp đến hải sản sống và các món Việt hiện đại."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-5.jpg?updatedAt=1748012268100",
+  "alt_text": "Khuyến mãi 8/3 tại Nhật Tửu Lầu, tặng vang đỏ hoặc cá mú cho nhóm khách nữ.",
+  "caption": "Ưu đãi 8/3 từ Nhật Tửu Lầu – Nhóm 4 khách nữ tặng 1 chai vang đỏ, dưới 4 khách nữ tặng 1 con cá mú. Gửi lời chúc phái đẹp luôn hạnh phúc và được yêu thương!"
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-6.jpg?updatedAt=1748012269668",
+  "alt_text": "Hải sản tươi sống tại Nhật Tửu Lầu – khách hàng chọn món trực tiếp tại bể.",
+  "caption": "Hải sản tươi sống – Trải nghiệm chọn món tại bể tại Nhật Tửu Lầu. Thưởng thức hải sản chất lượng cao, chế biến theo yêu cầu ngay tại chỗ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-7.jpg?updatedAt=1748012269946",
+  "alt_text": "Đội ngũ nhân viên Nhật Tửu Lầu mặc vest, đầm đen, chụp ảnh tại backdrop sự kiện sang trọng.",
+  "caption": "Đội ngũ sự kiện Nhật Tửu Lầu – Tận tình, chuyên nghiệp, hỗ trợ mọi khâu từ lên ý tưởng đến chăm sóc khách tại buổi tiệc. Sự đồng hành đáng tin cậy cho mọi dịp đặc biệt."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-8.jpg?updatedAt=1748012272494",
+  "alt_text": "Không gian tiệc sinh nhật tại Nhật Tửu Lầu với hoa và bóng bay sang trọng.",
+  "caption": "Không gian tiệc sinh nhật ấm cúng, tinh tế tại Nhật Tửu Lầu. Trang trí đẳng cấp, phù hợp tiệc gia đình, công ty, VIP… tạo nên trải nghiệm trọn vẹn cho khách hàng."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-9.jpg?updatedAt=1748012273452",
+  "alt_text": "Tiệc sinh nhật hoành tráng tại Nhật Tửu Lầu với không gian sang trọng và khoảnh khắc đáng nhớ.",
+  "caption": "🎉 Tiệc sinh nhật hoành tráng – Khoảnh khắc trọn vẹn tại Nhật Tửu Lầu. Không gian trang trí ấm cúng, món ăn ngon và dịch vụ tận tâm sẽ giúp bạn lưu giữ trọn vẹn những khoảnh khắc tuyệt vời."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-10.jpg?updatedAt=1748012270264",
+  "alt_text": "Đội ngũ nhân viên Nhật Tửu Lầu chụp ảnh cùng khách trong tiệc sinh nhật, tạo không khí chuyên nghiệp và thân thiện.",
+  "caption": "🌟 Phục vụ tận tình – chu đáo với đội ngũ nhân viên chuyên nghiệp. Luôn hỗ trợ từ set-up, gợi ý món ăn đến chăm sóc khách hàng trong từng chi tiết nhỏ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-11.jpg?updatedAt=1748012270387",
+  "alt_text": "Phòng tiệc sang trọng tại Nhật Tửu Lầu với bàn ăn được trang trí chuyên nghiệp và ánh sáng ấm cúng.",
+  "caption": "🏮 Không gian đẳng cấp – Phù hợp mọi loại hình tiệc. Từ sinh nhật ấm cúng, họp mặt công ty đến tiệc VIP – Nhật Tửu Lầu luôn sẵn sàng phục vụ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-12.jpg?updatedAt=1748012270748",
+  "alt_text": "Tổng hợp các món ăn sang trọng như sashimi, hải sản và món Việt hiện đại tại Nhật Tửu Lầu.",
+  "caption": "🦀 Món ăn chất lượng – Đẹp mắt – Ngon miệng. Thực đơn đa dạng, dễ dàng tuỳ chỉnh theo số lượng khách, ngân sách hoặc sở thích cá nhân."
+}
+  ]
+
+}
+,
+
+  {
     "id": "Thit-k-post-FORD",
     "project_name": "Thiết kế post - FORD",
      "project_thumbnail_url": "images/project/Ford2.png",

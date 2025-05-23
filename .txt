@@ -5,8 +5,29 @@
       //   "caption": "Video demo các tính năng chính và tương tác."
       // }
 
+ {
+    "id": "Thit-k-post-FORD",
+    "project_name": "Thiết kế post - FORD",
+     "project_thumbnail_url": "images/project/Ford2.png",
+    "project_category": "Poster",
+    "project_date": "29 tháng 12 năm 2024",
+    "client_name": "",
+    "project_summary": "Thiết kế poster sự kiện vàng Ford Việt Nam tại Ford Long Biên với tông màu mạnh mẽ, nổi bật hình ảnh Ford Raptor và cầu dây văng về đêm. Thông điệp nhấn mạnh ưu đãi hấp dẫn: giảm giá tiền mặt, tặng phụ kiện và hỗ trợ trả góp đến 80%.",
+    "project_description_detailed": "",
+    "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+    "project_live_url": "",
+    "project_case_study_url": "",
+    "media": [
+    ]
+  },
 
 
+    {
+//       "type": "image",
+//       "url": "images/fun_app_screen_1.png",
+//       "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
+//       "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
+//     },
 
       
 // {
