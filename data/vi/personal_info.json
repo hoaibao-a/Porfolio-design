@@ -21,6 +21,11 @@
       "platform": "Zalo",
       "url": "https://zalo.me/0908875706",
       "icon_class": "./images/Icon_socical/zalo.png"
+    },
+    {
+      "platform": "Gmail",
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&to=ngocthuydesign1012@gmail.com",
+      "icon_class": "./images/Icon_socical/icon_gmail.png"
     }
   ],
 "skills_technical": [
