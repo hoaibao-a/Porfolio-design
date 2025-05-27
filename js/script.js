@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Cập nhật văn bản data-lang
   function switchLanguage(lang) {
     console.log('Chuyển sang ngôn ngữ:', lang);
+    const elements = document.querySelectorAll('[data-lang]');
     elements.forEach(el => {
       const key = el.getAttribute('data-lang');
       el.textContent = lang === 'vi' ? originalTexts[key] : translations[key] || originalTexts[key];
@@ -67,14 +68,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Load tất cả nội dung
-  async function loadAll() {
-    console.log('Tải nội dung cho ngôn ngữ:', currentLang);
-    localStorage.setItem('language', currentLang);
-    switchLanguage(currentLang);
+  async function loadAll(langOverride) {
+    const lang = langOverride || currentLang;
+    currentLang = lang;
+    localStorage.setItem('language', lang);
+    switchLanguage(lang);
     try {
-      await loadPersonalInfo();
-      await loadProjects();
-      await loadVideoProjects();
+      await Promise.all([
+        loadPersonalInfo(),
+        loadProjects(),
+        loadVideoProjects()
+      ]);
     } catch (error) {
       console.error('Không tải được nội dung:', error);
     }
@@ -90,16 +94,30 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Đổi ngôn ngữ
-  const setLanguage = debounce(lang => {
-    if (lang === currentLang) {
-      console.log('Ngôn ngữ không thay đổi:', lang);
-      return;
-    }
-    console.log('Đặt ngôn ngữ thành:', lang);
-    currentLang = lang;
+  const setLanguage = debounce(async (lang) => {
+    if (lang === currentLang) return;
+
+    console.log(">> Đổi ngôn ngữ:", lang);
     localStorage.setItem('language', lang);
+    document.documentElement.lang = lang;
+    currentLang = lang;
+
+    // Reset cache để ép tải lại
+    cachedData = { personalInfo: null, projects: null, videoProjects: null };
+
+    // Cập nhật UI tĩnh
     switchLanguage(lang);
-    loadAll();
+
+    // Tải lại toàn bộ nội dung
+    try {
+      await Promise.all([
+        loadPersonalInfo(),
+        loadProjects(),
+        loadVideoProjects()
+      ]);
+    } catch (error) {
+      console.error('Không tải được nội dung:', error);
+    }
   }, 200);
 
   // Preload ảnh
@@ -113,7 +131,31 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Fetch và render thông tin cá nhân (giữ nguyên)
+  // Hàm tạo defaultPersonalInfo động
+  function getDefaultPersonalInfo(lang) {
+    return {
+      name: lang === "vi" ? "Tên Người Dùng" : "User Name",
+      profile_picture_url: "images/placeholder.jpg",
+      tagline: lang === "vi" ? "Dòng giới thiệu" : "Tagline",
+      bio_short: lang === "vi" ? "Tiểu sử ngắn" : "Short bio",
+      bio_long: lang === "vi" ? "Thông tin chi tiết" : "Detailed information",
+      cta_button: lang === "vi" ? "Xem Dự Án" : "View Projects",
+      about_title: lang === "vi" ? "Về Tôi" : "About Me",
+      skills_technical_title: lang === "vi" ? "Kỹ Năng Chuyên Môn" : "Technical Skills",
+      skills_technical: [],
+      skills_software_title: lang === "vi" ? "Phần Mềm Thành Thạo" : "Proficient Software",
+      skills_software: [],
+      experience_title: lang === "vi" ? "Kinh Nghiệm Làm Việc" : "Work Experience",
+      work_experience: [],
+      contact_title: lang === "vi" ? "Liên Hệ" : "Contact",
+      contact_message: lang === "vi" ? "Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ!" : "Reach out for any questions!",
+      contact_email_label: lang === "vi" ? "Email:" : "Email:",
+      contact_email: "email@example.com",
+      social_links: []
+    };
+  }
+
+  // Fetch và render thông tin cá nhân
   async function loadPersonalInfo() {
     const heroSection = document.getElementById("hero");
     if (!heroSection) {
@@ -123,10 +165,6 @@ document.addEventListener("DOMContentLoaded", () => {
     heroSection.innerHTML = `<div class="spinner"></div>`;
 
     try {
-      if (cachedData.personalInfo && cachedData.personalInfo.lang === currentLang) {
-        renderPersonalInfo(cachedData.personalInfo.data);
-        return;
-      }
       const data = await fetchWithRetry(`${API_BASE_URL}/${currentLang}/personal_info.json`);
       cachedData.personalInfo = { lang: currentLang, data };
       renderPersonalInfo(data);
@@ -136,9 +174,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Render thông tin cá nhân (giữ nguyên)
+  // Render thông tin cá nhân
   function renderPersonalInfo(data) {
-    data = { ...defaultPersonalInfo, ...data };
+    console.log("Đang render profile cho ngôn ngữ:", currentLang);
+    data = { ...getDefaultPersonalInfo(currentLang), ...data };
     preloadImage(data.profile_picture_url);
     const heroSection = document.getElementById("hero");
     const aboutSection = document.getElementById("about");
@@ -283,41 +322,16 @@ document.addEventListener("DOMContentLoaded", () => {
       cachedData.videoProjects = { lang: currentLang, data: videoProjects };
       renderVideoProjects(videoProjects);
     } catch (error) {
-  console.error(`Không tải được danh sách dự án video cho ${currentLang}:`, error);
-
-  // Ẩn section và menu nếu lỗi fetch
-  const videoSection = document.getElementById("video-projects");
-  const videoNavItem = document.getElementById("nav-video-projects");
-  if (videoSection) videoSection.style.display = "none";
-  if (videoNavItem) videoNavItem.style.display = "none";
-
-  // Optional: clear grid content
-  videoProjectGrid.innerHTML = "";
-}
+      console.error(`Không tải được danh sách dự án video cho ${currentLang}:`, error);
+      const videoSection = document.getElementById("video-projects");
+      const videoNavItem = document.getElementById("nav-video-projects");
+      if (videoSection) videoSection.style.display = "none";
+      if (videoNavItem) videoNavItem.style.display = "none";
+      videoProjectGrid.innerHTML = "";
+    }
   }
 
-  // Dữ liệu mặc định nếu JSON lỗi
-  const defaultPersonalInfo = {
-    name: currentLang === "vi" ? "Tên Người Dùng" : "User Name",
-    profile_picture_url: "images/placeholder.jpg",
-    tagline: currentLang === "vi" ? "Dòng giới thiệu" : "Tagline",
-    bio_short: currentLang === "vi" ? "Tiểu sử ngắn" : "Short bio",
-    bio_long: currentLang === "vi" ? "Thông tin chi tiết" : "Detailed information",
-    cta_button: currentLang === "vi" ? "Xem Dự Án" : "View Projects",
-    about_title: currentLang === "vi" ? "Về Tôi" : "About Me",
-    skills_technical_title: currentLang === "vi" ? "Kỹ Năng Chuyên Môn" : "Technical Skills",
-    skills_technical: [],
-    skills_software_title: currentLang === "vi" ? "Phần Mềm Thành Thạo" : "Proficient Software",
-    skills_software: [],
-    experience_title: currentLang === "vi" ? "Kinh Nghiệm Làm Việc" : "Work Experience",
-    work_experience: [],
-    contact_title: currentLang === "vi" ? "Liên Hệ" : "Contact",
-    contact_message: currentLang === "vi" ? "Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ!" : "Reach out for any questions!",
-    contact_email_label: currentLang === "vi" ? "Email:" : "Email:",
-    contact_email: "email@example.com",
-    social_links: []
-  };
-
+  // Dữ liệu mặc định cho dự án
   const defaultProjects = [];
   const defaultVideoProjects = [];
 
@@ -359,102 +373,93 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Render dự án video (tự động tạo thumbnail nếu cần)
-function renderVideoProjects(videoProjects) {
-  videoProjects = videoProjects.length ? videoProjects : defaultVideoProjects;
+  // Render dự án video
+  function renderVideoProjects(videoProjects) {
+    videoProjects = videoProjects.length ? videoProjects : defaultVideoProjects;
+    const videoProjectGrid = document.querySelector(".video-project-grid");
+    const navVideoProjects = document.getElementById("nav-video-projects");
+    const sectionVideoProjects = document.getElementById("video-projects");
 
-  const videoProjectGrid = document.querySelector(".video-project-grid");
-  const navVideoProjects = document.getElementById("nav-video-projects");
-  const sectionVideoProjects = document.getElementById("video-projects");
-
-  // Ẩn nếu không có dự án video
-  if (!videoProjects || videoProjects.length === 0) {
-    if (navVideoProjects) navVideoProjects.classList.add("hidden");
-    if (sectionVideoProjects) sectionVideoProjects.classList.add("hidden");
-    videoProjectGrid.innerHTML = "";
-    return;
-  }
-
-  // Hiện lại nếu có dự án
-  if (navVideoProjects) navVideoProjects.classList.remove("hidden");
-  if (sectionVideoProjects) sectionVideoProjects.classList.remove("hidden");
-
-  videoProjectGrid.innerHTML = "";
-
-  videoProjects.forEach(project => {
-    const projectCard = document.createElement("div");
-    projectCard.classList.add("video-project-card");
-    projectCard.dataset.projectId = project.id;
-
-    let thumbnailURL = project.project_thumbnail_url;
-
-    // Tạo thumbnail nếu thiếu
-    if (!thumbnailURL || !thumbnailURL.includes("img.youtube.com")) {
-      let videoId = "";
-      if (project.video_url.includes("youtube.com/watch?v=")) {
-        videoId = project.video_url.split("v=")[1].split("&")[0];
-      } else if (project.video_url.includes("youtu.be/")) {
-        videoId = project.video_url.split("/").pop().split("?")[0];
-      } else if (project.video_url.includes("youtube.com/shorts/")) {
-        videoId = project.video_url.split("/shorts/")[1].split("?")[0];
-      }
-      thumbnailURL = videoId
-        ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
-        : "images/placeholder.jpg";
+    if (!videoProjects || videoProjects.length === 0) {
+      if (navVideoProjects) navVideoProjects.classList.add("hidden");
+      if (sectionVideoProjects) sectionVideoProjects.classList.add("hidden");
+      videoProjectGrid.innerHTML = "";
+      return;
     }
 
-    const thumbnailHTML = `
-      <div class="video-thumbnail-wrapper">
-        <img src="${sanitizeHTML(thumbnailURL)}" alt="${sanitizeHTML(project.project_name || 'Video Project')}" class="video-project-thumbnail"
-             style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;"
-             loading="lazy" onerror="this.src='images/placeholder.jpg'">
-        <button class="play-button" data-project-id="${project.id}" aria-label="Play video">
-          <svg width="50" height="50" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z" fill="#fff"/>
-          </svg>
-        </button>
-      </div>`;
+    if (navVideoProjects) navVideoProjects.classList.remove("hidden");
+    if (sectionVideoProjects) sectionVideoProjects.classList.remove("hidden");
 
-    projectCard.innerHTML = `
-      ${thumbnailHTML}
-      <div class="project-info">
-        <h3>${sanitizeHTML(project.project_name || (currentLang === "vi" ? "Tên Dự Án Video" : "Video Project Name"))}</h3>
-        <span class="project-category">${sanitizeHTML(project.project_category || (currentLang === "vi" ? "Thể loại Video" : "Video Category"))}</span>
-        <p class="project-summary">${sanitizeHTML(project.project_summary || (currentLang === "vi" ? "Tóm tắt dự án video" : "Video project summary"))}</p>
-      </div>`;
+    videoProjectGrid.innerHTML = "";
 
-    videoProjectGrid.appendChild(projectCard);
-  });
+    videoProjects.forEach(project => {
+      const projectCard = document.createElement("div");
+      projectCard.classList.add("video-project-card");
+      projectCard.dataset.projectId = project.id;
 
-  // Gán sự kiện nút play
-  const playButtons = videoProjectGrid.querySelectorAll('.play-button');
-  playButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const projectId = button.dataset.projectId;
-      openProjectModal(projectId, videoProjects, true);
-    });
-  });
-
-  // Lazy load ảnh
-  const images = videoProjectGrid.querySelectorAll('img.video-project-thumbnail');
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        img.src = img.dataset.src || img.src;
-        obs.unobserve(img);
+      let thumbnailURL = project.project_thumbnail_url;
+      if (!thumbnailURL || !thumbnailURL.includes("img.youtube.com")) {
+        let videoId = "";
+        if (project.video_url.includes("youtube.com/watch?v=")) {
+          videoId = project.video_url.split("v=")[1].split("&")[0];
+        } else if (project.video_url.includes("youtu.be/")) {
+          videoId = project.video_url.split("/").pop().split("?")[0];
+        } else if (project.video_url.includes("youtube.com/shorts/")) {
+          videoId = project.video_url.split("/shorts/")[1].split("?")[0];
+        }
+        thumbnailURL = videoId
+          ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
+          : "images/placeholder.jpg";
       }
+
+      const thumbnailHTML = `
+        <div class="video-thumbnail-wrapper">
+          <img src="${sanitizeHTML(thumbnailURL)}" alt="${sanitizeHTML(project.project_name || 'Video Project')}" class="video-project-thumbnail"
+               style="width: 360px; height: 240px; object-fit: cover; display: block; margin: 0 auto; border-radius: 8px;"
+               loading="lazy" onerror="this.src='images/placeholder.jpg'">
+          <button class="play-button" data-project-id="${project.id}" aria-label="Play video">
+            <svg width="50" height="50" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" fill="#fff"/>
+            </svg>
+          </button>
+        </div>`;
+
+      projectCard.innerHTML = `
+        ${thumbnailHTML}
+        <div class="project-info">
+          <h3>${sanitizeHTML(project.project_name || (currentLang === "vi" ? "Tên Dự Án Video" : "Video Project Name"))}</h3>
+          <span class="project-category">${sanitizeHTML(project.project_category || (currentLang === "vi" ? "Thể loại Video" : "Video Category"))}</span>
+          <p class="project-summary">${sanitizeHTML(project.project_summary || (currentLang === "vi" ? "Tóm tắt dự án video" : "Video project summary"))}</p>
+        </div>`;
+
+      videoProjectGrid.appendChild(projectCard);
     });
-  }, { rootMargin: '200px' });
-  images.forEach(img => {
-    img.dataset.src = img.src;
-    observer.observe(img);
-  });
-}
 
+    const playButtons = videoProjectGrid.querySelectorAll('.play-button');
+    playButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const projectId = button.dataset.projectId;
+        openProjectModal(projectId, videoProjects, true);
+      });
+    });
 
+    const images = videoProjectGrid.querySelectorAll('img.video-project-thumbnail');
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src || img.src;
+          obs.unobserve(img);
+        }
+      });
+    }, { rootMargin: '200px' });
+    images.forEach(img => {
+      img.dataset.src = img.src;
+      observer.observe(img);
+    });
+  }
 
-  // Modal chi tiết dự án (tải iframe động)
+  // Modal chi tiết dự án
   function openProjectModal(projectId, allProjects, isVideoProject = false) {
     const modal = document.getElementById("project-modal");
     const modalContent = document.getElementById("modal-project-content");
@@ -482,7 +487,6 @@ function renderVideoProjects(videoProjects) {
         const videoId = project.video_url.substring(project.video_url.lastIndexOf("/") + 1);
         videoEmbedUrl = `https://player.vimeo.com/video/${videoId}`;
       }
-      // Tải iframe động khi cần
       mediaHTML += `
         <div class="media-item" id="video-container-${project.id}">
           <div id="video-placeholder-${project.id}" style="width: 100%; height: 360px; background: #000; display: flex; align-items: center; justify-content: center;">
@@ -492,7 +496,6 @@ function renderVideoProjects(videoProjects) {
           <a href="${sanitizeHTML(project.video_url)}" target="_blank" class="cta-button" style="display: none;" id="video-link-${project.id}" aria-label="Xem video trên YouTube">${currentLang === "vi" ? "Xem trên YouTube" : "View on YouTube"}</a>
           <p>${sanitizeHTML(project.caption || "")}</p>
         </div>`;
-      // Tải iframe sau khi modal mở
       setTimeout(() => {
         const iframe = document.createElement('iframe');
         iframe.src = sanitizeHTML(videoEmbedUrl);
@@ -507,7 +510,7 @@ function renderVideoProjects(videoProjects) {
         iframe.onerror = () => handleVideoError(project.id, project.video_url, currentLang);
         const placeholder = document.getElementById(`video-placeholder-${project.id}`);
         if (placeholder) placeholder.replaceWith(iframe);
-      }, 500); // Trì hoãn 0.5s để tránh tải ngay lập tức
+      }, 500);
     } else {
       (project.media || []).forEach(item => {
         if (item.type === "image") {
@@ -592,7 +595,7 @@ function renderVideoProjects(videoProjects) {
     modal.style.display = "block";
   }
 
-  // Hàm xử lý lỗi video
+  // Xử lý lỗi video
   function handleVideoError(videoId, videoUrl, lang) {
     const container = document.getElementById(`video-container-${videoId}`);
     const iframe = document.getElementById(`video-iframe-${videoId}`);
@@ -606,33 +609,29 @@ function renderVideoProjects(videoProjects) {
   }
 
   // Đóng modal
+  function closeModal() {
+    const modal = document.getElementById("project-modal");
+    if (!modal) return;
+    modal.style.display = "none";
+    const iframes = modal.querySelectorAll("iframe");
+    iframes.forEach(iframe => {
+      iframe.src = "";
+    });
+  }
+
   const closeButton = document.querySelector(".close-button");
   if (closeButton) {
     closeButton.onclick = () => {
       closeModal();
-      const modal = document.getElementById("project-modal");
-      if (modal) modal.style.display = "none";
     };
   }
 
   window.onclick = event => {
     const modal = document.getElementById("project-modal");
     if (event.target === modal) {
-      modal.style.display = "none";
-       closeModal();
+      closeModal();
     }
   };
-function closeModal() {
-  const modal = document.getElementById("project-modal");
-  if (!modal) return;
-  modal.style.display = "none";
-
-  // Tắt mọi video đang mở trong modal
-  const iframes = modal.querySelectorAll("iframe");
-  iframes.forEach(iframe => {
-    iframe.src = "";
-  });
-}
 
   // Cuộn mượt
   document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
