@@ -82,3 +82,33 @@
 
 //   ]
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+video_projects.json
+[
+  {
+    "id": "video1",
+    "project_name": "Dự Án Video 1",
+    "project_category": "Video Sáng Tạo",
+    "project_summary": "Mô tả ngắn về video quảng cáo sáng tạo sử dụng hiệu ứng động và âm nhạc bắt tai.",
+   "project_thumbnail_url": "https://img.youtube.com/vi/TH9x1GzYvcQ/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/embed/TH9x1GzYvcQ",
+    "project_description_detailed": "Đây là dự án video quảng cáo sáng tạo, sử dụng Adobe Premiere và After Effects để tạo hiệu ứng chuyển động mượt mà, kết hợp âm nhạc sôi động để thu hút người xem.",
+    "project_date": "01/2025",
+    "tools_used": ["Adobe Premiere", "After Effects"],
+    "project_live_url": "",
+    "project_case_study_url": "",
+    "caption": "Video quảng cáo sản phẩm sáng tạo"
+  }
+]

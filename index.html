@@ -7,6 +7,7 @@
     <link rel="icon" href="images/icon_web/logoweb.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWixZZ6A3Qe4bZ6eTU6e+h8o9AipfL92VNgE7i4A2W5I8B/0nW2Q2zTJ2uF9lcIXvZ9sx6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/video-projects.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <style>
       /* Đảm bảo icon hiển thị trên mobile */
@@ -33,6 +34,7 @@
       }
     </style>
   </head>
+  
   <body>
     <header>
       <nav>
@@ -50,6 +52,10 @@
           <li><a href="#hero" data-lang="nav_home">Trang Chủ</a></li>
           <li><a href="#about" data-lang="nav_about">Giới Thiệu</a></li>
           <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
+          <li id="nav-video-projects" class="hidden">
+  <a href="#video-projects" data-lang="nav_video_projects">Dự Án Video</a>
+</li>
+
           <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
         </ul>
         <div class="nav-right">
@@ -81,6 +87,10 @@
         <h2 data-lang="projects_title">Dự Án Của Tôi</h2>
         <div class="project-grid"></div>
       </section>
+    <section id="video-projects" class="video-projects-section hidden">
+  <h2 data-lang="video_projects_title">Dự Án Video Của Tôi</h2>
+  <div class="video-project-grid"></div>
+</section>
       <section id="contact" class="contact-section" style="background: linear-gradient(to bottom, #fff5f7,#f7c6cf)">
         <h2>Liên Hệ</h2>
       </section>
