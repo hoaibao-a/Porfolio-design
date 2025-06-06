@@ -1,6 +1,6 @@
 /* 
- * Luxurious Theme CSS
- * Optimized for elegance, accessibility, and maintainability
+ * Minimal Black & White Theme CSS
+ * Optimized for simplicity, accessibility, and maintainability
  */
 
 /* Custom Fonts */
@@ -20,13 +20,13 @@
 /* CSS Variables */
 :root {
     /* Colors */
-    --primary-color: #1A253D; /* Xanh than đậm */
-    --secondary-color: #F5F2ED; /* Trắng kem nhạt */
-    --accent-color: #B89B5A; /* Vàng ánh kim */
-    --highlight-color: #6B2D3A; /* Đỏ rượu vang đậm */
-    --text-color: #2A2A2A; /* Xám đen đậm */
-    --neutral-color: #D8DCE0; /* Xám nhạt */
-    --footer-color: #162038; /* Xanh than tối */
+    --primary-color: #1C2526; /* Đen đậm */
+    --secondary-color: #FFFFFF; /* Trắng */
+    --accent-color: #4A4A4A; /* Xám đậm */
+    --highlight-color: #2E2E2E; /* Xám rất đậm */
+    --text-color: #333333; /* Xám đen */
+    --neutral-color: #E0E0E0; /* Xám nhạt */
+    --footer-color: #1C2526; /* Đen đậm */
 
     /* Spacing and Sizes */
     --container-max-width: 1280px;
@@ -48,7 +48,7 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, var(--secondary-color), var(--neutral-color));
+    background-color: var(--secondary-color);
     color: var(--text-color);
     line-height: 1.7;
     overflow-x: hidden;
@@ -146,7 +146,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+    background-color: var(--neutral-color);
     color: var(--primary-color);
     transform: translateY(-2px);
 }
@@ -164,10 +164,12 @@ nav ul li a.active {
 }
 
 .language-icons img {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
-    padding: 8px;
+    padding: 6px;
+    border: 1px solid var(--neutral-color);
+    border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
     touch-action: manipulation;
 }
@@ -197,12 +199,12 @@ section {
 }
 
 section:nth-child(even) {
-    background: linear-gradient(to bottom, var(--secondary-color), var(--neutral-color));
+    background-color: var(--neutral-color);
 }
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to bottom, var(--secondary-color), var(--neutral-color));
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     padding: 120px 20px;
     min-height: 85vh;
@@ -246,22 +248,21 @@ section:nth-child(even) {
 
 .cta-button {
     display: inline-block;
-    background: linear-gradient(to right, var(--accent-color), var(--secondary-color));
-    color: var(--primary-color);
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
     padding: 14px 30px;
-    border-radius: 30px;
+    border-radius: 8px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     border: 2px solid var(--accent-color);
     box-shadow: var(--box-shadow);
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
     will-change: transform;
 }
 
 .cta-button:hover {
-    background: var(--highlight-color);
-    color: var(--secondary-color);
+    background-color: var(--highlight-color);
     border-color: var(--highlight-color);
     transform: translateY(-4px);
 }
@@ -293,19 +294,20 @@ section:nth-child(even) {
 }
 
 .skills-list {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    list-style: none;
 }
 
 .skills-list li {
     background-color: var(--neutral-color);
     color: var(--primary-color);
-    padding: 10px 18px;
-    border-radius: 25px;
+    padding: 8px 16px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
     font-size: 0.95rem;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .experience-item {
@@ -391,7 +393,7 @@ section:nth-child(even) {
 
 .project-category {
     display: inline-block;
-    background: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+    background-color: var(--neutral-color);
     color: var(--primary-color);
     padding: 4px 12px;
     border-radius: 15px;
@@ -444,7 +446,7 @@ section:nth-child(even) {
 
 /* Footer */
 footer {
-    background: linear-gradient(to bottom, var(--footer-color), var(--primary-color));
+    background-color: var(--footer-color);
     color: var(--neutral-color);
     text-align: center;
     padding: 30px 20px;
@@ -616,9 +618,9 @@ footer p {
     }
 
     .language-icons img {
-        width: 24px;
-        height: 24px;
-        padding: 10px;
+        width: 20px;
+        height: 20px;
+        padding: 8px;
     }
 
     .hamburger {
