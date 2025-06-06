@@ -1,4 +1,4 @@
-/* Global Styles & Ultra-Luxurious Theme */
+/* Global Styles & Luxurious Theme */
 @font-face {
   font-family: 'MyCustomFont1';
   src: url('/fonts/1FTV-VIP-Magiesta.otf') format('opentype');
@@ -15,64 +15,48 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #FDFBF8, #E6E8E6); /* Gradient trắng kem sang xám than nhẹ */
-    color: #2E2E2E; /* Xám đen đậm */
-    line-height: 1.8;
+    background: linear-gradient(to bottom, #F8F1F9, #E8ECEF); /* Gradient trắng ngọc trai sang xám bạc */
+    color: #333; /* Xám đen cho chữ chính */
+    line-height: 1.7;
     overflow-x: hidden;
 }
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #1F2A44; /* Xanh than chì */
-    margin-bottom: 0.6em;
-    letter-spacing: 0.5px;
+    font-family: 'Playfair Display', serif; /* Font sang trọng cho tiêu đề */
+    color: #1A3C5A; /* Xanh navy đậm */
+    margin-bottom: 0.5em;
 }
 .container {
     width: 90%;
-    max-width: 1400px; /* Layout rộng rãi hơn */
+    max-width: 1280px; /* Tăng max-width cho layout rộng rãi */
     margin: auto;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 h2 {
-    font-size: 3em;
+    font-size: 2.8em;
     text-align: center;
-    margin-bottom: 60px;
-    color: #C9A66B; /* Vàng hoàng kim */
+    margin-bottom: 50px;
     position: relative;
-}
-h2::after {
-    content: '';
-    width: 60px;
-    height: 3px;
-    background: #C9A66B;
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    color: #D4A017; /* Vàng ánh kim */
 }
 a {
     text-decoration: none;
-    color: #1F2A44; /* Xanh than chì */
+    color: #D4A017; /* Vàng ánh kim */
     transition: color 0.4s ease, transform 0.4s ease;
 }
 a:hover {
-    color: #722F37; /* Đỏ rượu vang */
-    text-decoration: underline;
-    text-decoration-color: #722F37;
-    text-decoration-thickness: 1px;
+    color: #2A9D8F; /* Xanh ngọc lam khi hover */
 }
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
-    border: 1px solid #C9A66B; /* Viền vàng hoàng kim */
+    border-radius: 12px;
 }
 
 /* Header & Navigation */
 header {
-    background-color: #FDFBF8; /* Trắng kem */
-    box-shadow: 0 4px 25px rgba(0,0,0,0.15);
-    padding: 25px 0;
+    background-color: #FFFFFF; /* Trắng tinh khôi */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05); /* Shadow nhẹ nhàng */
+    padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -81,16 +65,15 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align/items: center;
     width: 90%;
-    max-width: 1400px;
+    max-width: 1280px;
     margin: auto;
 }
 .logo {
     font-family: 'Playfair Display', serif;
-    font-size: 2.2em;
-    font-weight: 700;
-    color: #C9A66B; /* Vàng hoàng kim */
+    font-size: 2em;
+    color: #D4A017; /* Vàng ánh kim */
 }
 nav ul {
     list-style: none;
@@ -99,305 +82,291 @@ nav ul {
     display: flex;
 }
 nav ul li {
-    margin-left: 35px;
+    margin-left: 30px;
 }
 nav ul li a {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #1F2A44; /* Xanh than chì */
-    padding: 10px 20px;
-    border-radius: 10px;
+    font-weight: 500;
+    color: #1A3C5A; /* Xanh navy */
+    padding: 8px 15px;
+    border-radius: 8px;
     transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
 }
 nav ul li a:hover, nav ul li a.active {
-    background: linear-gradient(to right, #C9A66B, #FDFBF8); /* Gradient vàng hoàng kim */
-    color: #1F2A44;
-    transform: translateY(-3px);
+    background-color: #D4A017; /* Vàng ánh kim */
+    color: #FFFFFF; /* Trắng */
+    transform: translateY(-2px);
 }
 .nav-right {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
 }
 .language-icons {
     display: flex;
     align-items: center;
 }
 .language-icons img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     cursor: pointer;
     transition: opacity 0.4s, transform 0.4s;
     touch-action: manipulation;
-    padding: 8px;
+    padding168px;
 }
 .language-icons img:hover {
     opacity: 0.9;
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 .hamburger {
     display: none;
-    font-size: 30px;
+    font-size: 28px;
     cursor: pointer;
-    color: #1F2A44; /* Xanh than chì */
+    color: #1A3C5A; /* Xanh navy */
     transition: color 0.4s;
 }
 .hamburger:hover {
-    color: #C9A66B; /* Vàng hoàng kim */
+    color: #D4A017; /* Vàng ánh kim */
 }
 
 /* Sections General Styling */
 section {
-    padding: 120px 20px;
+    padding: 100px 20px;
     text-align: center;
-    background-color: #FDFBF8; /* Trắng kem */
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-}
-section.visible {
-    opacity: 1;
-    transform: translateY(0);
+    background-color: #FFFFFF; /* Trắng */
 }
 section:nth-child(even) {
-    background: linear-gradient(to bottom, #FDFBF8, #E6E8E6); /* Gradient trắng kem sang xám than */
+    background-color: #F8F1F9; /* Trắng ngọc trai */
 }
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to bottom, #FDFBF8, #E6E8E6); /* Gradient tinh tế */
-    color: #1F2A44; /* Xanh than chì */
-    padding: 140px 20px;
+    background: linear-gradient(to bottom, #F8F1F9, #FFFFFF); /* Gradient tinh tế */
+    color: #1A3C5A; /* Xanh navy */
+    padding: 120px 20px;
     text-align: center;
-    min-height: 90vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .hero-content {
-    max-width: 900px;
+    max-width: 800px;
 }
 .hero-section #profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     object-fit: cover;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    border: 2px solid #C9A66B; /* Viền vàng hoàng kim */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border: 3px solid #D4A017; /* Viền vàng ánh kim */
 }
 .hero-section h1 {
-    font-size: 4em;
-    margin-bottom: 20px;
-    color: #1F2A44; /* Xanh than chì */
+    font-size: 3.8em;
+    margin-bottom: 15px;
+    color: #1A3C5A; /* Xanh navy */
 }
 .hero-section #hero-tagline {
-    font-family: 'Lora', serif;
-    font-size: 1.4em;
-    font-weight: 400;
-    margin-bottom: 30px;
-    color: #2E2E2E; /* Xám đen đậm */
+    font-size: 1.3em;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: #333; /* Xám đen */
 }
 .hero-section #hero-bio-short {
-    font-family: 'Lora', serif;
-    font-size: 1.3em;
-    margin-bottom: 40px;
-    color: #722F37; /* Đỏ rượu vang */
+    font-size: 1.2em;
+    margin-bottom: 35px;
+    color: #2A9D8F; /* Xanh ngọc lam */
 }
 .cta-button {
     display: inline-block;
-    background: linear-gradient(to right, #C9A66B, #FDFBF8); /* Gradient vàng hoàng kim */
-    color: #1F2A44; /* Xanh than chì */
-    padding: 16px 35px;
-    border-radius: 50px;
-    font-family: 'Poppins', sans-serif;
+    background-color: #D4A017; /* Vàng ánh kim */
+    color: #FFFFFF; /* Trắng */
+    padding: 14px 30px;
+    border-radius: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    border: 2px solid #C9A66B;
+    letter-spacing: 1.2px;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border: 2px solid #D4A017; /* Viền vàng ánh kim */
 }
 .cta-button:hover {
-    background: #722F37; /* Đỏ rượu vang */
-    color: #FDFBF8; /* Trắng kem */
-    border-color: #722F37;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    background-color: #2A9D8F; /* Xanh ngọc lam */
+    border-color: #2A9D8F;
+    transform: translateY(-4px);
 }
 
 /* About Section */
 .about-section .container {
-    max-width: 1100px;
+    max-width: 1000px;
 }
 #bio-long {
-    font-family: 'Lora', serif;
-    font-size: 1.3em;
-    margin-bottom: 60px;
+    font-size: 1.2em;
+    margin-bottom: 50px;
     text-align: justify;
-    color: #2E2E2E; /* Xám đen đậm */
+    color: #333; /* Xám đen */
 }
 .skills-container, .experience-container {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     text-align: left;
 }
 .skills-container h3, .experience-container h3 {
-    color: #C9A66B; /* Vàng hoàng kim */
-    font-size: 2.2em;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
+    color: #D4A017; /* Vàng ánh kim */
+    font-size: 2em;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    display: inline-block;
 }
 .skills-list {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
 }
 .skills-list li {
-    background-color: #E6E8E6; /* Xám than nhẹ */
-    color: #1F2A44; /* Xanh than chì */
-    padding: 12px 20px;
-    border-radius: 30px;
-    font-size: 1em;
+    background-color: #E8ECEF; /* Xám bạc */
+    color: #1A3C5A; /* Xanh navy */
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 0.95em;
     font-weight: 500;
 }
 .experience-item {
-    background-color: #FDFBF8; /* Trắng kem */
-    padding: 30px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    background-color: #FFFFFF; /* Trắng */
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
     text-align: left;
 }
 .experience-item h4 {
     font-family: 'Poppins', sans-serif;
-    color: #1F2A44; /* Xanh than chì */
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    color: #1A3C5A; /* Xanh navy */
+    font-size: 1.4em;
+    margin-bottom: 8px;
 }
 .experience-item .company {
     font-weight: 600;
-    color: #C9A66B; /* Vàng hoàng kim */
-    margin-bottom: 10px;
+    color: #D4A017; /* Vàng ánh kim */
+    margin-bottom: 8px;
 }
 .experience-item .duration {
-    font-family: 'Lora', serif;
     font-style: italic;
-    color: #6B7280; /* Xám nhạt */
-    margin-bottom: 15px;
-    font-size: 1em;
+    color: #777; /* Xám nhạt */
+    margin-bottom: 12px;
+    font-size: 0.95em;
 }
 .experience-item ul {
     list-style: disc;
-    margin-left: 30px;
+    margin-left: 25px;
     padding-left: 0;
-    color: #2E2E2E; /* Xám đen đậm */
+    color: #333; /* Xám đen */
 }
 
 /* Projects Section */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
 }
 .project-card {
-    background-color: #FDFBF8; /* Trắng kem */
-    border-radius: 20px;
+    background-color: #FFFFFF; /* Trắng */
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     cursor: pointer;
     display: flex;
     flex-direction: column;
 }
 .project-card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    transform: translateY(-12px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 .project-card img.project-thumbnail {
     width: 100%;
-    height: 260px;
+    height: 240px;
     object-fit: cover;
-    border-bottom: 3px solid #C9A66B; /* Vàng hoàng kim */
+    border-bottom: 3px solid #D4A017; /* Viền vàng ánh kim */
 }
 .project-info {
-    padding: 30px;
+    padding: 25px;
     text-align: center;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 .project-info h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6em;
-    color: #1F2A44; /* Xanh than chì */
+    font-family: 'MyCustomFont2', sans-serif;
+    font-size: 1.5em;
+    color: #1A3C5A; /* Xanh navy */
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .project-category {
     display: inline-block;
-    background: linear-gradient(to right, #C9A66B, #FDFBF8); /* Gradient vàng hoàng kim */
-    color: #1F2A44; /* Xanh than chì */
-    padding: 6px 15px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    margin-bottom: 15px;
+    background-color: #2A9D8F; /* Xanh ngọc lam */
+    color: #FFFFFF; /* Trắng */
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    margin-bottom: 12px;
 }
 .project-summary {
-    font-family: 'Lora', serif;
-    font-size: 1.1em;
-    color: #2E2E2E; /* Xám đen đậm */
+    font-size: 1em;
+    color: #333; /* Xám đen */
     flex-grow: 1;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: justify;
 }
 
 /* Contact Section */
 .contact-section .container {
-    max-width: 900px;
+    max-width: 800px;
 }
 #contact-info p {
-    font-family: 'Lora', serif;
-    font-size: 1.3em;
-    margin-bottom: 25px;
-    color: #2E2E2E; /* Xám đen đậm */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333; /* Xám đen */
 }
 #contact-info p strong {
-    color: #C9A66B; /* Vàng hoàng kim */
+    color: #D4A017; /* Vàng ánh kim */
 }
 .social-links-contact {
     list-style: none;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 .social-links-contact li a {
-    font-size: 2.5em;
-    color: #C9A66B; /* Vàng hoàng kim */
+    font-size: 2.2em;
+    color: #D4A017; /* Vàng ánh kim */
     transition: color 0.4s ease, transform 0.4s ease;
 }
 .social-links-contact li a:hover {
-    color: #722F37; /* Đỏ rượu vang */
-    transform: scale(1.2);
+    color: #2A9D8F; /* Xanh ngọc lam */
+    transform: scale(1.15);
 }
 
 /* Footer */
 footer {
-    background: linear-gradient(to bottom, #1F2A44, #2E2E2E); /* Gradient xanh than chì */
-    color: #E6E8E6; /* Xám than nhẹ */
+    background-color: #1A3C5A; /* Xanh navy */
+    color: #E8ECEF; /* Xám bạc */
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px 20px;
     margin-top: 0;
     width: 100%;
 }
 footer p {
-    font-family: 'Lora', serif;
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 /* Modal Styling */
@@ -410,89 +379,83 @@ footer p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.8);
-    padding-top: 70px;
-    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 60px;
 }
 .modal-content {
-    background-color: #FDFBF8; /* Trắng kem */
+    background-color: #FFFFFF; /* Trắng */
     margin: 5% auto;
-    padding: 40px;
-    border: 2px solid #C9A66B; /* Vàng hoàng kim */
+    padding: 35px;
+    border: 2px solid #D4A017; /* Viền vàng ánh kim */
     width: 85%;
-    max-width: 1000px;
-    border-radius: 20px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.2);
     position: relative;
-    animation: slideIn 0.6s ease-out;
+    animation: slideIn 0.5s ease-out;
 }
 @keyframes slideIn {
-    from {transform: translateY(-60px); opacity: 0;}
+    from {transform: translateY(-50px); opacity: 0;}
     to {transform: translateY(0); opacity: 1;}
 }
 .close-button {
-    color: #6B7280; /* Xám nhạt */
+    color: #777; /* Xám nhạt */
     float: right;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 20px;
+    right: 20px;
 }
 .close-button:hover,
 .close-button:focus {
-    color: #C9A66B; /* Vàng hoàng kim */
+    color: #D4A017; /* Vàng ánh kim */
     text-decoration: none;
     cursor: pointer;
 }
 #modal-project-content h2 {
-    font-family: 'Playfair Display', serif;
     text-align: left;
     margin-top: 0;
-    font-size: 2.5em;
-    color: #C9A66B; /* Vàng hoàng kim */
+    font-size: 2.2em;
+    color: #D4A017; /* Vàng ánh kim */
 }
 #modal-project-content img, #modal-project-content video {
     max-width: 100%;
     height: auto;
-    margin-bottom: 25px;
-    border-radius: 12px;
-    border: 2px solid #C9A66B; /* Vàng hoàng kim */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #D4A017; /* Viền vàng ánh kim */
 }
 #modal-project-content .project-meta {
-    margin-bottom: 30px;
-    font-family: 'Lora', serif;
-    font-size: 1em;
-    color: #6B7280; /* Xám nhạt */
+    margin-bottom: 25px;
+    font-size: 0.95em;
+    color: #777; /* Xám nhạt */
 }
 #modal-project-content .project-meta span {
-    margin-right: 25px;
+    margin-right: 20px;
     display: inline-block;
 }
 #modal-project-content .project-meta strong {
-    color: #1F2A44; /* Xanh than chì */
+    color: #1A3C5A; /* Xanh navy */
 }
 #modal-project-content .description-detailed {
-    font-family: 'Lora', serif;
     text-align: left;
-    line-height: 1.9;
-    color: #2E2E2E; /* Xám đen đậm */
-    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #333; /* Xám đen */
+    margin-bottom: 25px;
 }
 #modal-project-content .media-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
 }
 #modal-project-content .media-item p {
-    font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 1em;
-    color: #6B7280; /* Xám nhạt */
+    font-size: 0.95em;
+    color: #777; /* Xám nhạt */
     text-align: center;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 /* Image overlay */
@@ -503,20 +466,20 @@ footer p {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.85);
     justify-content: center;
     align-items: center;
     z-index: 9999;
 }
 .image-overlay img {
-    max-width: 95%;
-    max-height: 95%;
-    border-radius: 12px;
-    box-shadow: 0 0 30px rgba(255,255,255,0.2);
-    animation: zoomIn 0.5s ease;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(255,255,255,0.3);
+    animation: zoomIn 0.4s ease;
 }
 @keyframes zoomIn {
-    from { transform: scale(0.7); opacity: 0; }
+    from { transform: scale(0.8); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
 }
 
@@ -531,61 +494,61 @@ footer p {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: #FDFBF8; /* Trắng kem */
+        background-color: #FFFFFF; /* Trắng */
         position: absolute;
-        top: 80px;
+        top: 70px;
         left: 0;
-        padding: 30px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        padding: 25px;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.1);
     }
     nav ul.active {
         display: flex;
     }
     nav ul li {
-        margin: 15px 0;
+        margin: 12px 0;
     }
     .nav-right {
-        gap: 15px;
+        gap: 12px;
     }
     .language-icons img {
-        width: 26px;
-        height: 26px;
-        padding: 12px;
+        width: 24px;
+        height: 24px;
+        padding: 10px;
     }
     .hamburger {
         display: block;
     }
     .hero-section h1 {
-        font-size: 3em;
-        margin-bottom: 15px;
+        font-size: 2.8em;
+        margin-bottom: 12px;
     }
     .hero-section #hero-tagline {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     h2 {
-        font-size: 2.4em;
+        font-size: 2.2em;
     }
     .project-grid {
         grid-template-columns: 1fr;
     }
     .modal-content {
-        width: 95%;
-        padding: 30px;
+        width: 90%;
+        padding: 25px;
     }
 }
 
-/* Animations for Elegance */
+/* Simple Animations for Elegance */
 .project-card, .cta-button, nav ul li a, .social-links-contact li a {
-    will-change: transform, box-shadow;
+    will-change: transform;
 }
 .cta-button:hover, .social-links-contact li a:hover {
-    animation: elegantHover 0.4s ease-out;
+    animation: subtleBounce 0.4s ease-out;
 }
-@keyframes elegantHover {
+@keyframes subtleBounce {
     0%, 100% { transform: translateY(0) scale(1); }
-    50% { transform: translateY(-8px) scale(1.05); }
+    50% { transform: translateY(-6px) scale(1.03); }
 }
 .social-icon-img {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
 }
