@@ -2,7 +2,7 @@
 .video-projects-section {
     padding: 80px 20px;
     text-align: center;
-    background-color: #fff5f7;
+    background-color: var(--secondary-color); /* #FFFFFF */
 }
 
 .video-project-grid {
@@ -12,10 +12,10 @@
 }
 
 .video-project-card {
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     display: flex;
@@ -24,7 +24,7 @@
 
 .video-project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .video-project-card img.video-project-thumbnail {
@@ -73,7 +73,7 @@
 .video-project-card .project-info h3 {
     font-family: 'MyCustomFont2', sans-serif;
     font-size: 1.4em;
-    color: #c12767;
+    color: var(--primary-color); /* Thay #c12767 bằng #1C2526 */
     margin-top: 0;
     margin-bottom: 10px;
     display: flex;
@@ -83,8 +83,8 @@
 
 .video-project-card .project-category {
     display: inline-block;
-    background-color: #e0e0e0;
-    color: #555;
+    background-color: var(--neutral-color); /* #E0E0E0 */
+    color: var(--primary-color); /* #1C2526 */
     padding: 3px 10px;
     border-radius: 12px;
     font-size: 0.8em;
@@ -93,7 +93,7 @@
 
 .video-project-card .project-summary {
     font-size: 0.95em;
-    color: black;
+    color: var(--text-color); /* Thay black bằng #333333 */
     flex-grow: 1;
     margin-bottom: 15px;
     text-align: justify;
@@ -119,6 +119,7 @@
     0%, 100% { transform: translateY(0) scale(1); }
     50% { transform: translateY(-5px) scale(1.05); }
 }
+
 .hidden {
-  display: none !important;
+    display: none !important;
 }
