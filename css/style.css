@@ -1,5 +1,5 @@
 /* 
- * Dark Pink Theme CSS
+ * White Black Theme CSS
  * Optimized for simplicity, accessibility, and maintainability
  */
 
@@ -20,22 +20,22 @@
 /* CSS Variables */
 :root {
     /* Colors */
-    --primary-color: #FF69B4; /* Hồng đậm (điểm nhấn) */
-    --secondary-color: #1A1A1A; /* Nền tối */
-    --accent-color: #A100A1; /* Tím đậm */
-    --highlight-color: #FFB6C1; /* Hồng nhạt hơn */
-    --text-color: #FFCCE0; /* Hồng nhạt cho tất cả văn bản */
-    --neutral-color: #333333; /* Xám tối */
-    --footer-color: #FFADD6; /* Hồng pastel đậm */
-    --header-bg: #FFFFFF; /* Nền trắng cho header */
-    --header-text: #000000; /* Chữ đen cho header */
+    --primary-color: #007BFF; /* Blue (primary accent) */
+    --secondary-color: #FFFFFF; /* White background */
+    --accent-color: #0056B3; /* Darker blue */
+    --highlight-color: #4DA8FF; /* Lighter blue for hover */
+    --text-color: #000000; /* Black for all text */
+    --neutral-color: #F5F5F5; /* Light gray */
+    --footer-color: #E6F0FA; /* Light blue-gray for footer */
+    --header-bg: #FFFFFF; /* White for header */
+    --header-text: #000000; /* Black for header text */
 
     /* Spacing and Sizes */
     --container-max-width: 1280px;
     --border-radius: 12px;
     --section-padding: 100px 20px;
-    --box-shadow: 0 4px 15px rgba(255, 105, 180, 0.1);
-    --box-shadow-hover: 0 8px 25px rgba(255, 105, 180, 0.15);
+    --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    --box-shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Reset */
@@ -51,7 +51,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--secondary-color);
-    color: var(--text-color); /* Văn bản toàn trang thành hồng nhạt */
+    color: var(--text-color);
     line-height: 1.7;
     overflow-x: hidden;
 }
@@ -59,14 +59,14 @@ body {
 h1, h2, h3, h4 {
     font-family: 'MyCustomFont1', serif;
     font-weight: 900;
-    color: var(--text-color); /* Văn bản tiêu đề thành hồng nhạt */
+    color: var(--text-color);
     margin-bottom: 0.5em;
 }
 
 h2 {
     font-size: 2.8rem;
     text-align: center;
-    color: var(--text-color); /* Thay đổi từ accent-color thành text-color (hồng nhạt) */
+    color: var(--text-color);
     margin-bottom: 50px;
     position: relative;
 }
@@ -75,7 +75,7 @@ h2::after {
     content: '';
     width: 60px;
     height: 3px;
-    background: var(--text-color); /* Đường kẻ dưới tiêu đề thành hồng nhạt */
+    background: var(--text-color);
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -84,12 +84,12 @@ h2::after {
 
 a {
     text-decoration: none;
-    color: var(--text-color); /* Liên kết thành hồng nhạt */
+    color: var(--text-color);
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 a:hover {
-    color: var(--highlight-color); /* Hover liên kết thành hồng nhạt hơn */
+    color: var(--highlight-color);
 }
 
 img {
@@ -107,7 +107,7 @@ img {
 
 /* Header & Navigation */
 header {
-    background-color: var(--header-bg); /* Nền trắng */
+    background-color: var(--header-bg);
     box-shadow: var(--box-shadow);
     padding: 20px 0;
     position: sticky;
@@ -128,7 +128,7 @@ nav {
 .logo {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    color: var(--header-text); /* Chữ đen */
+    color: var(--header-text);
 }
 
 nav ul {
@@ -139,7 +139,7 @@ nav ul {
 
 nav ul li a {
     font-weight: 500;
-    color: var(--header-text); /* Menu thành chữ đen */
+    color: var(--header-text);
     padding: 8px 15px;
     border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
@@ -148,7 +148,7 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
     background-color: var(--neutral-color);
-    color: var(--header-text); /* Hover menu vẫn giữ chữ đen */
+    color: var(--header-text);
     transform: translateY(-2px);
 }
 
@@ -165,7 +165,7 @@ nav ul li a.active {
 }
 
 .language-icons img {
-    width: 32px; /* Kích thước mặc định */
+    width: 32px;
     height: 32px;
     cursor: pointer;
     padding: 6px;
@@ -183,12 +183,12 @@ nav ul li a.active {
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: var(--header-text); /* Hamburger thành chữ đen */
+    color: var(--header-text);
     transition: color 0.3s ease;
 }
 
 .hamburger:hover {
-    color: var(--header-text); /* Hover hamburger giữ chữ đen */
+    color: var(--header-text);
 }
 
 /* Sections */
@@ -205,7 +205,7 @@ section:nth-child(even) {
 /* Hero Section */
 .hero-section {
     background-color: var(--secondary-color);
-    color: var(--text-color); /* Văn bản hero thành hồng nhạt */
+    color: var(--text-color);
     padding: 120px 20px;
     min-height: 85vh;
     display: flex;
@@ -237,13 +237,13 @@ section:nth-child(even) {
     font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: 25px;
-    color: var(--text-color); /* Tagline thành hồng nhạt */
+    color: var(--text-color);
 }
 
 .hero-section #hero-bio-short {
     font-size: 1.2rem;
     margin-bottom: 35px;
-    color: var(--text-color); /* Bio ngắn thành hồng nhạt */
+    color: var(--text-color);
 }
 
 .cta-button {
@@ -275,7 +275,7 @@ section:nth-child(even) {
     font-size: 1.2rem;
     margin-bottom: 50px;
     text-align: justify;
-    color: var(--text-color); /* Bio dài thành hồng nhạt */
+    color: var(--text-color);
 }
 
 .skills-container,
@@ -286,7 +286,7 @@ section:nth-child(even) {
 
 .skills-container h3,
 .experience-container h3 {
-    color: var(--text-color); /* Tiêu đề kỹ năng và kinh nghiệm thành hồng nhạt */
+    color: var(--text-color);
     font-size: 2rem;
     margin-bottom: 25px;
     padding-bottom: 12px;
@@ -301,7 +301,7 @@ section:nth-child(even) {
 
 .skills-list li {
     background-color: var(--neutral-color);
-    color: var(--text-color); /* Kỹ năng thành hồng nhạt */
+    color: var(--text-color);
     padding: 8px 16px;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
@@ -320,20 +320,20 @@ section:nth-child(even) {
 
 .experience-item h4 {
     font-family: 'Poppins', sans-serif;
-    color: var(--text-color); /* Tiêu đề kinh nghiệm thành hồng nhạt */
+    color: var(--text-color);
     font-size: 1.4rem;
     margin-bottom: 8px;
 }
 
 .experience-item .company {
     font-weight: 600;
-    color: var(--text-color); /* Tên công ty thành hồng nhạt */
+    color: var(--text-color);
     margin-bottom: 8px;
 }
 
 .experience-item .duration {
     font-style: italic;
-    color: var(--text-color); /* Thời gian thành hồng nhạt */
+    color: var(--text-color);
     margin-bottom: 12px;
     font-size: 0.95rem;
 }
@@ -341,7 +341,7 @@ section:nth-child(even) {
 .experience-item ul {
     list-style: disc;
     margin-left: 25px;
-    color: var(--text-color); /* Nội dung kinh nghiệm thành hồng nhạt */
+    color: var(--text-color);
 }
 
 /* Projects Section */
@@ -371,7 +371,6 @@ section:nth-child(even) {
     width: 100%;
     height: 240px;
     object-fit: cover;
-    /* Loại bỏ viền dưới */
 }
 
 .project-info {
@@ -385,14 +384,14 @@ section:nth-child(even) {
 .project-info h3 {
     font-family: 'MyCustomFont2', sans-serif;
     font-size: 1.5rem;
-    color: var(--text-color); /* Tiêu đề dự án thành hồng nhạt */
+    color: var(--text-color);
     margin: 0 0 12px;
 }
 
 .project-category {
     display: inline-block;
     background-color: var(--neutral-color);
-    color: var(--text-color); /* Danh mục thành hồng nhạt */
+    color: var(--text-color);
     padding: 4px 12px;
     border-radius: 15px;
     font-size: 0.85rem;
@@ -401,7 +400,7 @@ section:nth-child(even) {
 
 .project-summary {
     font-size: 1rem;
-    color: var(--text-color); /* Tóm tắt dự án thành hồng nhạt */
+    color: var(--text-color);
     flex-grow: 1;
     margin-bottom: 15px;
     text-align: justify;
@@ -415,18 +414,18 @@ section:nth-child(even) {
 #contact-info p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: var(--text-color); /* Thông tin liên hệ thành hồng nhạt */
+    color: var(--text-color);
 }
 
 #contact-info p strong,
 #contact-info p span,
 #contact-info p a {
-    color: var(--text-color); /* Văn bản đậm, span, liên kết thành hồng nhạt */
+    color: var(--text-color);
     text-decoration: none;
 }
 
 #contact-info p a:hover {
-    color: var(--highlight-color); /* Hover liên kết thành hồng nhạt hơn */
+    color: var(--highlight-color);
 }
 
 .social-links-contact {
@@ -439,19 +438,19 @@ section:nth-child(even) {
 
 .social-links-contact li a {
     font-size: 2.2rem;
-    color: var(--text-color); /* Icon mạng xã hội thành hồng nhạt */
+    color: var(--text-color);
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-links-contact li a:hover {
-    color: var(--highlight-color); /* Hover icon thành hồng nhạt hơn */
+    color: var(--highlight-color);
     transform: scale(1.15);
 }
 
 /* Footer */
 footer {
     background-color: var(--footer-color);
-    color: var(--text-color); /* Văn bản footer thành hồng nhạt */
+    color: var(--text-color);
     text-align: center;
     padding: 30px 20px;
     width: 100%;
@@ -465,12 +464,12 @@ footer p[style],
 footer span[style],
 footer a[style] {
     font-size: 1rem;
-    color: var(--text-color); /* Tất cả trong footer thành hồng nhạt */
+    color: var(--text-color);
     text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--highlight-color); /* Hover footer thành hồng nhạt hơn */
+    color: var(--highlight-color);
 }
 
 /* Modal */
@@ -483,7 +482,7 @@ footer a:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(255, 105, 180, 0.7);
+    background-color: rgba(0, 123, 255, 0.7);
     padding-top: 60px;
 }
 
@@ -517,14 +516,14 @@ footer a:hover {
 
 .close-button:hover,
 .close-button:focus {
-    color: var(--text-color); /* Nút đóng modal thành hồng nhạt khi hover */
+    color: var(--text-color);
     cursor: pointer;
 }
 
 #modal-project-content h2 {
     text-align: left;
     font-size: 2.2rem;
-    color: var(--text-color); /* Tiêu đề modal thành hồng nhạt */
+    color: var(--text-color);
     margin-top: 0;
 }
 
@@ -540,7 +539,7 @@ footer a:hover {
 #modal-project-content .project-meta {
     margin-bottom: 25px;
     font-size: 0.95rem;
-    color: var(--text-color); /* Meta thông tin thành hồng nhạt */
+    color: var(--text-color);
 }
 
 #modal-project-content .project-meta span {
@@ -549,13 +548,13 @@ footer a:hover {
 }
 
 #modal-project-content .project-meta strong {
-    color: var(--text-color); /* Văn bản đậm trong meta thành hồng nhạt */
+    color: var(--text-color);
 }
 
 #modal-project-content .description-detailed {
     text-align: left;
     line-height: 1.8;
-    color: var(--text-color); /* Mô tả chi tiết thành hồng nhạt */
+    color: var(--text-color);
     margin-bottom: 25px;
 }
 
@@ -569,7 +568,7 @@ footer a:hover {
 #modal-project-content .media-item p {
     font-style: italic;
     font-size: 0.95rem;
-    color: var(--text-color); /* Chú thích media thành hồng nhạt */
+    color: var(--text-color);
     text-align: center;
     margin-top: 8px;
 }
@@ -582,7 +581,7 @@ footer a:hover {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(255, 105, 180, 0.85);
+    background: rgba(0, 123, 255, 0.85);
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -592,7 +591,7 @@ footer a:hover {
     max-width: 90%;
     max-height: 90%;
     border-radius: var(--border-radius);
-    box-shadow: 0 0 25px rgba(255, 182, 193, 0.3);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     animation: zoomIn 0.5s ease;
 }
 
@@ -613,7 +612,7 @@ footer a:hover {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: var(--header-bg); /* Nền trắng trên mobile */
+        background-color: var(--header-bg);
         position: absolute;
         top: 70px;
         left: 0;
