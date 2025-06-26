@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
   const API_BASE_URL = 'data';
   let currentLang = localStorage.getItem("language") || "vi";
@@ -248,16 +249,16 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="container">
           <h2>${sanitizeHTML(data.contact_title)}</h2>
           <div id="contact-info">
-            <p style="color: #c12767;">${sanitizeHTML(data.contact_message)}</p>
+            <p style="color: #000000;">${sanitizeHTML(data.contact_message)}</p>
             <p>
-              <strong style="color: #c12767;">${sanitizeHTML(data.contact_email_label)}</strong> 
+              <strong style="color: #000000;">${sanitizeHTML(data.contact_email_label)}</strong> 
               <a href="mailto:${sanitizeHTML(data.contact_email)}" aria-label="Gửi email tới ${sanitizeHTML(data.contact_email)}">${sanitizeHTML(data.contact_email)}</a>
             </p>
             ${
               data.phone_number
                 ? `<p>
-                  <strong style="color: #c12767;">${sanitizeHTML(data.contact_phone_label || (currentLang === "vi" ? "Điện thoại:" : "Phone:"))}</strong>
-                  <span style="color: #c12767;">${sanitizeHTML(data.phone_number)}</span>
+                  <strong style="color: #000000;">${sanitizeHTML(data.contact_phone_label || (currentLang === "vi" ? "Điện thoại:" : "Phone:"))}</strong>
+                  <span style="color: #000000;">${sanitizeHTML(data.phone_number)}</span>
                 </p>`
                 : ""
             }
@@ -492,7 +493,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div id="video-placeholder-${project.id}" style="width: 100%; height: 360px; background: #000; display: flex; align-items: center; justify-content: center;">
             <span style="color: #fff;">Đang tải video...</span>
           </div>
-          <p style="display: none; color: #c12767;" id="video-error-${project.id}">${currentLang === "vi" ? "Video không thể load do bị chặn. Vui lòng xem trực tiếp trên YouTube." : "Video cannot be loaded due to restrictions. Please view it directly on YouTube."}</p>
+          <p style="display: none; color: #000000;" id="video-error-${project.id}">${currentLang === "vi" ? "Video không thể load do bị chặn. Vui lòng xem trực tiếp trên YouTube." : "Video cannot be loaded due to restrictions. Please view it directly on YouTube."}</p>
           <a href="${sanitizeHTML(project.video_url)}" target="_blank" class="cta-button" style="display: none;" id="video-link-${project.id}" aria-label="Xem video trên YouTube">${currentLang === "vi" ? "Xem trên YouTube" : "View on YouTube"}</a>
           <p>${sanitizeHTML(project.caption || "")}</p>
         </div>`;
@@ -539,7 +540,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <div id="video-placeholder-${item.url}" style="width: 100%; height: 360px; background: #000; display: flex; align-items: center; justify-content: center;">
                 <span style="color: #fff;">Đang tải video...</span>
               </div>
-              <p style="display: none; color: #c12767;" id="video-error-${item.url}">${currentLang === "vi" ? "Video không thể load. Vui lòng xem trực tiếp." : "Video cannot be loaded. Please view it directly."}</p>
+              <p style="display: none; color: #000000;" id="video-error-${item.url}">${currentLang === "vi" ? "Video không thể load. Vui lòng xem trực tiếp." : "Video cannot be loaded. Please view it directly."}</p>
               <a href="${sanitizeHTML(item.url)}" target="_blank" class="cta-button" style="display: none;" id="video-link-${item.url}" aria-label="Xem video">${currentLang === "vi" ? "Xem video" : "View video"}</a>
               <p>${sanitizeHTML(item.caption || "")}</p>
             </div>`;

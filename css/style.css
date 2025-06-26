@@ -1,3 +1,4 @@
+
 /* 
  * White Black Theme CSS
  * Optimized for simplicity, accessibility, and maintainability
@@ -20,13 +21,13 @@
 /* CSS Variables */
 :root {
     /* Colors */
-    --primary-color: #007BFF; /* Blue (primary accent) */
+    --primary-color: #000000; /* Black for buttons and primary elements */
     --secondary-color: #FFFFFF; /* White background */
-    --accent-color: #0056B3; /* Darker blue */
-    --highlight-color: #4DA8FF; /* Lighter blue for hover */
+    --accent-color: #333333; /* Dark gray for borders and secondary elements */
+    --highlight-color: #666666; /* Light gray for hover effects */
     --text-color: #000000; /* Black for all text */
-    --neutral-color: #F5F5F5; /* Light gray */
-    --footer-color: #E6F0FA; /* Light blue-gray for footer */
+    --neutral-color: #F5F5F5; /* Light gray for subtle backgrounds */
+    --footer-color: #E6F0FA; /* Light grayish-blue for footer */
     --header-bg: #FFFFFF; /* White for header */
     --header-text: #000000; /* Black for header text */
 
@@ -147,7 +148,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: var(--neutral-color);
+    background-color: #E6E6E6; /* Very light gray for hover */
     color: var(--header-text);
     transform: translateY(-2px);
 }
@@ -188,7 +189,7 @@ nav ul li a.active {
 }
 
 .hamburger:hover {
-    color: var(--header-text);
+    color: var(--highlight-color);
 }
 
 /* Sections */
@@ -248,21 +249,21 @@ section:nth-child(even) {
 
 .cta-button {
     display: inline-block;
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: #FFFFFF; /* White text for contrast */
     padding: 14px 30px;
     border-radius: 8px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    border: 2px solid var(--accent-color);
+    border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: var(--highlight-color);
-    border-color: var(--highlight-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
     transform: translateY(-4px);
 }
 
@@ -303,7 +304,6 @@ section:nth-child(even) {
     background-color: var(--neutral-color);
     color: var(--text-color);
     padding: 8px 16px;
-    border: 1px solid var(--accent-color);
     border-radius: 4px;
     font-size: 0.95rem;
     font-weight: bold;
@@ -482,7 +482,7 @@ footer a:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 123, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay */
     padding-top: 60px;
 }
 
@@ -581,7 +581,7 @@ footer a:hover {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 123, 255, 0.85);
+    background: rgba(0, 0, 0, 0.85); /* Black overlay */
     justify-content: center;
     align-items: center;
     z-index: 9999;

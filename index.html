@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="vi">
   <head>
@@ -10,26 +11,46 @@
     <link rel="stylesheet" href="css/video-projects.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <style>
-      /* Đảm bảo icon hiển thị trên mobile */
+      /* Ensure icons display correctly on mobile */
       .logo img,
       .language-icons img {
         display: inline-block;
         height: auto;
+        border: 1px solid #000000; /* Black border for visibility on white background */
+        border-radius: 50%;
+        transition: border-color 0.3s ease, transform 0.3s ease;
       }
+
+      .logo img:hover,
+      .language-icons img:hover {
+        border-color: #4DA8FF; /* Light blue hover effect */
+        transform: scale(1.1);
+      }
+
       @media (max-width: 768px) {
         .logo img {
           width: 60px;
           height: 45px;
           margin-right: 20px;
+          border: 1px solid #000000; /* Black border on mobile */
         }
+
         .language-icons img {
           width: 28px;
           height: 28px;
           margin-right: 8px;
+          border: 1px solid #000000; /* Black border on mobile */
         }
+
         .nav-right .hamburger {
           font-size: 24px;
           cursor: pointer;
+          color: #000000; /* Black hamburger icon */
+          transition: color 0.3s ease;
+        }
+
+        .nav-right .hamburger:hover {
+          color: #4DA8FF; /* Light blue hover effect */
         }
       }
     </style>
