@@ -14,7 +14,6 @@
       .logo img,
       .language-icons img {
         display: inline-block;
-        max-width: 100%;
         height: auto;
       }
       @media (max-width: 768px) {
@@ -24,7 +23,8 @@
           margin-right: 20px;
         }
         .language-icons img {
-          width: 20px;
+          width: 28px;
+          height: 28px;
           margin-right: 8px;
         }
         .nav-right .hamburger {
@@ -53,9 +53,8 @@
           <li><a href="#about" data-lang="nav_about">Giới Thiệu</a></li>
           <li><a href="#projects" data-lang="nav_projects">Dự Án</a></li>
           <li id="nav-video-projects" class="hidden">
-  <a href="#video-projects" data-lang="nav_video_projects">Dự Án Video</a>
-</li>
-
+            <a href="#video-projects" data-lang="nav_video_projects">Dự Án Video</a>
+          </li>
           <li><a href="#contact" data-lang="nav_contact">Liên Hệ</a></li>
         </ul>
         <div class="nav-right">
@@ -64,13 +63,13 @@
               src="images/icon_language/VN.png" 
               alt="Tiếng Việt" 
               id="lang-vi" 
-              style="cursor: pointer; width: 24px; margin-right: 10px;" 
+              style="cursor: pointer; margin-right: 10px;" 
             />
             <img 
               src="images/icon_language/co_My.png" 
               alt="English" 
               id="lang-en" 
-              style="cursor: pointer; width: 24px;" 
+              style="cursor: pointer;" 
             />
           </div>
           <div class="hamburger" id="hamburger">☰</div>
@@ -87,12 +86,11 @@
         <h2 data-lang="projects_title">Dự Án Của Tôi</h2>
         <div class="project-grid"></div>
       </section>
-
-<section id="contact" class="contact-section">
-  <div class="container">
-    <h2>Liên Hệ</h2>
-  </div>
-</section>
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2>Liên Hệ</h2>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -102,7 +100,6 @@
     </footer>
 
     <div id="project-modal" class="modal">
-
       <div class="modal-content">
         <div id="modal-project-content"></div>
         <span class="close-button">×</span>

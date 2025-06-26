@@ -1,5 +1,5 @@
 /* 
- * Minimal Black & White Theme CSS
+ * Dark Pink Theme CSS
  * Optimized for simplicity, accessibility, and maintainability
  */
 
@@ -20,20 +20,20 @@
 /* CSS Variables */
 :root {
     /* Colors */
-    --primary-color: #1C2526; /* Đen đậm */
-    --secondary-color: #FFFFFF; /* Trắng */
-    --accent-color: #4A4A4A; /* Xám đậm */
-    --highlight-color: #2E2E2E; /* Xám rất đậm */
-    --text-color: #333333; /* Xám đen */
-    --neutral-color: #E0E0E0; /* Xám nhạt */
-    --footer-color: #1C2526; /* Đen đậm */
+    --primary-color: #FF69B4; /* Hồng đậm (điểm nhấn) */
+    --secondary-color: #1A1A1A; /* Nền tối */
+    --accent-color: #A100A1; /* Tím đậm */
+    --highlight-color: #FFB6C1; /* Hồng nhạt hơn */
+    --text-color: #FFD1DC; /* Trắng hồng nhạt (tương phản) */
+    --neutral-color: #333333; /* Xám tối */
+    --footer-color: #FFADD6; /* Hồng pastel đậm */
 
     /* Spacing and Sizes */
     --container-max-width: 1280px;
     --border-radius: 12px;
     --section-padding: 100px 20px;
-    --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    --box-shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
+    --box-shadow: 0 4px 15px rgba(255, 105, 180, 0.1);
+    --box-shadow-hover: 0 8px 25px rgba(255, 105, 180, 0.15);
 }
 
 /* Reset */
@@ -56,7 +56,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'MyCustomFont1', serif;
-    font-weight: 700;
+    font-weight: 900;
     color: var(--primary-color);
     margin-bottom: 0.5em;
 }
@@ -82,7 +82,7 @@ h2::after {
 
 a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--primary-color);
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -137,11 +137,10 @@ nav ul {
 
 nav ul li a {
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--text-color);
     padding: 8px 15px;
     border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    will-change: transform;
 }
 
 nav ul li a:hover,
@@ -164,14 +163,13 @@ nav ul li a.active {
 }
 
 .language-icons img {
-    width: 24px;
-    height: 24px;
+    width: 32px; /* Kích thước mặc định */
+    height: 32px;
     cursor: pointer;
     padding: 6px;
     border: 1px solid var(--neutral-color);
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
-    touch-action: manipulation;
 }
 
 .language-icons img:hover {
@@ -183,7 +181,7 @@ nav ul li a.active {
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: var(--primary-color);
+    color: var(--text-color);
     transition: color 0.3s ease;
 }
 
@@ -205,7 +203,7 @@ section:nth-child(even) {
 /* Hero Section */
 .hero-section {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--text-color);
     padding: 120px 20px;
     min-height: 85vh;
     display: flex;
@@ -237,13 +235,13 @@ section:nth-child(even) {
     font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: 25px;
-    color: var(--text-color);
+    color: var(--highlight-color);
 }
 
 .hero-section #hero-bio-short {
     font-size: 1.2rem;
     margin-bottom: 35px;
-    color: var(--highlight-color);
+    color: var(--text-color);
 }
 
 .cta-button {
@@ -258,7 +256,6 @@ section:nth-child(even) {
     border: 2px solid var(--accent-color);
     box-shadow: var(--box-shadow);
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    will-change: transform;
 }
 
 .cta-button:hover {
@@ -361,7 +358,6 @@ section:nth-child(even) {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    will-change: transform;
 }
 
 .project-card:hover {
@@ -417,18 +413,18 @@ section:nth-child(even) {
 #contact-info p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: var(--text-color) !important; /* Ghi đè màu hồng */
+    color: var(--text-color);
 }
 
 #contact-info p strong,
 #contact-info p span,
 #contact-info p a {
-    color: var(--accent-color) !important; /* Ghi đè màu hồng */
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 #contact-info p a:hover {
-    color: var(--highlight-color) !important;
+    color: var(--highlight-color);
 }
 
 .social-links-contact {
@@ -443,7 +439,6 @@ section:nth-child(even) {
     font-size: 2.2rem;
     color: var(--accent-color);
     transition: color 0.3s ease, transform 0.3s ease;
-    will-change: transform;
 }
 
 .social-links-contact li a:hover {
@@ -454,7 +449,7 @@ section:nth-child(even) {
 /* Footer */
 footer {
     background-color: var(--footer-color);
-    color: var(--neutral-color) !important;
+    color: var(--text-color);
     text-align: center;
     padding: 30px 20px;
     width: 100%;
@@ -468,12 +463,12 @@ footer p[style],
 footer span[style],
 footer a[style] {
     font-size: 1rem;
-    color: var(--neutral-color) !important; /* Ghi đè màu hồng */
+    color: var(--text-color);
     text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--accent-color) !important;
+    color: var(--accent-color);
 }
 
 /* Modal */
@@ -486,7 +481,7 @@ footer a:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 105, 180, 0.7);
     padding-top: 60px;
 }
 
@@ -585,7 +580,7 @@ footer a:hover {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(255, 105, 180, 0.85);
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -595,7 +590,7 @@ footer a:hover {
     max-width: 90%;
     max-height: 90%;
     border-radius: var(--border-radius);
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 25px rgba(255, 182, 193, 0.3);
     animation: zoomIn 0.5s ease;
 }
 
@@ -637,9 +632,9 @@ footer a:hover {
     }
 
     .language-icons img {
-        width: 20px;
-        height: 20px;
-        padding: 8px;
+        width: 28px;
+        height: 28px;
+        padding: 6px;
     }
 
     .hamburger {
