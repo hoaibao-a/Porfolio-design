@@ -116,6 +116,7 @@
     animation: bounceHover 0.3s ease-out;
 }
 
+
 @keyframes bounceHover {
     0%, 100% { transform: translateY(0) scale(1); }
     50% { transform: translateY(-5px) scale(1.05); }
