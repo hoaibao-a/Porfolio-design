@@ -12,18 +12,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <style>
       /* Ensure icons display correctly on mobile */
-      .logo img,
+      .logo img {
+        display: inline-block;
+        height: auto;
+        border: none; /* No border for logo */
+      }
+
       .language-icons img {
         display: inline-block;
         height: auto;
-        border: 1px solid #000000; /* Black border for visibility on white background */
+        border: 1px solid #000000; /* Black border for language icons */
         border-radius: 50%;
         transition: border-color 0.3s ease, transform 0.3s ease;
       }
 
-      .logo img:hover,
       .language-icons img:hover {
-        border-color: #4DA8FF; /* Light blue hover effect */
+        border-color: #666666; /* Light gray hover effect */
         transform: scale(1.1);
       }
 
@@ -32,7 +36,7 @@
           width: 60px;
           height: 45px;
           margin-right: 20px;
-          border: 1px solid #000000; /* Black border on mobile */
+          border: none; /* No border for logo on mobile */
         }
 
         .language-icons img {
@@ -50,7 +54,7 @@
         }
 
         .nav-right .hamburger:hover {
-          color: #4DA8FF; /* Light blue hover effect */
+          color: #666666; /* Light gray hover effect */
         }
       }
     </style>

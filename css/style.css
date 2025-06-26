@@ -27,7 +27,7 @@
     --highlight-color: #666666; /* Light gray for hover effects */
     --text-color: #000000; /* Black for all text */
     --neutral-color: #F5F5F5; /* Light gray for subtle backgrounds */
-    --footer-color: #E6F0FA; /* Light grayish-blue for footer */
+    --footer-color: #FFFFFF; /* White for footer */
     --header-bg: #FFFFFF; /* White for header */
     --header-text: #000000; /* Black for header text */
 
@@ -130,6 +130,10 @@ nav {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     color: var(--header-text);
+}
+
+.logo img {
+    border: none !important; /* Remove border for logo image */
 }
 
 nav ul {
@@ -449,7 +453,7 @@ section:nth-child(even) {
 
 /* Footer */
 footer {
-    background-color: var(--footer-color);
+    background-color: var(--secondary-color); /* White background */
     color: var(--text-color);
     text-align: center;
     padding: 30px 20px;
