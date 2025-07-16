@@ -1,13 +1,48 @@
 [
-  {
+{
+  "id": "poster-empire-billiards-club",
+  "project_name": "Thiết kế poster - Empire Billiards Club",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Empire%20billards/1.jpg?updatedAt=1752680182583",
+  "project_category": "Poster",
+  "project_date": "15 tháng 06 năm 2025",
+  "client_name": "Empire Billiards Club",
+  "project_summary": "Thiết kế poster quảng bá cơ sở bida cao cấp Empire Billiards Club hoạt động 24/7 với diện tích lớn và tiện nghi hiện đại.",
+  "project_description_detailed": "Poster mang phong cách hiện đại, sử dụng tông màu đen - vàng chủ đạo, làm nổi bật các tiện ích chính như không gian rộng, bàn bida chất lượng, quầy bar tiện lợi và thông điệp mở cửa 24H.",
+  "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Empire%20billards/1.jpg?updatedAt=1752680182583",
+      "alt_text": "Poster quảng bá Empire Billiards Club – quán bida cao cấp mở cửa 24/7 tại Hà Nội.",
+      "caption": "Thiết kế poster nổi bật với hình ảnh không gian hiện đại, quầy bar tiện nghi và thông điệp mở cửa 24H."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Empire%20billards/2.jpg?updatedAt=1752680182728",
+      "alt_text": "Poster Empire Billiards Club khai trương rộn ràng – ưu đãi ngập tràn từ 01/07 đến 15/07",
+      "caption": "Poster khai trương Empire Billiards Club với các ưu đãi hấp dẫn, thu hút khách hàng trẻ tại Hà Nội."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Empire%20billards/3.jpg?updatedAt=1752680182874",
+      "alt_text": "Poster Empire Billiards Club – Trải nghiệm bi-a chuẩn thi đấu với hệ thống bàn và không gian cao cấp.",
+      "caption": "Poster giới thiệu hệ thống bàn thi đấu cao cấp và không gian rộng rãi tại Empire Billiards Club."
+    }
+  ]
+}
+
+,
+{
   "id": "logo-dai-nam",
   "project_name": "Thiết kế logo - Đại Nam",
   "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/1.jpg?updatedAt=1752680216367",
   "project_category": "Logo",
   "project_date": "15 tháng 06 năm 2025",
   "client_name": "Đại Nam",
-  "project_summary": "Thiết kế logo cho thương hiệu Đại Nam, thể hiện tinh thần dân tộc, uy tín và truyền thống thông qua biểu tượng Việt Nam, lúa và rượu.",
-  "project_description_detailed": "Logo được xây dựng dựa trên hình ảnh bình rượu truyền thống – biểu tượng của sự gắn kết và văn hóa ẩm thực Việt, kết hợp cùng bản đồ Việt Nam đặt bên trong. Hai nhánh lúa uốn cong đại diện cho sự trù phú và phát triển. Tông màu chủ đạo là xanh dương đậm thể hiện sự vững chắc và tin cậy, điểm xuyết bởi màu vàng của lúa và đỏ của dải ruy băng mang dòng chữ 'ĐẠI NAM', tạo nên tổng thể mạnh mẽ, hài hòa và đậm đà bản sắc dân tộc.",
+  "project_summary": "Thiết kế logo cho thương hiệu rượu Đại Nam, thể hiện tinh thần dân tộc và truyền thống Việt Nam.",
+  "project_description_detailed": "Logo sử dụng hình ảnh bản đồ Việt Nam trong bình rượu truyền thống, kết hợp nhánh lúa vàng và dải ruy băng đỏ, tạo nên tổng thể mang đậm bản sắc dân tộc và sự tin cậy.",
   "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
   "project_live_url": "",
   "project_case_study_url": "",
@@ -16,36 +51,33 @@
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/1.jpg?updatedAt=1752680216367",
       "alt_text": "Logo thương hiệu Đại Nam – hình ảnh bản đồ Việt Nam trong bình rượu, kết hợp với nhánh lúa và dải ruy băng đỏ.",
-      "caption": "Thiết kế logo truyền thống mang tính nhận diện cao, biểu tượng bản đồ Việt Nam kết hợp bình rượu và nhánh lúa vàng thể hiện sự gắn bó với đất nước và nền văn hóa dân gian."
+      "caption": "Logo nhận diện thương hiệu Đại Nam – đậm nét truyền thống, thể hiện sự gắn bó với đất nước và văn hóa Việt."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/2.jpg?updatedAt=1752680216545",
+      "alt_text": "Poster quảng bá sản phẩm Rượu Men Lá Đại Nam với hình ảnh đồng ruộng nền xanh và hai chai rượu trong khung mạng xã hội.",
+      "caption": "Poster truyền thống giới thiệu sản phẩm Rượu Men Lá với thông điệp đậm chất Việt và hình ảnh cánh đồng xanh."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/3.jpg?updatedAt=1752680216064",
+      "alt_text": "Ảnh sản phẩm Rượu Men Lá Đại Nam đóng can 30 lít, đặt trên bàn gỗ với phông nền nội thất gỗ sang trọng.",
+      "caption": "Ảnh sản phẩm can lớn 30L – thiết kế chụp bố cục tinh tế, phù hợp nhà hàng, phân phối hoặc sự kiện."
     }
-	,
-	{
-  "type": "image",
-  "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/2.jpg?updatedAt=1752680216545",
-  "alt_text": "Poster quảng bá sản phẩm Rượu Men Lá Đại Nam với hình ảnh đồng ruộng nền xanh và hai chai rượu trong khung mạng xã hội.",
-  "caption": "Thiết kế poster mang màu sắc truyền thống và bản sắc Việt, giới thiệu sản phẩm Rượu Men Lá Đại Nam với thông điệp “Chỉ khi trải nghiệm sản phẩm chung cất đậm chất Việt, khách hàng mới thật sự ấn tượng.” Tông nền là đồng lúa xanh, gợi cảm giác thiên nhiên, trong lành và chất lượng nguyên bản."
-}
-,
-{
-  "type": "image",
-  "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/3.jpg?updatedAt=1752680216064",
-  "alt_text": "Ảnh sản phẩm Rượu Men Lá Đại Nam đóng can 30 lít, đặt trên bàn gỗ với phông nền nội thất gỗ sang trọng.",
-  "caption": "Ảnh chụp sản phẩm Rượu Men Lá Đại Nam dạng can lớn 30L, phù hợp cho phân phối hoặc sử dụng trong sự kiện, nhà hàng. Phông nền nội thất truyền thống tôn lên chất rượu dân dã nhưng vẫn cao cấp và tinh tế."
-}
-
-
   ]
 }
+
 ,
-  {
+{
   "id": "poster-bo-dat-vang",
   "project_name": "Thiết kế poster - Bò Dát Vàng",
   "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
   "project_category": "Poster",
   "project_date": "15 tháng 06 năm 2025",
   "client_name": "Nhật Tửu Lầu",
-  "project_summary": "Thiết kế poster món ăn cao cấp Bò Dát Vàng nhằm thu hút khách hàng thượng lưu và phục vụ hoạt động tiếp khách VIP.",
-  "project_description_detailed": "Poster được thiết kế theo phong cách sang trọng, sử dụng tông đỏ vàng chủ đạo tạo cảm giác cao cấp và nổi bật. Hình ảnh món bò dát vàng được đặt trung tâm, bao quanh là các biểu tượng quà tặng, bong bóng và hiệu ứng ánh sáng tạo cảm giác hân hoan. Dòng chữ 'Chốt đơn' được nhấn mạnh bằng banner lớn, thể hiện tinh thần 'chiêu đãi – quyết định – ký kết'.",
+  "project_summary": "Thiết kế poster quảng bá món Bò Dát Vàng cao cấp tại nhà hàng Nhật Tửu Lầu, hướng đến khách hàng VIP.",
+  "project_description_detailed": "Poster sử dụng tông đỏ vàng sang trọng, tập trung hình ảnh món bò dát vàng cùng các biểu tượng tiệc tùng và quà tặng. Các thiết kế phụ xoay quanh trải nghiệm ẩm thực cao cấp, không gian riêng tư và gắn kết gia đình, bạn bè tại nhà hàng Nhật Tửu Lầu.",
   "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
   "project_live_url": "",
   "project_case_study_url": "",
@@ -54,70 +86,71 @@
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
       "alt_text": "Poster món Bò Dát Vàng tại Nhật Tửu Lầu – món chốt đơn cho tiếp khách cao cấp",
-      "caption": "Thiết kế poster món ăn cao cấp Bò Dát Vàng tại nhà hàng Nhật Tửu Lầu – nổi bật với gam màu đỏ sang trọng và bố cục hấp dẫn."
+      "caption": "Poster món ăn cao cấp Bò Dát Vàng – nổi bật với gam đỏ vàng sang trọng, hướng đến khách hàng VIP."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/2.jpg?updatedAt=1752681287522",
-      "alt_text": "Poster Nhật Tửu Lầu với câu hỏi 'Làm sao để đặt bàn đúng gu mà không cần chọn món?'",
-      "caption": "Thiết kế poster sáng tạo với bố cục điện thoại và món ăn cao cấp như súp bào ngư, tôm hùm baby – truyền tải thông điệp tiện lợi khi đặt bàn tại Nhật Tửu Lầu."
+      "alt_text": "Poster Nhật Tửu Lầu – Đặt bàn tiện lợi không cần chọn món",
+      "caption": "Thiết kế sáng tạo truyền tải trải nghiệm đặt bàn tiện lợi với thực đơn cao cấp như tôm hùm, bào ngư."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/3.jpg?updatedAt=1752681287865",
-      "alt_text": "Poster Nhật Tửu Lầu với thông điệp 'Món ăn gợi nhớ một thời thanh xuân' và hình ảnh các món ăn truyền thống – sashimi, gà hầm, điện thoại hiển thị fanpage.",
-      "caption": "Thiết kế poster hoài niệm với gam màu đỏ – vàng, truyền tải thông điệp cảm xúc qua hình ảnh món ăn gà hầm, sashimi và sự kết nối qua Facebook fanpage Nhật Tửu Lầu."
+      "alt_text": "Poster Nhật Tửu Lầu – Món ăn gợi nhớ thanh xuân",
+      "caption": "Poster cảm xúc với hình ảnh gà hầm, sashimi gợi nhớ kỷ niệm và sự kết nối qua fanpage."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/4.jpg?updatedAt=1752681288194",
-      "alt_text": "Poster Nhà hàng Nhật Tửu Lầu – Nhóm bạn hẹn cuối tuần, chọn ngay phòng riêng, với nhiều hình ảnh thực khách vui vẻ.",
-      "caption": "Thiết kế poster sống động với màu cam nổi bật, truyền tải thông điệp gắn kết bạn bè dịp cuối tuần tại Nhật Tửu Lầu. Hình ảnh thực khách, nhân viên phục vụ và không gian riêng tư tạo cảm giác thân thiện và hấp dẫn."
+      "alt_text": "Poster Nhật Tửu Lầu – Gắn kết bạn bè dịp cuối tuần",
+      "caption": "Poster tươi sáng truyền tải tinh thần sum họp nhóm bạn và không gian riêng tư thoải mái."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/5.jpg?updatedAt=1752681288104",
-      "alt_text": "Poster Nhật Tửu Lầu – Gặp người thương, nghe nhạc, ăn tối lãng mạn với không gian phòng riêng và thực đơn cao cấp.",
-      "caption": "Thiết kế poster chủ đề lãng mạn với tông đỏ chủ đạo, quảng bá trải nghiệm ăn tối cùng người yêu tại Nhật Tửu Lầu. Điểm nhấn là ly rượu vang, món ăn tinh tế, nhạc sống và phòng riêng – truyền tải cảm xúc đẳng cấp và riêng tư."
+      "alt_text": "Poster Nhật Tửu Lầu – Hẹn hò lãng mạn trong không gian riêng",
+      "caption": "Poster lãng mạn dành cho cặp đôi – nhấn vào không khí sang trọng, riêng tư và âm nhạc."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/6.jpg?updatedAt=1752681288266",
-      "alt_text": "Poster Nhật Tửu Lầu với thông điệp 'Đã tới Sài Gòn – Nhất định phải thử Nhà hàng Nhật Tửu Lầu', kèm hình ảnh thành phố và thực khách thưởng thức món ăn.",
-      "caption": "Thiết kế poster kết hợp phong cảnh thành phố Sài Gòn cùng hình ảnh món ăn dát vàng và thực khách hài lòng. Truyền tải mạnh mẽ thông điệp nhà hàng Nhật Tửu Lầu là điểm đến ẩm thực không thể bỏ lỡ khi ghé thăm TP.HCM."
+      "alt_text": "Poster Nhật Tửu Lầu – Địa điểm ẩm thực phải thử tại Sài Gòn",
+      "caption": "Poster kết hợp hình ảnh TP.HCM và món ăn dát vàng – nhấn mạnh vị thế ẩm thực Nhật Tửu Lầu."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/7.jpg?updatedAt=1752681287748",
-      "alt_text": "Poster Nhật Tửu Lầu – Gợi ý set menu bữa cơm gia đình 4–6 người, gồm lẩu hải sản, gỏi tôm, cá nướng, trái cây.",
-      "caption": "Thiết kế poster gợi ý thực đơn gia đình hấp dẫn tại Nhật Tửu Lầu, phù hợp cho 4–6 người. Bố cục đầy màu sắc với các món đặc trưng như lẩu hải sản, cá nướng, gỏi tôm và trái cây, thể hiện sự phong phú và ấm cúng của bữa cơm sum vầy."
+      "alt_text": "Poster Nhật Tửu Lầu – Set menu gia đình 4–6 người",
+      "caption": "Poster gợi ý bữa cơm sum vầy – lẩu, cá nướng, gỏi tôm, trái cây, phù hợp gia đình nhỏ."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/8.jpg?updatedAt=1752681285509",
-      "alt_text": "Poster Hẹn hò lãng mạn với người thương – bàn ăn tối bên cửa sổ với nến và rượu vang, nhìn ra thành phố về đêm.",
-      "caption": "Thiết kế poster tối giản, tinh tế với hình ảnh bàn tiệc buổi tối lãng mạn bên ánh nến. Không khí ấm cúng, sang trọng – hoàn hảo cho buổi hẹn hò riêng tư tại Nhà hàng Nhật Tửu Lầu."
+      "alt_text": "Poster Nhật Tửu Lầu – Bàn tiệc lãng mạn bên cửa sổ",
+      "caption": "Thiết kế tối giản, tinh tế với ánh nến, rượu vang – dành cho hẹn hò riêng tư buổi tối."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/9.jpg?updatedAt=1752681286134",
-      "alt_text": "Poster Nhật Tửu Lầu – Gia đình họp mặt cuối tuần với hình ảnh cả nhà quây quần bên bàn tiệc ấm cúng.",
-      "caption": "Thiết kế poster mang tinh thần sum vầy với hình ảnh gia đình tụ họp bên mâm cơm cuối tuần tại không gian riêng tư, ấm áp của Nhật Tửu Lầu – nơi lý tưởng để gắn kết các thế hệ."
+      "alt_text": "Poster Nhật Tửu Lầu – Gia đình quây quần cuối tuần",
+      "caption": "Poster thể hiện tinh thần đoàn viên – gia đình tụ họp tại không gian ấm cúng nhà hàng."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/10.jpg?updatedAt=1752681286478",
-      "alt_text": "Poster Nhật Tửu Lầu – Họp nhóm công ty nhỏ, ăn uống và thư giãn với không gian ấm cúng và bữa ăn đầy đủ món ngon.",
-      "caption": "Thiết kế poster rực rỡ, nổi bật tinh thần gắn kết và thư giãn cùng đồng nghiệp trong không gian riêng tư tại Nhật Tửu Lầu. Phù hợp cho nhóm công ty nhỏ muốn họp mặt nhẹ nhàng sau giờ làm."
+      "alt_text": "Poster Nhật Tửu Lầu – Họp nhóm công ty thân mật",
+      "caption": "Poster nổi bật không khí thư giãn – họp nhóm công ty nhỏ sau giờ làm trong không gian riêng."
     },
     {
       "type": "image",
       "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/11.jpg?updatedAt=1752681291195",
-      "alt_text": "Poster Nhật Tửu Lầu – Gợi ý tiệc cuối tuần: ăn ngon, ngồi mát, nghe nhạc, kèm hình ảnh sashimi và cua rang me, cùng dàn khách mời trong trang phục sang trọng.",
-      "caption": "Thiết kế poster nổi bật với thông điệp “Gợi ý tiệc cuối tuần” – kết hợp ẩm thực cao cấp như sashimi, cua sốt và không khí sự kiện sang trọng với dàn khách mời cùng backdrop Nhật Tửu Lầu – Wine Cellar. Mang đến cảm giác tiệc tùng sôi động và đẳng cấp."
+      "alt_text": "Poster Nhật Tửu Lầu – Tiệc cuối tuần đẳng cấp",
+      "caption": "Thiết kế tiệc cuối tuần sang trọng với sashimi, cua rang me, khách mời nổi bật cùng backdrop sự kiện."
     }
   ]
 }
+
 ,
   {
   "id": "Thiet-ke-poster-BaoLong",
