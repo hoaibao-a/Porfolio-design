@@ -43,12 +43,12 @@
 //   "project_live_url": "https://example.com/fun-app-showcase",
 //   "project_case_study_url": "",
 //   "media": [
-//     {
-//       "type": "image",
-//       "url": "images/fun_app_screen_1.png",
-//       "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
-//       "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
-//     },
+     {
+      "type": "image",
+      "url": "images/fun_app_screen_1.png",
+      "alt_text": "Màn hình chào của ứng dụng Vui Nhộn",
+       "caption": "Giao diện màn hình chào với nhân vật hoạt hình."
+     },
 //     {
 //       "type": "image",
 //       "url": "images/fun_app_screen_2.png",
