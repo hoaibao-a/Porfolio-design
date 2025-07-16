@@ -1,5 +1,43 @@
 [
   {
+  "id": "logo-dai-nam",
+  "project_name": "Thiết kế logo - Đại Nam",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/1.jpg?updatedAt=1752680216367",
+  "project_category": "Logo",
+  "project_date": "15 tháng 06 năm 2025",
+  "client_name": "Đại Nam",
+  "project_summary": "Thiết kế logo cho thương hiệu Đại Nam, thể hiện tinh thần dân tộc, uy tín và truyền thống thông qua biểu tượng Việt Nam, lúa và rượu.",
+  "project_description_detailed": "Logo được xây dựng dựa trên hình ảnh bình rượu truyền thống – biểu tượng của sự gắn kết và văn hóa ẩm thực Việt, kết hợp cùng bản đồ Việt Nam đặt bên trong. Hai nhánh lúa uốn cong đại diện cho sự trù phú và phát triển. Tông màu chủ đạo là xanh dương đậm thể hiện sự vững chắc và tin cậy, điểm xuyết bởi màu vàng của lúa và đỏ của dải ruy băng mang dòng chữ 'ĐẠI NAM', tạo nên tổng thể mạnh mẽ, hài hòa và đậm đà bản sắc dân tộc.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/1.jpg?updatedAt=1752680216367",
+      "alt_text": "Logo thương hiệu Đại Nam – hình ảnh bản đồ Việt Nam trong bình rượu, kết hợp với nhánh lúa và dải ruy băng đỏ.",
+      "caption": "Thiết kế logo truyền thống mang tính nhận diện cao, biểu tượng bản đồ Việt Nam kết hợp bình rượu và nhánh lúa vàng thể hiện sự gắn bó với đất nước và nền văn hóa dân gian."
+    }
+	,
+	{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/2.jpg?updatedAt=1752680216545",
+  "alt_text": "Poster quảng bá sản phẩm Rượu Men Lá Đại Nam với hình ảnh đồng ruộng nền xanh và hai chai rượu trong khung mạng xã hội.",
+  "caption": "Thiết kế poster mang màu sắc truyền thống và bản sắc Việt, giới thiệu sản phẩm Rượu Men Lá Đại Nam với thông điệp “Chỉ khi trải nghiệm sản phẩm chung cất đậm chất Việt, khách hàng mới thật sự ấn tượng.” Tông nền là đồng lúa xanh, gợi cảm giác thiên nhiên, trong lành và chất lượng nguyên bản."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/3.jpg?updatedAt=1752680216064",
+  "alt_text": "Ảnh sản phẩm Rượu Men Lá Đại Nam đóng can 30 lít, đặt trên bàn gỗ với phông nền nội thất gỗ sang trọng.",
+  "caption": "Ảnh chụp sản phẩm Rượu Men Lá Đại Nam dạng can lớn 30L, phù hợp cho phân phối hoặc sử dụng trong sự kiện, nhà hàng. Phông nền nội thất truyền thống tôn lên chất rượu dân dã nhưng vẫn cao cấp và tinh tế."
+}
+
+
+  ]
+}
+,
+  {
   "id": "poster-bo-dat-vang",
   "project_name": "Thiết kế poster - Bò Dát Vàng",
   "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",

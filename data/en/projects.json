@@ -1,6 +1,41 @@
 [
 
   {
+    "id": "logo-dai-nam",
+    "project_name": "Logo Design – Đại Nam",
+    "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/1.jpg?updatedAt=1752680216367",
+    "project_category": "Logo",
+    "project_date": "June 15, 2025",
+    "client_name": "Đại Nam",
+    "project_summary": "Logo design for the Đại Nam brand, symbolizing national spirit, prestige, and tradition through the imagery of Vietnam, rice, and liquor.",
+    "project_description_detailed": "The logo is built around the image of a traditional liquor bottle — a symbol of Vietnamese culinary culture and unity — combined with the outline of the Vietnam map inside. Two curved rice branches represent prosperity and growth. The dominant navy blue color conveys strength and trust, complemented by the yellow of the rice and the red ribbon featuring the 'ĐẠI NAM' label, forming a bold, harmonious, and culturally rich identity.",
+    "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+    "project_live_url": "",
+    "project_case_study_url": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/1.jpg?updatedAt=1752680216367",
+        "alt_text": "Đại Nam brand logo – Vietnam map inside a liquor bottle, flanked by rice branches and a red ribbon.",
+        "caption": "Traditional and highly recognizable logo design, symbolizing Vietnam with a liquor bottle and golden rice branches — reflecting national pride and cultural heritage."
+      },
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/2.jpg?updatedAt=1752680216545",
+        "alt_text": "Promotional poster for Đại Nam Leaf-Fermented Liquor, featuring a green rice field and two liquor bottles in a social media-style frame.",
+        "caption": "Poster design with traditional colors and Vietnamese identity, introducing Đại Nam Leaf-Fermented Liquor. The message emphasizes authentic Vietnamese distillation: 'Only by experiencing authentically brewed Vietnamese liquor can customers truly be impressed.' The green rice field background evokes a sense of nature, purity, and original quality."
+      },
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/ljvorpiit/R%E1%BB%B1u%20%C4%90%E1%BA%A1i%20Nam/3.jpg?updatedAt=1752680216064",
+        "alt_text": "Product photo of Đại Nam Leaf-Fermented Liquor in a 30-liter container, placed on a wooden table with a refined wooden interior backdrop.",
+        "caption": "Product photo featuring the 30L canister of Đại Nam Leaf-Fermented Liquor — ideal for distribution or use at events and restaurants. The traditional wood interior background elevates the rustic yet premium and refined nature of the product."
+      }
+    ]
+  }
+,
+
+  {
   "id": "poster-bo-dat-vang",
   "project_name": "Poster Design - Golden Beef",
   "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
