@@ -696,13 +696,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Chặn F12, Ctrl+Shift+I, Ctrl+U, Ctrl+S
-  // document.addEventListener("keydown", function(e) {
-  //   if (e.key === "F12" ||
-  //       (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
-  //       (e.ctrlKey && (e.key === "U" || e.key === "S"))) {
-  //     e.preventDefault();
-  //   }
-  // });
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "F12" ||
+        (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+        (e.ctrlKey && (e.key === "U" || e.key === "S"))) {
+      e.preventDefault();
+    }
+  });
 
   // Ngăn kéo thả ảnh
   document.querySelectorAll('img').forEach(img => {
