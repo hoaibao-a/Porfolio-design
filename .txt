@@ -112,3 +112,440 @@ video_projects.json
     "caption": "Video quảng cáo sản phẩm sáng tạo"
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+  {
+  "id": "poster-bo-dat-vang",
+  "project_name": "Poster Design - Golden Beef",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
+  "project_category": "Poster",
+  "project_date": "June 15, 2025",
+  "client_name": "Nhật Tửu Lầu",
+  "project_summary": "Designed a premium food poster for Golden Beef to attract high-end customers and support VIP client engagement.",
+  "project_description_detailed": "The poster is designed in a luxurious style, using dominant red and gold tones to evoke a sense of prestige and elegance. The golden beef dish is placed at the center, surrounded by gift icons, balloons, and lighting effects to create a festive atmosphere. The bold 'Closing Deal' text is emphasized on a large banner, conveying the spirit of hospitality, decision-making, and partnership.",
+  "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
+      "alt_text": "Golden Beef poster at Nhật Tửu Lầu – a signature dish for high-end client meetings",
+      "caption": "Poster design for the premium Golden Beef dish at Nhật Tửu Lầu – highlighted with luxurious red tones and engaging layout."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/2.jpg?updatedAt=1752681287522",
+      "alt_text": "Nhật Tửu Lầu poster with the question 'How to book the right vibe without choosing dishes?'",
+      "caption": "Creative poster design with a smartphone layout showcasing premium dishes like abalone soup and baby lobster – delivering the message of convenient table booking at Nhật Tửu Lầu."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/3.jpg?updatedAt=1752681287865",
+      "alt_text": "Nhật Tửu Lầu poster with the message 'A dish that brings back youthful memories' featuring traditional dishes – sashimi, stewed chicken, and Facebook fanpage on phone screen.",
+      "caption": "Nostalgic poster design in red–yellow tones, delivering emotional messages through visuals of stewed chicken, sashimi, and fan engagement via Nhật Tửu Lầu's Facebook page."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/4.jpg?updatedAt=1752681288194",
+      "alt_text": "Nhật Tửu Lầu restaurant poster – Weekend meet-up with friends, private room, cheerful guests.",
+      "caption": "Vibrant poster design with standout orange tones, promoting the joy of weekend gatherings at Nhật Tửu Lầu. Includes imagery of happy diners, staff service, and cozy private rooms."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/5.jpg?updatedAt=1752681288104",
+      "alt_text": "Nhật Tửu Lầu poster – Romantic dinner with your loved one in a private room with premium menu.",
+      "caption": "Romantic-themed poster in dominant red, promoting an elegant dining experience for couples. Highlighting wine glasses, gourmet dishes, live music, and private ambiance."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/6.jpg?updatedAt=1752681288266",
+      "alt_text": "Nhật Tửu Lầu poster with message 'Arrived in Saigon – Must try Nhật Tửu Lầu', featuring cityscape and diners enjoying dishes.",
+      "caption": "Poster design combining Saigon city views with golden dishes and satisfied customers. Strongly conveys Nhật Tửu Lầu as a must-visit culinary destination in Ho Chi Minh City."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/7.jpg?updatedAt=1752681287748",
+      "alt_text": "Nhật Tửu Lầu poster – Suggested family meal set for 4–6 people, includes seafood hotpot, shrimp salad, grilled fish, fruits.",
+      "caption": "Colorful poster presenting a delicious family set menu at Nhật Tửu Lầu, ideal for 4–6 people. Layout includes seafood hotpot, grilled fish, shrimp salad, and fruits – reflecting warmth and variety of a family feast."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/8.jpg?updatedAt=1752681285509",
+      "alt_text": "Romantic dinner poster – table for two by the window with candles and wine overlooking the night city.",
+      "caption": "Minimalist, elegant poster featuring a romantic dinner setting by candlelight. Cozy, upscale ambiance – perfect for a private date at Nhật Tửu Lầu."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/9.jpg?updatedAt=1752681286134",
+      "alt_text": "Nhật Tửu Lầu poster – Weekend family gathering with everyone around a warm dining table.",
+      "caption": "Warm and heartfelt poster design showing a family gathering for a weekend meal in a cozy private space – ideal for multigenerational bonding at Nhật Tửu Lầu."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/10.jpg?updatedAt=1752681286478",
+      "alt_text": "Nhật Tửu Lầu poster – Small company group dinner in a cozy space with delicious full-course meal.",
+      "caption": "Vibrant poster emphasizing team bonding and relaxation after work in a private setting. Ideal for small office groups enjoying great food at Nhật Tửu Lầu."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/11.jpg?updatedAt=1752681291195",
+      "alt_text": "Nhật Tửu Lầu poster – Weekend party suggestion: great food, cool space, live music, with sashimi, crab and stylish guests.",
+      "caption": "Eye-catching poster with the message 'Weekend party idea' – combining high-end dishes like sashimi and crab with a luxurious event atmosphere featuring elegant guests and Nhật Tửu Lầu – Wine Cellar backdrop. Captures the vibe of a lively and classy gathering."
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+{
+  "id": "thiet-ke-poster-nhat-tuu-lau-83",
+  "project_name": "Thiết kế poster 8/3 - Nhật Tửu Lâu",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-1.jpg?updatedAt=1748012903310",
+  "project_category": "Poster",
+  "project_date": "23 tháng 5 năm 2025",
+  "client_name": "Nhật Tửu Lâu",
+  "project_summary": "Thiết kế poster chúc mừng ngày Quốc tế Phụ nữ 8/3 với hình ảnh tông đỏ nổi bật, nhấn mạnh ưu đãi tặng vang đỏ và cá mú cho nhóm khách nữ.",
+  "project_description_detailed": "Poster được thiết kế với tông màu đỏ chủ đạo, thể hiện sự sang trọng và ấm áp. Trung tâm là biểu tượng 8/3 được cách điệu với hình trái tim và vương miện vàng. Bên cạnh đó là hình ảnh món cá mú hấp dẫn và chai vang đỏ cao cấp. Thiết kế truyền tải rõ thông điệp chương trình ưu đãi: nhóm khách đủ 4 nữ được tặng 1 chai vang đỏ, nhóm dưới 4 nữ được tặng 1 con cá mú. Phù hợp sử dụng trên các nền tảng mạng xã hội và in ấn.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-1.jpg?updatedAt=1748012903310",
+  "alt_text": "Phòng trà J&B – nơi mọi cảm xúc được lắng nghe, nổi bật với không gian âm nhạc sống động và món ăn tinh tế.",
+  "caption": "Phòng Trà J&B – Nhật Tửu Lầu, nơi mọi cảm xúc được lắng nghe. Thưởng thức âm nhạc live đầy cảm xúc, không gian lung linh sắc màu và ẩm thực tinh tế. Liên hệ đặt bàn: 090 811 34 56."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-2.jpg?updatedAt=1748012267583",
+  "alt_text": "Đội ngũ nhân viên Nhật Tửu Lầu mặc trang phục đỏ, tươi cười, chuyên nghiệp và thân thiện.",
+  "caption": "Phục vụ tận tình – chu đáo tại Nhật Tửu Lầu. Đội ngũ nhân viên chuyên nghiệp luôn hỗ trợ set-up, gọi món và chăm sóc khách hàng chu đáo từng chi tiết nhỏ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-3.jpg?updatedAt=1748012269383",
+  "alt_text": "Phòng tiệc đẳng cấp với bàn dài, ly tách sang trọng tại Nhật Tửu Lầu.",
+  "caption": "Không gian đẳng cấp – phù hợp mọi loại hình tiệc. Từ sinh nhật, họp mặt công ty đến tiếp khách VIP, Nhật Tửu Lầu luôn là lựa chọn lý tưởng cho sự kiện của bạn."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-4.jpg?updatedAt=1748012270194",
+  "alt_text": "Món cua hoàng đế cỡ lớn tại Nhật Tửu Lầu, bày biện đẹp mắt bên rượu Macallan.",
+  "caption": "Món ăn chất lượng – đẹp mắt – ngon miệng. Nhật Tửu Lầu phục vụ từ bò dát vàng, sashimi cao cấp đến hải sản sống và các món Việt hiện đại."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-5.jpg?updatedAt=1748012268100",
+  "alt_text": "Khuyến mãi 8/3 tại Nhật Tửu Lầu, tặng vang đỏ hoặc cá mú cho nhóm khách nữ.",
+  "caption": "Ưu đãi 8/3 từ Nhật Tửu Lầu – Nhóm 4 khách nữ tặng 1 chai vang đỏ, dưới 4 khách nữ tặng 1 con cá mú. Gửi lời chúc phái đẹp luôn hạnh phúc và được yêu thương!"
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-6.jpg?updatedAt=1748012269668",
+  "alt_text": "Hải sản tươi sống tại Nhật Tửu Lầu – khách hàng chọn món trực tiếp tại bể.",
+  "caption": "Hải sản tươi sống – Trải nghiệm chọn món tại bể tại Nhật Tửu Lầu. Thưởng thức hải sản chất lượng cao, chế biến theo yêu cầu ngay tại chỗ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-7.jpg?updatedAt=1748012269946",
+  "alt_text": "Đội ngũ nhân viên Nhật Tửu Lầu mặc vest, đầm đen, chụp ảnh tại backdrop sự kiện sang trọng.",
+  "caption": "Đội ngũ sự kiện Nhật Tửu Lầu – Tận tình, chuyên nghiệp, hỗ trợ mọi khâu từ lên ý tưởng đến chăm sóc khách tại buổi tiệc. Sự đồng hành đáng tin cậy cho mọi dịp đặc biệt."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-8.jpg?updatedAt=1748012272494",
+  "alt_text": "Không gian tiệc sinh nhật tại Nhật Tửu Lầu với hoa và bóng bay sang trọng.",
+  "caption": "Không gian tiệc sinh nhật ấm cúng, tinh tế tại Nhật Tửu Lầu. Trang trí đẳng cấp, phù hợp tiệc gia đình, công ty, VIP… tạo nên trải nghiệm trọn vẹn cho khách hàng."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-9.jpg?updatedAt=1748012273452",
+  "alt_text": "Tiệc sinh nhật hoành tráng tại Nhật Tửu Lầu với không gian sang trọng và khoảnh khắc đáng nhớ.",
+  "caption": "🎉 Tiệc sinh nhật hoành tráng – Khoảnh khắc trọn vẹn tại Nhật Tửu Lầu. Không gian trang trí ấm cúng, món ăn ngon và dịch vụ tận tâm sẽ giúp bạn lưu giữ trọn vẹn những khoảnh khắc tuyệt vời."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-10.jpg?updatedAt=1748012270264",
+  "alt_text": "Đội ngũ nhân viên Nhật Tửu Lầu chụp ảnh cùng khách trong tiệc sinh nhật, tạo không khí chuyên nghiệp và thân thiện.",
+  "caption": "🌟 Phục vụ tận tình – chu đáo với đội ngũ nhân viên chuyên nghiệp. Luôn hỗ trợ từ set-up, gợi ý món ăn đến chăm sóc khách hàng trong từng chi tiết nhỏ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-11.jpg?updatedAt=1748012270387",
+  "alt_text": "Phòng tiệc sang trọng tại Nhật Tửu Lầu với bàn ăn được trang trí chuyên nghiệp và ánh sáng ấm cúng.",
+  "caption": "🏮 Không gian đẳng cấp – Phù hợp mọi loại hình tiệc. Từ sinh nhật ấm cúng, họp mặt công ty đến tiệc VIP – Nhật Tửu Lầu luôn sẵn sàng phục vụ."
+}
+,
+{
+  "type": "image",
+  "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-12.jpg?updatedAt=1748012270748",
+  "alt_text": "Tổng hợp các món ăn sang trọng như sashimi, hải sản và món Việt hiện đại tại Nhật Tửu Lầu.",
+  "caption": "🦀 Món ăn chất lượng – Đẹp mắt – Ngon miệng. Thực đơn đa dạng, dễ dàng tuỳ chỉnh theo số lượng khách, ngân sách hoặc sở thích cá nhân."
+}
+  ]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+{
+  "id": "poster-bo-dat-vang",
+  "project_name": "Thiết kế poster - Bò Dát Vàng",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
+  "project_category": "Poster",
+  "project_date": "15 tháng 06 năm 2025",
+  "client_name": "Nhật Tửu Lầu",
+  "project_summary": "Thiết kế poster quảng bá món Bò Dát Vàng cao cấp tại nhà hàng Nhật Tửu Lầu, hướng đến khách hàng VIP.",
+  "project_description_detailed": "Poster sử dụng tông đỏ vàng sang trọng, tập trung hình ảnh món bò dát vàng cùng các biểu tượng tiệc tùng và quà tặng. Các thiết kế phụ xoay quanh trải nghiệm ẩm thực cao cấp, không gian riêng tư và gắn kết gia đình, bạn bè tại nhà hàng Nhật Tửu Lầu.",
+  "tools_used": ["Adobe Photoshop", "Adobe Illustrator"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/1.jpg?updatedAt=1752681286705",
+      "alt_text": "Poster món Bò Dát Vàng tại Nhật Tửu Lầu – món chốt đơn cho tiếp khách cao cấp",
+      "caption": "Poster món ăn cao cấp Bò Dát Vàng – nổi bật với gam đỏ vàng sang trọng, hướng đến khách hàng VIP."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/2.jpg?updatedAt=1752681287522",
+      "alt_text": "Poster Nhật Tửu Lầu – Đặt bàn tiện lợi không cần chọn món",
+      "caption": "Thiết kế sáng tạo truyền tải trải nghiệm đặt bàn tiện lợi với thực đơn cao cấp như tôm hùm, bào ngư."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/3.jpg?updatedAt=1752681287865",
+      "alt_text": "Poster Nhật Tửu Lầu – Món ăn gợi nhớ thanh xuân",
+      "caption": "Poster cảm xúc với hình ảnh gà hầm, sashimi gợi nhớ kỷ niệm và sự kết nối qua fanpage."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/4.jpg?updatedAt=1752681288194",
+      "alt_text": "Poster Nhật Tửu Lầu – Gắn kết bạn bè dịp cuối tuần",
+      "caption": "Poster tươi sáng truyền tải tinh thần sum họp nhóm bạn và không gian riêng tư thoải mái."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/5.jpg?updatedAt=1752681288104",
+      "alt_text": "Poster Nhật Tửu Lầu – Hẹn hò lãng mạn trong không gian riêng",
+      "caption": "Poster lãng mạn dành cho cặp đôi – nhấn vào không khí sang trọng, riêng tư và âm nhạc."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/6.jpg?updatedAt=1752681288266",
+      "alt_text": "Poster Nhật Tửu Lầu – Địa điểm ẩm thực phải thử tại Sài Gòn",
+      "caption": "Poster kết hợp hình ảnh TP.HCM và món ăn dát vàng – nhấn mạnh vị thế ẩm thực Nhật Tửu Lầu."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/7.jpg?updatedAt=1752681287748",
+      "alt_text": "Poster Nhật Tửu Lầu – Set menu gia đình 4–6 người",
+      "caption": "Poster gợi ý bữa cơm sum vầy – lẩu, cá nướng, gỏi tôm, trái cây, phù hợp gia đình nhỏ."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/8.jpg?updatedAt=1752681285509",
+      "alt_text": "Poster Nhật Tửu Lầu – Bàn tiệc lãng mạn bên cửa sổ",
+      "caption": "Thiết kế tối giản, tinh tế với ánh nến, rượu vang – dành cho hẹn hò riêng tư buổi tối."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/9.jpg?updatedAt=1752681286134",
+      "alt_text": "Poster Nhật Tửu Lầu – Gia đình quây quần cuối tuần",
+      "caption": "Poster thể hiện tinh thần đoàn viên – gia đình tụ họp tại không gian ấm cúng nhà hàng."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/10.jpg?updatedAt=1752681286478",
+      "alt_text": "Poster Nhật Tửu Lầu – Họp nhóm công ty thân mật",
+      "caption": "Poster nổi bật không khí thư giãn – họp nhóm công ty nhỏ sau giờ làm trong không gian riêng."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/Nhat%20Tuu%20Lau%2015-06-2025/11.jpg?updatedAt=1752681291195",
+      "alt_text": "Poster Nhật Tửu Lầu – Tiệc cuối tuần đẳng cấp",
+      "caption": "Thiết kế tiệc cuối tuần sang trọng với sashimi, cua rang me, khách mời nổi bật cùng backdrop sự kiện."
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ,
+{
+  "id": "thiet-ke-poster-nhat-tuu-lau-83",
+  "project_name": "March 8 Poster Design – Nhat Tuu Lau",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-1.jpg?updatedAt=1748012903310",
+  "project_category": "Poster",
+  "project_date": "May 23, 2025",
+  "client_name": "Nhat Tuu Lau",
+  "project_summary": "Designed a vibrant red-themed poster for International Women's Day (March 8), highlighting special offers including complimentary red wine and grouper fish for female groups.",
+  "project_description_detailed": "The poster design features a dominant red tone, symbolizing elegance and warmth. At the center is a stylized '8/3' symbol formed by a heart and a golden crown. Beside it are images of an appetizing grouper dish and a premium red wine bottle. The poster clearly communicates the promotion: groups of 4 women receive one bottle of red wine, and smaller groups receive one grouper fish. Suitable for use on social media and in print.",
+  "tools_used": ["Adobe Illustrator", "Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-1.jpg?updatedAt=1748012903310",
+      "alt_text": "J&B Lounge – where every emotion is heard, featuring a vibrant musical space and refined cuisine.",
+      "caption": "J&B Lounge – Nhat Tuu Lau, where every emotion is embraced. Enjoy live music, a colorful ambiance, and gourmet cuisine. For reservations, contact: 090 811 34 56."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-2.jpg?updatedAt=1748012267583",
+      "alt_text": "Nhat Tuu Lau staff in red uniforms, smiling, professional, and friendly.",
+      "caption": "Attentive service at Nhat Tuu Lau. Our professional team supports setup, ordering, and customer care with meticulous attention to detail."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-3.jpg?updatedAt=1748012269383",
+      "alt_text": "Elegant banquet room with long tables and sophisticated tableware at Nhat Tuu Lau.",
+      "caption": "A premium space – perfect for all kinds of events. From birthdays and corporate gatherings to VIP receptions, Nhat Tuu Lau is your ideal venue."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-4.jpg?updatedAt=1748012270194",
+      "alt_text": "Large king crab dish served at Nhat Tuu Lau, beautifully plated next to Macallan whisky.",
+      "caption": "Top-quality, visually appealing, and delicious cuisine. Nhat Tuu Lau serves everything from gold-leaf beef and premium sashimi to live seafood and modern Vietnamese dishes."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-5.jpg?updatedAt=1748012268100",
+      "alt_text": "March 8 promotion at Nhat Tuu Lau offering complimentary red wine or grouper fish for female groups.",
+      "caption": "March 8 Special from Nhat Tuu Lau – Groups of 4 women get 1 bottle of red wine; groups with fewer than 4 get 1 grouper fish. Celebrating women with joy and love!"
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-6.jpg?updatedAt=1748012269668",
+      "alt_text": "Live seafood at Nhat Tuu Lau – customers choose directly from the tank.",
+      "caption": "Fresh seafood – Experience live selection at Nhat Tuu Lau. Enjoy high-quality seafood, prepared to your preference on the spot."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-7.jpg?updatedAt=1748012269946",
+      "alt_text": "Nhat Tuu Lau event team in suits and dresses posing at a stylish event backdrop.",
+      "caption": "Nhat Tuu Lau's event team – Dedicated and professional, supporting every step from concept to guest care. A reliable partner for all your special occasions."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-8.jpg?updatedAt=1748012272494",
+      "alt_text": "Elegant birthday party setup at Nhat Tuu Lau with flowers and balloons.",
+      "caption": "Elegant birthday party space at Nhat Tuu Lau. Classy decorations, perfect for family gatherings, corporate events, and VIP occasions – creating a complete customer experience."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-9.jpg?updatedAt=1748012273452",
+      "alt_text": "Grand birthday celebration at Nhat Tuu Lau with a luxurious ambiance and memorable moments.",
+      "caption": "🎉 Grand birthday celebrations – Unforgettable moments at Nhat Tuu Lau. A warm setting, delicious food, and dedicated service ensure lasting memories."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-10.jpg?updatedAt=1748012270264",
+      "alt_text": "Nhat Tuu Lau staff photographed with guests at a birthday party, creating a professional and friendly atmosphere.",
+      "caption": "🌟 Dedicated service with a professional team. Supporting everything from setup and menu suggestions to attentive care for every guest detail."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-11.jpg?updatedAt=1748012270387",
+      "alt_text": "Luxurious banquet room at Nhat Tuu Lau with professionally decorated dining tables and warm lighting.",
+      "caption": "🏮 Premium event space – Ideal for all types of gatherings. From cozy birthdays and company meetups to VIP parties – Nhat Tuu Lau is ready to serve."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/NhatTuLau/nhat-tau-lau-12.jpg?updatedAt=1748012270748",
+      "alt_text": "A collection of luxurious dishes including sashimi, seafood, and modern Vietnamese cuisine at Nhat Tuu Lau.",
+      "caption": "🦀 High-quality – Visually appealing – Delicious dishes. A diverse menu easily tailored to guest count, budget, or personal preferences."
+    }
+  ]
+}
