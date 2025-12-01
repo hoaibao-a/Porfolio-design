@@ -1,5 +1,81 @@
 [
   {
+  "id": "content-qpa-tinhtinh",
+  "project_name": "Viết Content - Tinh Thần Queen Pearl Academy",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/1.png",
+  "project_category": "Content Writing",
+  "project_date": "22 tháng 11 lúc 07:00",
+  "client_name": "Học Viện Đông Y Queen Spa",
+  "project_summary": "Viết bài quảng bá về tinh thần, triết lý đào tạo, và môi trường học tập tại Queen Pearl Academy, nhấn mạnh vào giá trị 'chữa lành' và 'chia sẻ'.",
+  "project_description_detailed": "Bài đăng trên Facebook giới thiệu triết lý cốt lõi của Học viện: kỹ thuật viên giỏi phải có tinh thần học hỏi, chia sẻ, và lan tỏa giá trị chữa lành. Nội dung bao gồm các luận điểm về văn hóa 'Chữa lành – Chia sẻ – Phát triển', ý nghĩa của việc tìm thấy đam mê trong nghề làm đẹp chuẩn Đông Y, và lời kêu gọi trở thành phiên bản tốt hơn của chính mình. Kèm theo thông tin liên hệ và thời gian mở cửa.",
+  "tools_used": ["Facebook Platform", "Content Strategy"],
+  "project_live_url": "https://www.facebook.com/hocviendongyqueenspa",
+  "project_case_study_url": "",
+  "media": [
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/1.png",
+    "alt_text": "Tinh thần QueenPearl Academy – Nơi nghề và người cùng tỏa sáng",
+    "caption": "Tinh thần QueenPearl Academy: Nơi nghề và người cùng tỏa sáng. Kỹ thuật viên giỏi không chỉ có tay nghề vững mà còn cần tinh thần học hỏi, chia sẻ và lan tỏa giá trị chữa lành."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/2.png",
+    "alt_text": "CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20.11",
+    "caption": "Chào mừng ngày Nhà giáo Việt Nam 20.11: Lời cảm ơn chân thành đến các giảng viên tận tâm, những người đã truyền dạy không chỉ tay nghề mà còn cái tâm trong nghề cho thế hệ sau."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/3.png",
+    "alt_text": "TỐT NGHIỆP HÔM NAY – THÀNH CÔNG NGÀY MAI",
+    "caption": "Tốt nghiệp hôm nay – Thành công ngày mai: Học viện hỗ trợ kết nối việc làm, tư vấn setup spa và đồng hành sau tốt nghiệp, giúp học viên tự tin mở spa riêng và làm chủ sự nghiệp."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/4.png",
+    "alt_text": "Từ học viên đến chuyên viên – Câu chuyện đổi đời",
+    "caption": "Từ học viên đến chuyên viên – Câu chuyện đổi đời: QueenPearl Academy tự hào đồng hành cùng học viên khởi nghiệp, khẳng định làm đẹp không chỉ là nghề mà là sứ mệnh chữa lành."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/5.png",
+    "alt_text": "Học nghề trong môi trường của người chuyên nghiệp",
+    "caption": "Học nghề trong môi trường chuyên nghiệp: Học viên được hướng dẫn tận tay bởi giảng viên trên 10 năm kinh nghiệm, đảm bảo tay nghề vững vàng và thái độ chuẩn mực."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/6.png",
+    "alt_text": "HƠN CẢ LÀM ĐẸP ĐÓ LÀ CHỮA LÀNH: XU HƯỚNG NGHỀ SPA 2025",
+    "caption": "Xu hướng nghề Spa 2025: Hơn cả làm đẹp, đó là chữa lành. Kỹ thuật viên cần tay nghề vững, trái tim thấu hiểu và tư duy wellness theo triết lý Đông y để chăm sóc toàn diện Thân - Tâm."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/7.png",
+    "alt_text": "TRƯỞNG THÀNH CÙNG NGHỀ, TỎA SÁNG TỪ BÊN TRONG",
+    "caption": "Trưởng thành cùng nghề, tỏa sáng từ bên trong: Triết lý đào tạo 'con người trước – nghề sau'. Học cách dùng tâm để lắng nghe và truyền đi năng lượng an yên trước khi dùng tay để chăm sóc."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/8.png",
+    "alt_text": "Bí quyết tạo niềm tin bằng tay nghề và trái tim",
+    "caption": "Bí quyết tạo niềm tin: Kỹ thuật viên chuyên nghiệp cần biết lắng nghe và thấu hiểu cảm xúc khách hàng, giữ chân họ bằng chính tay nghề điêu luyện và trái tim tận tụy."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/9.png",
+    "alt_text": "KHI LÀM ĐẸP TRỞ THÀNH NGHỆ THUẬT CHỮA LÀNH",
+    "caption": "Khi làm đẹp trở thành nghệ thuật chữa lành: Đôi tay kỹ thuật viên không chỉ xua tan mệt mỏi thể chất mà còn vỗ về, chữa lành những vết xước vô hình trong tâm hồn."
+  },
+  {
+    "type": "image",
+    "url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/10.png",
+    "alt_text": "Hành trình tự tin của người kỹ thuật viên",
+    "caption": "Hành trình tự tin: Môi trường thực hành chuyên sâu 70% giúp học viên từ e dè trở nên thuần thục và tự tin vững vàng tay nghề chỉ sau 2 tháng đào tạo."
+  }
+]
+},
+
+  {
   "id": "poster-tiem-nuong-doc-lap",
   "project_name": "Thiết kế poster - Tiệm Nướng Độc Lập",
   "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Tiem%20nuong%20doc%20lap/1.jpg",
