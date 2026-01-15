@@ -398,8 +398,10 @@ document.addEventListener("DOMContentLoaded", () => {
       projectCard.classList.add("video-project-card");
       projectCard.dataset.projectId = project.id;
 
-      let thumbnailURL = project.project_thumbnail_url;
-      if (!thumbnailURL || !thumbnailURL.includes("img.youtube.com")) {
+ let thumbnailURL = project.project_thumbnail_url;
+
+      // CHỈ tự động tìm ảnh YouTube nếu trường project_thumbnail_url trong JSON bị trống
+      if (!thumbnailURL || thumbnailURL.trim() === "") {
         let videoId = "";
         if (project.video_url.includes("youtube.com/watch?v=")) {
           videoId = project.video_url.split("v=")[1].split("&")[0];
@@ -407,11 +409,15 @@ document.addEventListener("DOMContentLoaded", () => {
           videoId = project.video_url.split("/").pop().split("?")[0];
         } else if (project.video_url.includes("youtube.com/shorts/")) {
           videoId = project.video_url.split("/shorts/")[1].split("?")[0];
+        } else if (project.video_url.includes("youtube.com/embed/")) {
+          videoId = project.video_url.split("/embed/")[1].split("?")[0];
         }
+
         thumbnailURL = videoId
           ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
           : "images/placeholder.jpg";
       }
+      // Nếu đã có link (ImageKit, Drive, v.v.) thì giữ nguyên, không chạy vào block if trên.
 
       const thumbnailHTML = `
         <div class="video-thumbnail-wrapper">
@@ -477,13 +483,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let mediaHTML = '<div class="media-gallery">';
     if (isVideoProject && project.video_url) {
-      let videoEmbedUrl = project.video_url;
-      if (project.video_url.includes("youtube.com/watch?v=")) {
-        const videoId = project.video_url.split("v=")[1].split("&")[0];
+let videoEmbedUrl = project.video_url;
+
+      if (project.video_url.includes("youtube.com") || project.video_url.includes("youtu.be")) {
+        // Tối ưu lấy YouTube ID (Hỗ trợ: link thường, shorts, mobile)
+        let videoId = "";
+        if (project.video_url.includes("watch?v=")) {
+          videoId = project.video_url.split("v=")[1].split("&")[0];
+        } else if (project.video_url.includes("youtu.be/")) {
+          videoId = project.video_url.split("/").pop().split("?")[0];
+        } else if (project.video_url.includes("shorts/")) {
+          videoId = project.video_url.split("/shorts/")[1].split("?")[0];
+        } else if (project.video_url.includes("embed/")) {
+          videoId = project.video_url.split("/embed/")[1].split("?")[0];
+        }
         videoEmbedUrl = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
-      } else if (project.video_url.includes("youtu.be/")) {
-        const videoId = project.video_url.split("/").pop().split("?")[0];
-        videoEmbedUrl = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
+
+      } else if (project.video_url.includes("drive.google.com")) {
+        // Xử lý Google Drive: Chuyển /view hoặc /edit thành /preview để nhúng được
+        videoEmbedUrl = project.video_url.replace(/\/view.*$/, "/preview")
+                                         .replace(/\/edit.*$/, "/preview");
+
       } else if (project.video_url.includes("vimeo.com/")) {
         const videoId = project.video_url.substring(project.video_url.lastIndexOf("/") + 1);
         videoEmbedUrl = `https://player.vimeo.com/video/${videoId}`;

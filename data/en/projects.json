@@ -1,4 +1,67 @@
 [
+{
+  "id": "social-post-qpa-real-learning",
+  "project_name": "Social Media - 'Real Learning, Real Practice' Campaign",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/001.jpg",
+  "project_category": "Social Media Design",
+  "project_date": "January 15, 2026",
+  "client_name": "Queen Pearl Academy",
+  "project_summary": "Promotional visuals for Queen Pearl Academy training, centered on the 'Real Learning, Real Practice' message.",
+  "project_description_detailed": "Modern collage layouts showcasing academy activities: awards, theory classes, and spa practice. Burgundy and gold tones emphasize professional and premium branding.",
+  "tools_used": ["Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/001.jpg",
+      "alt_text": "Recognition ceremony and training at Queen Pearl Academy.",
+      "caption": "Real skills, real growth. Practical training for therapy students."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/002.jpg",
+      "alt_text": "Christmas greeting card with academy highlights.",
+      "caption": "Warm Christmas wishes to our teachers and students."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/003.jpg?updatedAt=1768492948652",
+      "alt_text": "Training hall and hand massage technique.",
+      "caption": "Being a great therapist takes more than just skillful hands."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/004.jpg?updatedAt=1768492948336",
+      "alt_text": "Therapeutic hair wash and clinical massage practice.",
+      "caption": "Heal yourself before healing others – Our core philosophy."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/005.jpg?updatedAt=1768492948638",
+      "alt_text": "Oriental Medicine massage career trend poster.",
+      "caption": "Why Oriental Medicine massage is a high-potential career today."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/006.jpg?updatedAt=1768492948600",
+      "alt_text": "Heart collage of Oriental Medicine practices.",
+      "caption": "Building a meaningful career through Oriental Therapy."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/007.jpg?updatedAt=1768492948450",
+      "alt_text": "Neck and shoulder acupressure points diagram.",
+      "caption": "Expert acupressure tips for effective pain relief."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/008.jpg?updatedAt=1768492948481",
+      "alt_text": "Visual about starting a therapy career at age 30.",
+      "caption": "Age 30 is never too late to start a professional therapy career."
+    }
+  ]
+},
   {
   "id": "content-qpa-tinhtinh",
   "project_name": "Content Writing - Queen Pearl Academy Spirit",
@@ -2094,6 +2157,7 @@
     }
   ]
 }
+
 
 
 

@@ -1,5 +1,68 @@
 [
   {
+  "id": "social-post-qpa-real-learning",
+  "project_name": "Social Media - Chiến dịch 'Học Thật, Làm Thật'",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/001.jpg",
+  "project_category": "Social Media Design",
+  "project_date": "15/01/2026",
+  "client_name": "Học viện Queen Pearl",
+  "project_summary": "Hình ảnh quảng bá đào tạo tại Queen Pearl Academy, tập trung vào thông điệp 'Học thật, Làm thật'.",
+  "project_description_detailed": "Sử dụng bố cục collage hiện đại trình bày các hoạt động: vinh danh, lý thuyết và thực hành. Tông màu đỏ đô và vàng gold tạo sự chuyên nghiệp, cao cấp.",
+  "tools_used": ["Adobe Photoshop"],
+  "project_live_url": "",
+  "project_case_study_url": "",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/001.jpg",
+      "alt_text": "Lễ vinh danh và hoạt động đào tạo tại Queen Pearl Academy.",
+      "caption": "Kỹ năng thực, phát triển thực. Môi trường đào tạo thực tế cho học viên."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/002.jpg",
+      "alt_text": "Thiệp chúc mừng Giáng sinh từ học viện.",
+      "caption": "Lời chúc Giáng sinh ấm áp gửi đến Thầy Cô và các học viên."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/003.jpg?updatedAt=1768492948652",
+      "alt_text": "Giờ học lý thuyết và kỹ thuật massage tay.",
+      "caption": "Trị liệu viên giỏi cần nhiều hơn một đôi tay khéo léo."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/004.jpg?updatedAt=1768492948336",
+      "alt_text": "Thực hành gội đầu dưỡng sinh và massage trị liệu.",
+      "caption": "Thấu hiểu bản thân trước khi chữa lành cho khách hàng - Triết lý cốt lõi."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/005.jpg?updatedAt=1768492948638",
+      "alt_text": "Poster xu hướng nghề massage trị liệu Đông y.",
+      "caption": "Lý do Massage Đông y trở thành nghề nghiệp tiềm năng hiện nay."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/006.jpg?updatedAt=1768492948600",
+      "alt_text": "Collage các hoạt động trị liệu Đông y.",
+      "caption": "Kiến tạo sự nghiệp ý nghĩa cùng hành trình Trị liệu Đông y."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/007.jpg?updatedAt=1768492948450",
+      "alt_text": "Sơ đồ huyệt đạo vùng vai gáy.",
+      "caption": "Bí quyết bấm huyệt giảm đau mỏi hiệu quả từ chuyên gia."
+    },
+    {
+      "type": "image",
+      "url": "https://ik.imagekit.io/ljvorpiit/HocVienQueenSpa/008.jpg?updatedAt=1768492948481",
+      "alt_text": "Thông điệp bắt đầu nghề trị liệu ở tuổi 30.",
+      "caption": "Tuổi 30 không bao giờ là muộn để bắt đầu nghề trị liệu viên chuyên nghiệp."
+    }
+  ]
+},
+  {
   "id": "content-qpa-tinhtinh",
   "project_name": "Viết Content - Tinh Thần Queen Pearl Academy",
   "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/content%20hoc%20vien/1.png",
