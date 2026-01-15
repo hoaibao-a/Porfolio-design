@@ -1,16 +1,50 @@
 [
   {
-    "id": "video1",
-    "project_name": "Viral Video - Independence BBQ",
+    "id": "video3",
+    "project_name": "Viral Video - Tiem Nuong Doc Lap",
     "project_category": "Food Review / Social Media",
-    "project_summary": "A short promotional video showcasing a chill rooftop BBQ spot in Saigon, garnering thousands of social media views.",
-    "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Tiem%20nuong%20doc%20lap/%E1%BA%A2nh%20Video/Screenshot_1.png", 
-    "video_url": "https://drive.google.com/file/d/1yQuToLSH39V6nJuM5rnmReqVNvTsFhSb/preview",
-    "project_description_detailed": "Video production for Independence BBQ. The content highlights the airy rooftop space, nostalgic decor, and appetizing grilled dishes. Features fast-paced editing and warm color grading to evoke emotion and appetite.",
+    "project_summary": "A promotional video introducing Tiem Nuong Doc Lap - a breezy rooftop BBQ spot in Tan Binh District featuring a unique retro-style signage and nostalgic ambiance.",
+    "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Tiem%20nuong%20doc%20lap/%E1%BA%A2nh%20Video/Screenshot_3.png",
+    "video_url": "https://drive.google.com/file/d/1a2jaLhIdKd898HoNHZGo_GDvImsEWLAc/preview",
+    "project_description_detailed": "A viral video production project showcasing the Tiem Nuong Doc Lap branch in Tan Binh. The content focuses on the impressive facade with its signature retro signage and spacious rooftop area. The video utilizes tracking shots from the street to the interior to provide a comprehensive view and attract customers.",
     "project_date": "01/2025",
-    
-    "tools_used": ["Adobe Premiere", "After Effects", "CapCut"],
-    "caption": "A chill rooftop BBQ recommendation in Saigon - Independence BBQ."
- 
-}
+    "tools_used": [
+      "Adobe Premiere",
+      "After Effects",
+      "CapCut"
+    ],
+    "caption": "Breezy rooftop BBQ in Tan Binh - Tiem Nuong Doc Lap"
+  },
+  {
+    "id": "video1",
+    "project_name": "Viral Video - Tiem Nuong Doc Lap",
+    "project_category": "Food Review / Social Media",
+    "project_summary": "A promotional video introducing Tiem Nuong Doc Lap - a nostalgic rooftop BBQ space decorated with iconic Vietnamese flags and stars, attracting young people in Saigon.",
+    "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Tiem%20nuong%20doc%20lap/%E1%BA%A2nh%20Video/Screenshot_2.png",
+    "video_url": "https://drive.google.com/file/d/1TZBDlamMmlr1327woIz0BhWDWw2t0KLK/preview",
+    "project_description_detailed": "A viral video project for Tiem Nuong Doc Lap. The content highlights the outdoor dining experience with an airy rooftop view. Visual highlights include the distinct Vietnamese-style decor featuring national flags, bamboo lanterns, and classic patterned tiles, creating a cozy and welcoming atmosphere.",
+    "project_date": "01/2025",
+    "tools_used": [
+      "Adobe Premiere",
+      "After Effects",
+      "CapCut"
+    ],
+    "caption": "Rooftop BBQ with a chill view in Saigon - Tiem Nuong Doc Lap"
+  },
+  {
+    "id": "video2",
+    "project_name": "Viral Video - Tiem Nuong Doc Lap",
+    "project_category": "Food Review / Social Media",
+    "project_summary": "A short promotional video showcasing a chill rooftop BBQ spot in Saigon, garnering thousands of views on social media platforms.",
+    "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Tiem%20nuong%20doc%20lap/%E1%BA%A2nh%20Video/Screenshot_1.png",
+    "video_url": "https://drive.google.com/file/d/1yQuToLSH39V6nJuM5rnmReqVNvTsFhSb/preview",
+    "project_description_detailed": "An advertising video project for Tiem Nuong Doc Lap. The video focuses on the breezy rooftop space, nostalgic decor, and mouth-watering BBQ dishes. The editing technique employs a fast-paced rhythm and warm color grading to evoke emotions and stimulate the audience's appetite.",
+    "project_date": "01/2025",
+    "tools_used": [
+      "Adobe Premiere",
+      "After Effects",
+      "CapCut"
+    ],
+    "caption": "A chill rooftop BBQ recommendation in Saigon - Tiem Nuong Doc Lap"
+  }
 ]
