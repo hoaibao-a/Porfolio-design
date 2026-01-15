@@ -1,4 +1,16 @@
 [
+    {
+  "id": "video1",
+  "project_name": "Viral Video - Tiệm Nướng Độc Lập",
+  "project_category": "Food Review / Social Media",
+  "project_summary": "Video quảng cáo giới thiệu Tiệm Nướng Độc Lập - một không gian nướng sân thượng mang phong cách hoài cổ với decor cờ đỏ sao vàng đặc trưng, thu hút giới trẻ tại Sài Gòn.",
+  "project_thumbnail_url": "https://ik.imagekit.io/ljvorpiit/Tiem%20nuong%20doc%20lap/%E1%BA%A2nh%20Video/Screenshot_2.png", 
+  "video_url": "https://drive.google.com/file/d/1TZBDlamMmlr1327woIz0BhWDWw2t0KLK/preview",
+  "project_description_detailed": "Dự án sản xuất video viral cho Tiệm Nướng Độc Lập. Nội dung tập trung vào trải nghiệm ẩm thực ngoài trời với view sân thượng thoáng đãng. Điểm nhấn thị giác nằm ở phong cách trang trí đậm chất Việt Nam với dải cờ Tổ quốc, đèn lồng tre và nền gạch bông cổ điển, tạo cảm giác gần gũi và ấm cúng.",
+  "project_date": "01/2025",
+  "tools_used": ["Adobe Premiere", "After Effects", "CapCut"],
+  "caption": "Quán nướng có view sân thượng cực chill tại Sài Gòn - Tiệm Nướng Độc Lập"
+},
   {
     "id": "video1",
     "project_name": "Viral Video - Tiệm Nướng Độc Lập",
@@ -10,7 +22,6 @@
     "project_date": "01/2025",
     "tools_used": ["Adobe Premiere", "After Effects", "CapCut"],
     "caption": "Gợi ý địa điểm nướng sân thượng chill tại Sài Gòn - Tiệm Nướng Độc Lập"
-    
-
   }
+  
 ]
