@@ -15,11 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const translations = {
     nav_home: 'Home',
     nav_about: 'About',
-    
+
     nav_projects: 'Projects',
     nav_video_projects: 'Video Projects',
     nav_contact: 'Contact',
     projects_title: 'My Projects',
+    
     video_projects_title: 'My Video Projects',
     footer_name: 'Designer Name'
   };
