@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const translations = {
     nav_home: 'Home',
     nav_about: 'About',
+    
     nav_projects: 'Projects',
     nav_video_projects: 'Video Projects',
     nav_contact: 'Contact',
